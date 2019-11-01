@@ -42,12 +42,28 @@ getHomeR = do
                 color : red;
             }
             
-            ul {
-                display: inline;
-                list-style: none;
-            }
+          
         |]
         [whamlet|
+            
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link active" href=@{Page1R}>Smiles
+              
+              <li class="nav-item">
+                <a class="nav-link" href=@{Page1R}>Promocoes
+              
+              <li class="nav-item">
+                <a class="nav-link" href=@{Page2R}>Locacoes
+              
+              <li class="nav-item">
+                <a class="nav-link disabled" href=@{Page1R} tabindex="-1" aria-disabled="true">Contato
+
+            
+            
+            
+            
+            
             <div>
                 <h1>
                     OLA MUNDO
@@ -62,7 +78,7 @@ getHomeR = do
                         Pagina 2
             
             <img src=@{StaticR citeg_jpg}>
-            <img src=@{StaticR 5_jpg}>
+            <img src=@{StaticR foto_jpg}>
             
             <button class="btn btn-danger" onclick="ola()">
                 OK
