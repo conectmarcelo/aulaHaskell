@@ -41,22 +41,20 @@ getHomeR = do
             h1 {
                 color : red;
             }
-            body{background-color:aqua;}
+            main {background-color:aqua;}
             
           
         |]
         [whamlet|
-            
-            <ul class="nav nav-tabs">
+        
+         <main class="container-fluid">
+            <ul class="navbar navbar-dark bg-dark navbar-expand-lg navbar-default fixed-top">
               <li class="nav-item">
                 <a class="nav-link active" href=@{Page1R}>Smiles
-              
               <li class="nav-item">
                 <a class="nav-link" href=@{Page1R}>Promocoes
-              
               <li class="nav-item">
                 <a class="nav-link" href=@{Page2R}>Locacoes
-              
               <li class="nav-item">
                 <a class="nav-link disabled" href=@{Page1R} tabindex="-1" aria-disabled="true">Contato
 
@@ -65,7 +63,7 @@ getHomeR = do
             
             
             
-            <div>
+            
                 <h1>
                     Smiles Festas
             
