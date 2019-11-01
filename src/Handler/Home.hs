@@ -34,7 +34,7 @@ getHomeR = do
         addStylesheet (StaticR css_bootstrap_css)
         toWidgetHead [julius|
             function ola(){
-                alert("OLA MUNDO");
+                alert("SMILES FESTAS");
             }
         |]
         toWidgetHead [lucius|
@@ -76,7 +76,6 @@ getHomeR = do
                     <a href=@{Page2R}>
                         Pagina 2
             
-            <img src=@{StaticR citeg_jpg}>
             <img src=@{StaticR foto_jpg}>
             
             <button class="btn btn-danger" onclick="ola()">
