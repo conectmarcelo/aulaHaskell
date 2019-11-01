@@ -46,7 +46,7 @@ getHomeR = do
         |]
         [whamlet|
             
-            <ul class="nav">
+            <ul class="nav nav-tabs">
               <li class="nav-item">
                 <a class="nav-link active" href=@{Page1R}>Smiles
               
@@ -66,7 +66,7 @@ getHomeR = do
             
             <div>
                 <h1>
-                    OLA MUNDO
+                    Smiles Festas
             
             <ul>
                 <li>
