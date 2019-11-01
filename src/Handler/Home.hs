@@ -34,7 +34,7 @@ getHomeR = do
         addStylesheet (StaticR css_bootstrap_css)
         toWidgetHead [julius|
             function ola(){
-                alert("OLA MUNDO");
+                alert("OLA MUNDO caraio depois de muitas tentativas funcionou kkkk");
             }
         |]
         toWidgetHead [lucius|
