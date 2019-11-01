@@ -62,6 +62,7 @@ getHomeR = do
                         Pagina 2
             
             <img src=@{StaticR citeg_jpg}>
+            <img src=@{StaticR 5_jpg}>
             
             <button class="btn btn-danger" onclick="ola()">
                 OK
