@@ -47,7 +47,7 @@ getHomeR = do
         
         [whamlet|
         
-        <h1>ola mundo
+        <h1>ola mundo teste
         
             <br><button class="btn btn-danger" onclick="ola()">
                 OK
