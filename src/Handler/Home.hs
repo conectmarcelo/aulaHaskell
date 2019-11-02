@@ -31,7 +31,7 @@ getHomeR = do
         -- remoto
         addScriptRemote "https://code.jquery.com/jquery-3.4.1.min.js"
         -- esta no projeto
-        addStylesheet (StaticR css_bootstrap_css)
+        addStylesheet (StaticR css_bootstrap_min_css)
         toWidgetHead [julius|
             function ola(){
                 alert("SMILES FESTAS");
@@ -39,7 +39,7 @@ getHomeR = do
         |]
         toWidgetHead [lucius|
             h1 {
-                color : red;
+                color : blue;
             }
             main {background-color:aqua;}
             
