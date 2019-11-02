@@ -31,7 +31,7 @@ getHomeR = do
         -- remoto
         addScriptRemote "https://code.jquery.com/jquery-3.4.1.min.js"
         -- esta no projeto
-        addStylesheet (StaticR css_bootstrap_min_css)
+        addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
         toWidgetHead [julius|
             function ola(){
                 alert("SMILES FESTAS");
