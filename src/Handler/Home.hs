@@ -20,7 +20,7 @@ getPage2R = do
 getPage1R :: Handler Html 
 getPage1R = do 
     defaultLayout $ do 
-        addStylesheet (StaticR css_bootstrap_css)
+        addStylesheet (StaticR css_bootstrap_min_css)
         toWidgetHead $(juliusFile "templates/page1.julius")
         toWidgetHead $(luciusFile "templates/page1.lucius")
         $(whamletFile "templates/page1.hamlet")
@@ -73,10 +73,10 @@ getHomeR = do
                             <img src=@{StaticR foto_jpg} class="d-block w-100" alt="...">
                         </div>
                         <div class="carousel-item">
-                          <img src=@{StaticR foto_jpg} class="d-block w-100" alt="...">
+                          <img src=@{StaticR fotoa_jpg} class="d-block w-100" alt="...">
                             </div>
                         <div class="carousel-item">
-                          <img src==@{StaticR foto_jpg} class="d-block w-100" alt="...">
+                          <img src==@{StaticR fotob_jpg} class="d-block w-100" alt="...">
                         </div>
                           </div>
                             </div>
