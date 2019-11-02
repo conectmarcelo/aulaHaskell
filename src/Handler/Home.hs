@@ -34,7 +34,7 @@ getHomeR = do
         
         toWidgetHead [julius|
             function ola(){
-                alert("SMILES");
+                alert("SMILES testando");
             }
         |]
         
@@ -49,6 +49,6 @@ getHomeR = do
         
         <h1>ola mundo teste
         
-            <br><button class="btn btn-danger" onclick="ola()">
+            <button class="btn btn-danger" onclick="ola()">
                 OK
         |]
