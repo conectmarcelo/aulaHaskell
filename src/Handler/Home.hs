@@ -31,7 +31,7 @@ getHomeR = do
         -- remoto
         addScriptRemote "https://code.jquery.com/jquery-3.4.1.min.js"
         -- esta no projeto
-        addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"
+        
         toWidgetHead [julius|
             function ola(){
                 alert("SMILES FESTAS");
@@ -47,31 +47,8 @@ getHomeR = do
         
         [whamlet|
         
-        <ul>
-              <li class="nav-item">
-                <a class="nav-link active" href=@{Page1R}>Smiles
-              <li class="nav-item">
-                <a class="nav-link" href=@{Page1R}>Promocoes
-              <li class="nav-item">
-                <a class="nav-link" href=@{Page2R}>Locacoes
-              <li class="nav-item">
-                <a class="nav-link" href=@{Page1R}>Contato
-
-        <div class="a">
-            <div class="aa">
-                <h1>SMILES FESTAS
-                <h2>Casamentos, Debutantes, Aniversários e muito mais    
+        <h1>ola mundo
         
-        <div class="b">
-            <h1>SMILES FESTAS
-                <p>A empresa Smiles e um grupo dedicado a auxiliar no planejamento, execução e finalização de eventos
-            <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
-        <div class="c">
-            <h1>Orcamento
-
-         
-         
-            
             <br><button class="btn btn-danger" onclick="ola()">
                 OK
         |]
