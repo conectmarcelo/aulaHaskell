@@ -57,7 +57,7 @@ getHomeR = do
                 <a class="nav-link" href=@{Page2R}>Locacoes
               <li class="nav-item">
                 <a class="nav-link disabled" href=@{Page1R} tabindex="-1" aria-disabled="true">Contato
-
+</main>
             
             
             
@@ -71,13 +71,15 @@ getHomeR = do
                       <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img src=@{StaticR foto_jpg} class="d-block w-100" alt="...">
-                        
+                        </div>
                         <div class="carousel-item">
                           <img src=@{StaticR foto_jpg} class="d-block w-100" alt="...">
-                        
+                            </div>
                         <div class="carousel-item">
                           <img src==@{StaticR foto_jpg} class="d-block w-100" alt="...">
-                        
+                        </div>
+                          </div>
+                            </div>
                     
                     
             
