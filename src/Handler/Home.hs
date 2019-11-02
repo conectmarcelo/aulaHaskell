@@ -34,7 +34,7 @@ getHomeR = do
         
         toWidgetHead [julius|
             function ola(){
-                alert("SMILES FESTAS");
+                alert("SMILES");
             }
         |]
         
