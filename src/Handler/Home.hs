@@ -29,6 +29,7 @@ getHomeR :: Handler Html
 getHomeR = do 
     defaultLayout $ do 
         -- remoto
+        addStylesheetRemote "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         addScriptRemote "https://code.jquery.com/jquery-3.4.1.min.js"
         -- esta no projeto
         
