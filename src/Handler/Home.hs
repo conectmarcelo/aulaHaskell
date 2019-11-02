@@ -41,7 +41,7 @@ getHomeR = do
             h1 {
                 color : blue;
             }
-            main {background-color:aqua;}
+            main {background-color:white;}
             
           
         |]
@@ -63,12 +63,12 @@ getHomeR = do
                     
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                    <div class="carousel-item active">
+                    <div class="carousel-item">
                         <img src=@{StaticR foto_jpg} class="d-block w-100" alt="...">
-                    <div class="carousel-item">
-                        <img src=@{StaticR fotoa_jpg} class="d-block w-100" alt="...">
-                    <div class="carousel-item">
-                        <img src==@{StaticR fotob_jpg} class="d-block w-100" alt="...">
+                            <div class="carousel-item">
+                                <img src=@{StaticR fotoa_jpg} class="d-block w-100" alt="...">
+                                     <div class="carousel-item">
+                                        <img src==@{StaticR fotob_jpg} class="d-block w-100" alt="...">
             
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
