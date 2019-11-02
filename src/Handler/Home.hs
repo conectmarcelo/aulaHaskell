@@ -38,16 +38,115 @@ getHomeR = do
             }
         |]
         toWidgetHead [lucius|
-            h1 {
-                color : blue;
-            }
-            main {background-color:white;}
+           * {margin:0;padding: 0;}
+
+body{background-image:src=@{StaticR foto_jpg};
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;
+
+}
+
+nav{background-attachment: fixed;}
+
+ul{background-color:rgba(0,0,0, 0.7);
+    padding: 20px;
+text-align: end;}
+
+li {list-style: none;
+    display: inline;
+    margin-left: 20px;
+    }
+
+li a{ text-decoration: none;
+    color:white;
+    font-family: Helvetica;
+    font-size: 20px;
+    padding: 20px;
+    transition-duration:0.5s, 0.3s;
+    cursor: pointer;}
+
+      li a:hover{width: 210px;
+        background-color: grey;
+        color:white;
+        font-size: 20px;
+        padding: 20px;}
+
+
+
+
+.a {background:rgba(0,0,0, 0.5);
+background-size: 100%;
+height: 800px;
+}
+
+.aa {
+    padding-top: 400px;
+    padding-left: 100px;
+    height: 100px;
+    background-color: rgba(0,0,0, 0.0);
+    }
+
+h1{color: rgb(192, 159, 75);
+font-size:  40px;}    
+h2{color: white;
+font-size: 30px;}
+
+p{color:black;
+font-family: Helvetica, sans-serif;
+font-size:25px;
+margin: 20px 200px 0px 200px;}
+
+.b {background-color: silver;
+height: 600px;
+padding-top: 10%;
+text-align: center;}
+
+.c {background-color:rgba(0,0,0, 0.5);
+    height: 600px;
+    padding-top: 10%;
+    text-align: center;}
+          
+          
             
           
         |]
         [whamlet|
         
-         <main class="container-fluid">
+         
+        <header>    
+            <nav>
+                <ul>
+                    <li>
+                        <a href=@{Page1R}>Smiles Festas
+                    <li> 
+                        <a href=@{Page1R}>Promoções
+                    <li>
+                        <a href=@{Page2R}>Serviços
+                    <li>
+                        <a href=@{Pag2R}>Contatos
+        
+
+        <div class="a">
+            <div class="aa">
+                <h1>SMILES FESTAS
+                <h2>Casamentos, Debutantes, Aniversários e muito mais    
+        
+        <div class="b">
+            <h1>SMILES FESTAS
+            <p>A empresa Smiles é um grupo dedicado a auxiliar no planejamento, execução e finalização de eventos
+            <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
+        <div class="c">
+            <h1>Orcamento
+
+        <form>
+            <input type="text"  placeholder="Nome:"><br>
+            <input type="text"  placeholder="Email:"><br>
+            <input type="text"  placeholder="Telefone:"><br>
+            <textarea rows="4" cols="50" name="comment" form="usrform">
+    
+         
+         
             
             <ul class="navbar navbar-dark bg-dark navbar-expand-lg navbar-default fixed-top">
               <li class="nav-item">
