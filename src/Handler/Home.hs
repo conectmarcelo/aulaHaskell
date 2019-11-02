@@ -56,33 +56,19 @@ getHomeR = do
               <li class="nav-item">
                 <a class="nav-link" href=@{Page2R}>Locacoes
               <li class="nav-item">
-                <a class="nav-link disabled" href=@{Page1R} tabindex="-1" aria-disabled="true">Contato
-</main>
-            
-            
-            
-            
-            
-            
-                <h1>
-                    Smiles Festas
+                <a class="nav-link" href=@{Page1R}>Contato
+
+            <h1>Smiles Festas
                     
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src=@{StaticR foto_jpg} class="d-block w-100" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src=@{StaticR fotoa_jpg} class="d-block w-100" alt="...">
-                            </div>
-                        <div class="carousel-item">
-                          <img src==@{StaticR fotob_jpg} class="d-block w-100" alt="...">
-                        </div>
-                          </div>
-                            </div>
-                    
-                    
-            
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src=@{StaticR foto_jpg} class="d-block w-100" alt="...">
+                    <div class="carousel-item">
+                        <img src=@{StaticR fotoa_jpg} class="d-block w-100" alt="...">
+                    <div class="carousel-item">
+                        <img src==@{StaticR fotob_jpg} class="d-block w-100" alt="...">
+                
             <ul>
                 <li>
                     <a href=@{Page1R}>
@@ -93,7 +79,9 @@ getHomeR = do
                         Pagina 2
             
             <img src=@{StaticR foto_jpg}>
+            <img src=@{StaticR fotoa_jpg}>
+            <img src=@{StaticR fotob_jpg}>
             
-            <button class="btn btn-danger" onclick="ola()">
+            <br><button class="btn btn-danger" onclick="ola()">
                 OK
         |]
