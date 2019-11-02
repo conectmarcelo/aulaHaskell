@@ -65,7 +65,21 @@ getHomeR = do
             
             
                 <h1>
-                    Smiles Festass
+                    Smiles Festas
+                    
+                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src=@{StaticR foto_jpg} class="d-block w-100" alt="...">
+                        
+                        <div class="carousel-item">
+                          <img src=@{StaticR foto_jpg} class="d-block w-100" alt="...">
+                        
+                        <div class="carousel-item">
+                          <img src==@{StaticR foto_jpg} class="d-block w-100" alt="...">
+                        
+                    
+                    
             
             <ul>
                 <li>
