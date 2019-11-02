@@ -65,7 +65,7 @@ getHomeR = do
             
             
                 <h1>
-                    Smiles Festas
+                    Smiles Festass
             
             <ul>
                 <li>
