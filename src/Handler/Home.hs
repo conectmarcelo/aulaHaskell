@@ -40,7 +40,7 @@ getHomeR = do
         toWidgetHead [lucius|
            * {margin:0;padding: 0;}
 
-body{background-image:src=@{StaticR foto_jpg};
+body{background-image:url(@{StaticR foto_jpg});
 background-repeat: no-repeat;
 background-size: 100%;
 background-attachment: fixed;
@@ -111,10 +111,10 @@ text-align: center;}
             
           
         |]
+        
         [whamlet|
         
          
-        <header>    
             <nav>
                 <ul>
                     <li>
@@ -147,64 +147,6 @@ text-align: center;}
     
          
          
-            
-            <ul class="navbar navbar-dark bg-dark navbar-expand-lg navbar-default fixed-top">
-              <li class="nav-item">
-                <a class="nav-link active" href=@{Page1R}>Smiles
-              <li class="nav-item">
-                <a class="nav-link" href=@{Page1R}>Promocoes
-              <li class="nav-item">
-                <a class="nav-link" href=@{Page2R}>Locacoes
-              <li class="nav-item">
-                <a class="nav-link" href=@{Page1R}>Contato
-
-            <h1>Smiles Festas
-                    
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <img src=@{StaticR foto_jpg} class="d-block w-100" alt="...">
-                            <div class="carousel-item">
-                                <img src=@{StaticR fotoa_jpg} class="d-block w-100" alt="...">
-                                     <div class="carousel-item">
-                                        <img src==@{StaticR fotob_jpg} class="d-block w-100" alt="...">
-            
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src=@{StaticR foto_jpg} class="d-block w-100">
-                    <div class="carousel-item">
-                        <img src=@{StaticR fotoa_jpg} class="d-block w-100">
-                    <div class="carousel-item">
-                        <img src=@{StaticR fotob_jpg} class="d-block w-100">
-                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true">
-                    <span class="sr-only">Previous
-                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true">
-                    <span class="sr-only">Next
-             
-            <p>
-                Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
-
-            <p>
-                Nossos clientes são valorizados e nossa maior alegria é constatar a satisfação de nossos clientes com os nossos serviços.
-
-
-
-                
-            <ul>
-                <li>
-                    <a href=@{Page1R}>
-                        Pagina 1
-                
-                <li>
-                    <a href=@{Page2R}>
-                        Pagina 2
-            
-            <img src=@{StaticR foto_jpg}>
-            <img src=@{StaticR fotoa_jpg}>
-            <img src=@{StaticR fotob_jpg}>
             
             <br><button class="btn btn-danger" onclick="ola()">
                 OK
