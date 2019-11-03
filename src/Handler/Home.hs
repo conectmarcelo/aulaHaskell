@@ -152,21 +152,17 @@ getHomeR = do
             <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
         
         <div class="c">
-            <h1>Orçamento
+            <h1>Solicite um Orçamento
             
             <form class="form-horizontal">
               <div class="form-group">
-                <div class="col-sm-6">
-                  <input type="text" class="form-control" id="nome" placeholder="Nome">
+                <input type="text" class="form-control" id="nome" placeholder="Nome">
               <div class="form-group">
-                <div class="col-sm-6">
-                  <input type="email" class="form-control" id="email" placeholder="Email">
+                 <input type="email" class="form-control" id="email" placeholder="Email">
               <div class="form-group">
-                <div class="col-sm-6">
-                  <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+                 <input type="text" class="form-control" id="telefone" placeholder="Telefone">
               <div class="form-group">
-                <div class="col-sm-6">     
-                    <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
+                <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
             
             
             
