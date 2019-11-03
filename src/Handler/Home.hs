@@ -37,27 +37,69 @@ getHomeR = do
                 alert("OLA MUNDO");
             }
         |]
+
         toWidgetHead [lucius|
             h1 {
                 color : red;
             }
             
             body {
-                background-image: url(@{StaticR citeg_jpg});
+                background-image: url(@{StaticR foto_jpg});
                 background-repeat: no-repeat;
                 background-size: 100%;
                 background-attachment: fixed;
             }
 
-            ul {
-                display: inline;
+            nav{
+                background-attachment: fixed;
+            }
+
+            ul{
+                background-color:rgba(0,0,0, 0.7);
+                padding: 20px;
+                text-align: end;
+            }
+
+            li {
                 list-style: none;
+                display: inline;
+                margin-left: 20px;
+            }
+
+            li a{
+                text-decoration: none;
+                color:white;
+                font-family: Helvetica;
+                font-size: 20px;
+                padding: 20px;
+                transition-duration:0.5s, 0.3s;
+                cursor: pointer;
+            }
+
+            li a:hover{
+                width: 210px;
+                background-color: grey;
+                color:white;
+                font-size: 20px;
+                padding: 20px;
             }
         |]
         [whamlet|
-            <div>
-                <h1>
-                    OLA MUNDO
+            
+        <nav>
+            <ul>
+                <li>
+                    <a href=@{Page1R}>Smiles Festas
+                <li>
+                    <a href=@{Page1R}>Promoções
+                <li>
+                    <a href=@{Page1R}>Serviços
+                <li>
+                    <a href=@{Page1R}>Contatos
+        
+        <div>
+            <h1>
+                OLA MUNDO
             
             <ul>
                 <li>
@@ -68,7 +110,7 @@ getHomeR = do
                     <a href=@{Page2R}>
                         Pagina 2
             
-            <img src=@{StaticR citeg_jpg}>
+            
             
             <button class="btn btn-danger" onclick="ola()">
                 OK
