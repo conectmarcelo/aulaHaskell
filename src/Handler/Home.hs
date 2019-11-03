@@ -39,10 +39,11 @@ getHomeR = do
         |]
 
         toWidgetHead [lucius|
-            h1 {
-                color : red;
-            }
             
+            * {
+            margin:0;padding: 0;
+            }
+
             body {
                 background-image: url(@{StaticR foto_jpg});
                 background-repeat: no-repeat;
@@ -117,6 +118,13 @@ getHomeR = do
                 text-align: center;
             }
 
+            .c {
+            background-color:rgba(0,0,0, 0.5);
+            height: 600px;
+            padding-top: 10%;
+            text-align: center;
+            }    
+
         |]
         [whamlet|
             
@@ -140,7 +148,15 @@ getHomeR = do
             <h1>SMILES FESTAS
             <p>A empresa Smiles é um grupo dedicado a auxiliar no planejamento, execução e finalização de eventos
             <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
-                       
+        
+        <div class="c">
+            <h1>Orcamento
+            <form>
+            <input type="text"  placeholder="Nome:"><br>
+            <input type="text"  placeholder="Email:"><br>
+            <input type="text"  placeholder="Telefone:"><br>
+            <textarea rows="4" cols="50" name="comment" form="usrform">
+            Digite sua Mensagem...
             
             <button class="btn btn-danger" onclick="ola()">
                 OK
