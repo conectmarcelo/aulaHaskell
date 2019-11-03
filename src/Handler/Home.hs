@@ -141,44 +141,44 @@ getHomeR = do
 
         |]
         [whamlet|
-        
-        <nav class="navbar navbar-fixed-top">    
-            <ul>
-                <li>
-                    <a href=@{Page1R}>Smiles Festas
-                <li>
-                    <a href=@{Page1R}>Promoções
-                <li>
-                    <a href=@{Page1R}>Serviços
-                <li>
-                    <a href=@{Page1R}>Contatos
-        <div class="a">
-            <div class="aa">
-                <h1>SMILES FESTAS
-                <h2>Casamentos, Debutantes, Aniversários e muito mais    
-                
-        <div class="b">
-            <h1>SMILES FESTAS
-            <p>A empresa Smiles é um grupo dedicado a auxiliar no planejamento, execução e finalização de eventos
-            <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
-        
-        <div class="c">
-            <div class="row justify-content-center">
+        <main class="container-fluid">
+            
+            <nav class="navbar navbar-fixed-top">    
+                <ul>
+                    <li>
+                        <a href=@{Page1R}>Smiles Festas
+                    <li>
+                        <a href=@{Page1R}>Promoções
+                    <li>
+                        <a href=@{Page1R}>Serviços
+                    <li>
+                        <a href=@{Page1R}>Contatos
+            <div class="a">
+                <div class="aa">
+                    <h1>SMILES FESTAS
+                    <h2>Casamentos, Debutantes, Aniversários e muito mais    
                     
-                <div class="col-lg-6">
-                    <h1>Solicite um Orçamento
-                    <form class="form-horizontal">
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="nome" placeholder="Nome">
-                      <div class="form-group">
-                         <input type="email" class="form-control" id="email" placeholder="Email">
-                      <div class="form-group">
-                         <input type="text" class="form-control" id="telefone" placeholder="Telefone">
-                      <div class="form-group">
-                        <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
+            <div class="b">
+                <h1>SMILES FESTAS
+                <p>A empresa Smiles é um grupo dedicado a auxiliar no planejamento, execução e finalização de eventos
+                <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
+            
+            <div class="c">
+                    <div class="col-lg-3">    
+                    <div class="col-lg-6">
+                        <h1>Solicite um Orçamento
+                        <form class="form-horizontal">
+                          <div class="form-group">
+                            <input type="text" class="form-control" id="nome" placeholder="Nome">
+                          <div class="form-group">
+                             <input type="email" class="form-control" id="email" placeholder="Email">
+                          <div class="form-group">
+                             <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+                          <div class="form-group">
+                            <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
+                    
                 
-            
-            
-            <button type="button" class="btn btn-warning btn-lg" onclick="ola()">
-                Solicitar Orçamento
+                
+                <button type="button" class="btn btn-default btn-lg" onclick="ola()">
+                    Solicitar Orçamento
         |]
