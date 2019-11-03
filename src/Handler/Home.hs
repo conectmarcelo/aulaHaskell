@@ -93,7 +93,7 @@ getHomeR = do
                 background:rgba(0,0,0, 0.5);
                 background-size: 100%;
                 height: 800px;
-                margin: 0px;
+                margin-top: -100px;
             }
 
             .aa {
