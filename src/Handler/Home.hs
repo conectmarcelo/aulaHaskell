@@ -126,12 +126,23 @@ getHomeR = do
             height: 600px;
             padding-top: 10%;
             text-align: center;
-            }    
+            }
+            
+            input {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid grey;
+            }
+            
+            
 
         |]
         [whamlet|
         
-        <nav class="navbar navbar-default navbar-fixed-top">    
+        <nav class="navbar navbar-fixed-top">    
             <ul>
                 <li>
                     <a href=@{Page1R}>Smiles Festas
@@ -152,18 +163,20 @@ getHomeR = do
             <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
         
         <div class="c">
-            <h1>Solicite um Orçamento
-            
-            <form class="form-horizontal">
-              <div class="form-group">
-                <input type="text" class="form-control" id="nome" placeholder="Nome">
-              <div class="form-group">
-                 <input type="email" class="form-control" id="email" placeholder="Email">
-              <div class="form-group">
-                 <input type="text" class="form-control" id="telefone" placeholder="Telefone">
-              <div class="form-group">
-                <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
-            
+            <div class="row justify-content-center">
+                    
+                <div class="col-lg-6">
+                    <h1>Solicite um Orçamento
+                    <form class="form-horizontal">
+                      <div class="form-group">
+                        <input type="text" class="form-control" id="nome" placeholder="Nome">
+                      <div class="form-group">
+                         <input type="email" class="form-control" id="email" placeholder="Email">
+                      <div class="form-group">
+                         <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+                      <div class="form-group">
+                        <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
+                
             
             
             <button type="button" class="btn btn-warning btn-lg" onclick="ola()">
