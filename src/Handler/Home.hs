@@ -41,7 +41,8 @@ getHomeR = do
         toWidgetHead [lucius|
             
             * {
-            margin:0;padding: 0;
+            margin:0px;
+            padding: 0px;
             }
 
             body {
@@ -57,7 +58,7 @@ getHomeR = do
 
             ul{
                 background-color:rgba(0,0,0, 0.7);
-                padding: 20px;
+                padding: 0px;
                 text-align: end;
             }
 
@@ -72,7 +73,7 @@ getHomeR = do
                 color:white;
                 font-family: Helvetica;
                 font-size: 20px;
-                padding: 20px;
+                padding: 0px;
                 transition-duration:0.5s, 0.3s;
                 cursor: pointer;
             }
@@ -82,7 +83,7 @@ getHomeR = do
                 background-color: grey;
                 color:white;
                 font-size: 20px;
-                padding: 20px;
+                padding: 0px;
                 text-decoration: none;
             }
             .a {
@@ -140,7 +141,6 @@ getHomeR = do
                     <a href=@{Page1R}>Serviços
                 <li>
                     <a href=@{Page1R}>Contatos
-
         <div class="a">
             <div class="aa">
                 <h1>SMILES FESTAS
