@@ -56,6 +56,7 @@ getHomeR = do
                 background-attachment: fixed;
                 margin:0px;
                 padding:0px;
+                background-color:rgba(0,0,0, 0.7);
                 }
 
             ul{
