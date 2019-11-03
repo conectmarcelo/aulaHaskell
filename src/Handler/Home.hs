@@ -152,9 +152,9 @@ getHomeR = do
         <div class="c">
             <h1>Orcamento
             <form>
-            <input type="text"  placeholder="Nome:"><br>
-            <input type="text"  placeholder="Email:"><br>
-            <input type="text"  placeholder="Telefone:"><br>
+            <input type="text"  placeholder="Nome:">
+            <input type="text"  placeholder="Email:">
+            <input type="text"  placeholder="Telefone:">
             <textarea rows="4" cols="50" name="comment" form="usrform">
             Digite sua Mensagem...
             
