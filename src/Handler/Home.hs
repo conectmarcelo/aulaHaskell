@@ -75,7 +75,7 @@ getHomeR = do
                 color:white;
                 font-family: Helvetica;
                 font-size: 20px;
-                padding: 20px;
+                padding: 0px;
                 transition-duration:0.5s, 0.3s;
                 cursor: pointer;
             }
@@ -92,7 +92,7 @@ getHomeR = do
                 background:rgba(0,0,0, 0.5);
                 background-size: 100%;
                 height: 800px;
-                margin:0;
+                margin: 0px;
             }
 
             .aa {
