@@ -152,12 +152,12 @@ getHomeR = do
         <div class="c">
             <h1>Orcamento
             <form>
-            <input type="text"  placeholder="Nome:">
-            <input type="text"  placeholder="Email:">
-            <input type="text"  placeholder="Telefone:">
+            <input type="text"  placeholder="Nome:"> <br>
+            <input type="text"  placeholder="Email:"><br>
+            <input type="text"  placeholder="Telefone:"><br>
             <textarea rows="4" cols="50" name="comment" form="usrform">
             Digite sua Mensagem...
-            
-            <button class="btn btn-danger" onclick="ola()">
-                OK
+            <br>
+            <button class="btn btn-dark" onclick="ola()">
+                Solicitar Orçamento
         |]
