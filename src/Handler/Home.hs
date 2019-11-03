@@ -52,14 +52,15 @@ getHomeR = do
                 background-attachment: fixed;
             }
 
-            nav{
-                background-attachment: fixed;
-                margin:0px;
-                padding:0px;
-                background-color:rgba(0,0,0, 0.7);
-                }
-
-            ul{
+            .menu {
+                position: fixed;
+                right: 0;
+                top: 50%;
+                width: 8em;
+                margin-top: -2.5em;
+            }
+            
+           ul{
                 background-color:rgba(0,0,0, 0.7);
                 padding: 20px;
                 text-align: end;
@@ -134,16 +135,15 @@ getHomeR = do
         |]
         [whamlet|
             
-        <nav>
-            <ul>
-                <li>
-                    <a href=@{Page1R}>Smiles Festas
-                <li>
-                    <a href=@{Page1R}>Promoções
-                <li>
-                    <a href=@{Page1R}>Serviços
-                <li>
-                    <a href=@{Page1R}>Contatos
+        <ul class"menu">
+            <li>
+                <a href=@{Page1R}>Smiles Festas
+            <li>
+                <a href=@{Page1R}>Promoções
+            <li>
+                <a href=@{Page1R}>Serviços
+            <li>
+                <a href=@{Page1R}>Contatos
         <div class="a">
             <div class="aa">
                 <h1>SMILES FESTAS
