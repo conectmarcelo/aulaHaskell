@@ -52,11 +52,12 @@ getHomeR = do
                 background-attachment: fixed;
             }
 
-            nav{position: fixed;
-                top: 0%;
+            nav{
+                background-color:rgba(0,0,0, 0.7)
+               
             }
             
-           ul{  background-color:rgba(0,0,0, 0.7);
+           ul{  
                 padding: 20px;
                 text-align: end;
             }
@@ -152,13 +153,27 @@ getHomeR = do
         
         <div class="c">
             <h1>Orcamento
-            <form>
-            <input type="text"  placeholder="Nome:"> <br>
-            <input type="text"  placeholder="Email:"><br>
-            <input type="text"  placeholder="Telefone:"><br>
-            <textarea rows="4" cols="50" name="comment" form="usrform">
-            Digite sua Mensagem...
-            <br>
-            <button class="btn btn-dark" onclick="ola()">
+            
+            <form class="form-horizontal">
+              <div class="form-group">
+                <label for="nome" class="col-sm-2 control-label">Nome:
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="nome" placeholder="Nome">
+              <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">Email:
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" placeholder="Email">
+              <div class="form-group">
+                <label for="telefone" class="col-sm-2 control-label">Telefone:
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+              <div class="form-group">
+                <label for="mensagem" class="col-sm-2 control-label">Mensagem:
+                <div class="col-sm-10">     
+                    <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
+            
+            
+            
+            <button type="button" class="btn btn-default btn-lg" onclick="ola()">
                 Solicitar Orçamento
         |]
