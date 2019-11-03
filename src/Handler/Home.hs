@@ -83,7 +83,7 @@ getHomeR = do
                 background-color: grey;
                 color:white;
                 font-size: 20px;
-                padding: 20px;
+                padding: 25px;
                 text-decoration: none;
             }
             .a {
@@ -168,6 +168,6 @@ getHomeR = do
                              <input type="text" class="form-control" id="telefone" placeholder="Telefone">
                           <div class="form-group">
                             <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
-                            <button type="button" class="btn btn-default btn-lg" onclick="ola()">
-                            Solicitar Orçamento
+                          <div class="form-group">
+                            <button type="button" class="btn btn-info btn-lg" onclick="ola()">Solicitar Orçamento
         |]
