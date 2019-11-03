@@ -54,11 +54,13 @@ getHomeR = do
 
             nav{
                 background-attachment: fixed;
-            }
+                margin:0px;
+                padding:0px;
+                }
 
             ul{
                 background-color:rgba(0,0,0, 0.7);
-                padding: 0px;
+                padding: 20px;
                 text-align: end;
             }
 
@@ -73,7 +75,7 @@ getHomeR = do
                 color:white;
                 font-family: Helvetica;
                 font-size: 20px;
-                padding: 0px;
+                padding: 20px;
                 transition-duration:0.5s, 0.3s;
                 cursor: pointer;
             }
@@ -83,7 +85,7 @@ getHomeR = do
                 background-color: grey;
                 color:white;
                 font-size: 20px;
-                padding: 0px;
+                padding: 20px;
                 text-decoration: none;
             }
             .a {
