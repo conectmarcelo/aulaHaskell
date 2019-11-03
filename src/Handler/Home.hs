@@ -83,6 +83,40 @@ getHomeR = do
                 font-size: 20px;
                 padding: 20px;
             }
+            .a {
+                background:rgba(0,0,0, 0.5);
+                background-size: 100%;
+                height: 800px;
+            }
+
+            .aa {
+                padding-top: 400px;
+                padding-left: 100px;
+                height: 100px;
+                background-color: rgba(0,0,0, 0.0);
+            }
+
+            h1{
+                color: rgb(192, 159, 75);
+                font-size:  40px;}    
+                h2{color: white;
+                font-size: 30px;
+            }
+
+            p{
+                color:black;
+                font-family: Helvetica, sans-serif;
+                font-size:25px;
+                margin: 20px 200px 0px 200px;
+            }
+
+            .b {
+                background-color: silver;
+                height: 600px;
+                padding-top: 10%;
+                text-align: center;
+            }
+
         |]
         [whamlet|
             
@@ -96,21 +130,17 @@ getHomeR = do
                     <a href=@{Page1R}>Serviços
                 <li>
                     <a href=@{Page1R}>Contatos
-        
-        <div>
-            <h1>
-                OLA MUNDO
-            
-            <ul>
-                <li>
-                    <a href=@{Page1R}>
-                        Pagina 1
+
+        <div class="a">
+            <div class="aa">
+                <h1>SMILES FESTAS
+                <h2>Casamentos, Debutantes, Aniversários e muito mais    
                 
-                <li>
-                    <a href=@{Page2R}>
-                        Pagina 2
-            
-            
+        <div class="b">
+            <h1>SMILES FESTAS
+            <p>A empresa Smiles é um grupo dedicado a auxiliar no planejamento, execução e finalização de eventos
+            <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
+                       
             
             <button class="btn btn-danger" onclick="ola()">
                 OK
