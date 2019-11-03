@@ -94,7 +94,7 @@ getHomeR = do
             }
 
             .aa {
-                padding-top: 400px;
+                padding-top: 500px;
                 padding-left: 100px;
                 height: 100px;
                 background-color: rgba(0,0,0, 0.0);
@@ -128,21 +128,13 @@ getHomeR = do
             text-align: center;
             }
             
-            input {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
-            border: none;
-            border-bottom: 2px solid grey;
-            }
+            
             
             
 
         |]
         [whamlet|
-        <main class="container-fluid">
-            
+        
             <nav class="navbar navbar-fixed-top">    
                 <ul>
                     <li>
@@ -176,9 +168,6 @@ getHomeR = do
                              <input type="text" class="form-control" id="telefone" placeholder="Telefone">
                           <div class="form-group">
                             <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
-                    
-                
-                
-                <button type="button" class="btn btn-default btn-lg" onclick="ola()">
-                    Solicitar Orçamento
+                            <button type="button" class="btn btn-default btn-lg" onclick="ola()">
+                            Solicitar Orçamento
         |]
