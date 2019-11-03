@@ -54,10 +54,9 @@ getHomeR = do
 
             .menu {
                 position: fixed;
-                right: 0;
-                top: 50%;
-                width: 8em;
-                margin-top: -2.5em;
+                right: 0%;
+                top: 0%;
+                
             }
             
            ul{
@@ -135,7 +134,7 @@ getHomeR = do
         |]
         [whamlet|
             
-        <ul class"menu">
+        <ul class="menu">
             <li>
                 <a href=@{Page1R}>Smiles Festas
             <li>
