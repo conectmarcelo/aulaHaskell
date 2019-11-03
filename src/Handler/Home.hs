@@ -60,8 +60,8 @@ getHomeR = do
             }
             
            ul{  position: fixed;
-                right: 1%;
-                top: 1%;
+                right: 0%;
+                top: 0%;
                 background-color:rgba(0,0,0, 0.7);
                 padding: 20px;
                 text-align: end;
