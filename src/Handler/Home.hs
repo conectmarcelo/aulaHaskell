@@ -42,6 +42,13 @@ getHomeR = do
                 color : red;
             }
             
+            body {
+                background-image: url(@{StaticR citeg_jpg});
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-attachment: fixed;
+            }
+
             ul {
                 display: inline;
                 list-style: none;
