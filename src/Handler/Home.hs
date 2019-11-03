@@ -52,15 +52,9 @@ getHomeR = do
                 background-attachment: fixed;
             }
 
-            .menu {
-                
-                right: 0%;
-                top: 0%;
-                
-            }
+            
             
            ul{  position: fixed;
-                right: 0%;
                 top: 0%;
                 background-color:rgba(0,0,0, 0.7);
                 padding: 20px;
@@ -95,7 +89,7 @@ getHomeR = do
                 background:rgba(0,0,0, 0.5);
                 background-size: 100%;
                 height: 800px;
-                margin-top: -100px;
+                margin-top: -60px;
             }
 
             .aa {
