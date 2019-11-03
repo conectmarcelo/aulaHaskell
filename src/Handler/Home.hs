@@ -73,7 +73,7 @@ getHomeR = do
                 color:white;
                 font-family: Helvetica;
                 font-size: 20px;
-                padding: 0px;
+                padding: 20px;
                 transition-duration:0.5s, 0.3s;
                 cursor: pointer;
             }
@@ -131,7 +131,7 @@ getHomeR = do
         |]
         [whamlet|
         
-        <nav>    
+        <nav class="navbar navbar-default navbar-fixed-top">    
             <ul>
                 <li>
                     <a href=@{Page1R}>Smiles Festas
@@ -152,28 +152,24 @@ getHomeR = do
             <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
         
         <div class="c">
-            <h1>Orcamento
+            <h1>Orçamento
             
             <form class="form-horizontal">
               <div class="form-group">
-                <label for="nome" class="col-sm-2 control-label">Nome:
-                <div class="col-sm-10">
+                <div class="col-sm-6">
                   <input type="text" class="form-control" id="nome" placeholder="Nome">
               <div class="form-group">
-                <label for="email" class="col-sm-2 control-label">Email:
-                <div class="col-sm-10">
+                <div class="col-sm-6">
                   <input type="email" class="form-control" id="email" placeholder="Email">
               <div class="form-group">
-                <label for="telefone" class="col-sm-2 control-label">Telefone:
-                <div class="col-sm-10">
+                <div class="col-sm-6">
                   <input type="text" class="form-control" id="telefone" placeholder="Telefone">
               <div class="form-group">
-                <label for="mensagem" class="col-sm-2 control-label">Mensagem:
-                <div class="col-sm-10">     
+                <div class="col-sm-6">     
                     <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
             
             
             
-            <button type="button" class="btn btn-default btn-lg" onclick="ola()">
+            <button type="button" class="btn btn-warning btn-lg" onclick="ola()">
                 Solicitar Orçamento
         |]
