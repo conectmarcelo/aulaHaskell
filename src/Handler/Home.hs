@@ -52,11 +52,11 @@ getHomeR = do
                 background-attachment: fixed;
             }
 
-            
-            
-           ul{  position: fixed;
+            nav{position: fixed;
                 top: 0%;
-                background-color:rgba(0,0,0, 0.7);
+            }
+            
+           ul{  background-color:rgba(0,0,0, 0.7);
                 padding: 20px;
                 text-align: end;
             }
@@ -129,16 +129,17 @@ getHomeR = do
 
         |]
         [whamlet|
-            
-        <ul>
-            <li>
-                <a href=@{Page1R}>Smiles Festas
-            <li>
-                <a href=@{Page1R}>Promoções
-            <li>
-                <a href=@{Page1R}>Serviços
-            <li>
-                <a href=@{Page1R}>Contatos
+        
+        <nav>    
+            <ul>
+                <li>
+                    <a href=@{Page1R}>Smiles Festas
+                <li>
+                    <a href=@{Page1R}>Promoções
+                <li>
+                    <a href=@{Page1R}>Serviços
+                <li>
+                    <a href=@{Page1R}>Contatos
         <div class="a">
             <div class="aa">
                 <h1>SMILES FESTAS
