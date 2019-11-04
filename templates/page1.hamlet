@@ -7,33 +7,5 @@
         <li>
             <a href=@{Page1R}>Serviços
         <li>
-            <a href=@{Page1R}>Contatos
+            <a href=@{Page2R}>Contatos
 
-<ul class="galeria">
-    <li>
-        <a href="#img1"><img src=@{StaticR casamento_11_jpg} class="min">
-    <li>
-        <a href="#img1"><img src=@{StaticR casamento_12_jpg} class="min">
-    <li>
-        <a href="#img1"><img src=@{StaticR casamento_13_jpg} class="min">
-
-<div class="lbox" id="img11">
-    <div class="box_img">
-        <a href=@{StaticR casamento_13_jpg} class="btn" id="prev">voltar
-        <a href="" class="btn" id="close">X
-        <img src=@{StaticR casamento_11_jpg}>
-        <a href=@{StaticR casamento_12_jpg} class="btn" id="next">proximo
-
-<div class="lbox" id="img11">
-    <div class="box_img">
-        <a href=@{StaticR casamento_11_jpg} class="btn" id="prev">voltar
-        <a href="" class="btn" id="close">X
-        <img src=@{StaticR casamento_12_jpg}>
-        <a href=@{StaticR casamento_13_jpg} class="btn" id="next">proximo
-
-<div class="lbox" id="img11">
-    <div class="box_img">
-        <a href=@{StaticR casamento_12_jpg} class="btn" id="prev">voltar
-        <a href="" class="btn" id="close">X
-        <img src=@{StaticR casamento_13_jpg}>
-        <a href=@{StaticR casamento_11_jpg} class="btn" id="next">proximo

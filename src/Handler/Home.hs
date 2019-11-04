@@ -15,7 +15,9 @@ import Database.Persist.Postgresql
 getPage2R :: Handler Html 
 getPage2R = do 
     defaultLayout $ do 
-        $(whamletFile "templates/page2.hamlet")
+       addStylesheet (StaticR css_bootstrap_css)
+        toWidgetHead $(luciusFile "templates/page1.lucius")
+        $(whamletFile "templates/page1.hamlet")
 
 getPage1R :: Handler Html 
 getPage1R = do 
@@ -144,7 +146,7 @@ getHomeR = do
                     <li>
                         <a href=@{Page1R}>Serviços
                     <li>
-                        <a href=@{Page1R}>Contatos
+                        <a href=@{Page2R}>Contatos
             <div class="a">
                 <div class="aa">
                     <h1>SMILES FESTAS
