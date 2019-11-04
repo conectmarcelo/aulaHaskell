@@ -158,7 +158,7 @@ getHomeR = do
             <div class="c">
                     <div class="col-lg-3">    
                     <div class="col-lg-6">
-                        <h1>Solicite um Orçamento
+                        <h1>Solicite um Orçamento teste
                         <form class="form-horizontal">
                           <div class="form-group">
                             <input type="text" class="form-control" id="nome" placeholder="Nome">
