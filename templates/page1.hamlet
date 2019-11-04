@@ -3,8 +3,8 @@
         <li>
             <a href=@{HomeR}>Smiles Festas
         <li>
-            <a href=@{PromoR}>Promoções
+            <a href=@{Page1R}>Promoções
         <li>
-            <a href=@{ServR}>Serviços
+            <a href=@{Page1R}>Serviços
         <li>
-            <a href=@{HomeR}>Contatos
+            <a href=@{Page1R}>Contatos

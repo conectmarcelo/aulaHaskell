@@ -12,18 +12,18 @@ import Text.Julius
 --import Network.HTTP.Types.Status
 import Database.Persist.Postgresql
 
-getServR :: Handler Html 
-getServR = do 
+getPage2R :: Handler Html 
+getPage2R = do 
     defaultLayout $ do 
-        $(whamletFile "templates/serv.hamlet")
+        $(whamletFile "templates/page2.hamlet")
 
-getPromoR :: Handler Html 
-getPromoR = do 
+getPage1R :: Handler Html 
+getPage1R = do 
     defaultLayout $ do 
         addStylesheet (StaticR css_bootstrap_css)
-        toWidgetHead $(juliusFile "templates/promo.julius")
-        toWidgetHead $(luciusFile "templates/promo.lucius")
-        $(whamletFile "templates/promo.hamlet")
+        toWidgetHead $(juliusFile "templates/page1.julius")
+        toWidgetHead $(luciusFile "templates/page1.lucius")
+        $(whamletFile "templates/page1.hamlet")
 
 getHomeR :: Handler Html
 getHomeR = do 
