@@ -15,5 +15,13 @@
     <li>
         <a href="#img1"><img src=@{StaticR casamento_12_jpg} class="min">
     <li>
-        <a href="#img1"><img src=@{StaticR casamento_13_jpg} class="min">    
+        <a href="#img1"><img src=@{StaticR casamento_13_jpg} class="min">
+
+<div class="lbox" id="img11">
+    <div class="box_img">
+        <a href="#img13" class="btn" id="prev">&#171</a>
+            <a href="" class="btn" id="close">x</a>
+                <img src=@{StaticR casamento_11_jpg}>
+                    <a href="#img12" class="btn" id="next">&#187</a>
+   
     
