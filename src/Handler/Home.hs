@@ -138,7 +138,7 @@ getHomeR = do
             <nav class="navbar navbar-fixed-top">    
                 <ul>
                     <li>
-                        <a href=@{Page1R}>Smiles Festas
+                        <a href=@{HomeR}>Smiles Festas
                     <li>
                         <a href=@{PromoR}>Promoções
                     <li>
