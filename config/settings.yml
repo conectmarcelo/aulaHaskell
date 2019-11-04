@@ -27,7 +27,7 @@ database:
   user:     "_env:PGUSER:admin"
   password: "_env:PGPASS:Fatec@02"
   host:     "_env:PGHOST:127.0.0.1"
-  port:     "_env:PGPORT:5432"
+  port:     "_env:PGPORT:80"
   # See config/test-settings.yml for an override during tests
   database: "_env:PGDATABASE:smilesfestas"
   poolsize: "_env:PGPOOLSIZE:10"
