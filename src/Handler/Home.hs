@@ -140,11 +140,11 @@ getHomeR = do
                     <li>
                         <a href=@{HomeR}>Smiles Festas
                     <li>
-                        <a href=@{PromoR}>Promoções
+                        <a href=@{Page1R}>Promoções
                     <li>
-                        <a href=@{ServR}>Serviços
+                        <a href=@{Page1R}>Serviços
                     <li>
-                        <a href=@{ContatoR}>Contatos
+                        <a href=@{Page1R}>Contatos
             <div class="a">
                 <div class="aa">
                     <h1>SMILES FESTAS
