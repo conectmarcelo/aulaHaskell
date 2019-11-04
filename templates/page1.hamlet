@@ -27,13 +27,13 @@
 <div class="lbox" id="img11">
     <div class="box_img">
         <a href=@{StaticR casamento_11_jpg} class="btn" id="prev">voltar
-        <a href=@{} class="btn" id="close">X
+        <a href="" class="btn" id="close">X
         <img src=@{StaticR casamento_12_jpg}>
         <a href=@{StaticR casamento_13_jpg} class="btn" id="next">proximo
 
 <div class="lbox" id="img11">
     <div class="box_img">
         <a href=@{StaticR casamento_12_jpg} class="btn" id="prev">voltar
-        <a href=@{} class="btn" id="close">X
+        <a href="" class="btn" id="close">X
         <img src=@{StaticR casamento_13_jpg}>
         <a href=@{StaticR casamento_11_jpg} class="btn" id="next">proximo
