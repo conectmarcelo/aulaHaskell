@@ -10,22 +10,22 @@
     <div class="carousel-inner" role="listbox">
 
       <div class="item active">
-        <img src="img_chania.jpg" alt="Chania" width="460" height="345">
+        <img src=@{StaticR casamento_11_jpg} alt="Chania" width="460" height="345">
         <div class="carousel-caption">
           <h3>Chania
           <p>The atmosphere in Chania has a touch of Florence and Venice.
       <div class="item">
-        <img src="img_chania2.jpg" alt="Chania" width="460" height="345">
+        <img src=@{StaticR casamento_12_jpg} alt="Chania" width="460" height="345">
         <div class="carousel-caption">
           <h3>Chania
           <p>The atmosphere in Chania has a touch of Florence and Venice.
       <div class="item">
-        <img src="img_flower.jpg" alt="Flower" width="460" height="345">
+        <img src=@{StaticR casamento_13_jpg} alt="Flower" width="460" height="345">
         <div class="carousel-caption">
           <h3>Flowers
           <p>Beautiful flowers in Kolymbari, Crete.
       <div class="item">
-        <img src="img_flower2.jpg" alt="Flower" width="460" height="345">
+        <img src=@{StaticR casamento_14_jpg} alt="Flower" width="460" height="345">
         <div class="carousel-caption">
           <h3>Flowers
           <p>Beautiful flowers in Kolymbari, Crete.
