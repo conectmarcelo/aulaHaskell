@@ -47,3 +47,9 @@ li a:hover{
             text-align: center;
             margin-top:50px;
             }
+button{background-color:black;
+color:white
+}
+
+h1{color:gold;
+}

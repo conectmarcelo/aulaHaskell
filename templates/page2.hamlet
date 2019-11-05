@@ -8,13 +8,14 @@
             <a href=@{Page2R}>Serviços
         <li>
             <a href=@{Page2R}>Contatos
-<main class"container-fluid>
+<main class"container">
     <div class="row">
         <div class="mapa col-lg-12">
         
     <div class="row">    
         <div class="contato">
-            <div class="col-lg-5">
+            <div class="col-lg">
+            <div class="col-lg">
                 <h1>Solicite um Orçamento
                 <form class="form-horizontal">
                 <div class="form-group">
@@ -27,8 +28,13 @@
                     <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
                 <div class="form-group">
                     <button type="button" class="btn btn-info btn-lg" onclick="ola()">Solicitar Orçamento
+            <div class="col-lg-1">
             <div class="col-lg">
-                <h2>Spaço Smiles
-                <h4>Rua São Miguel dos Campos, 121
-                <h4> Catipoã - São Vicente - SP
-                <h4> <i class="fas fa-whatsapp">13 98882-2632
+                <h1>Atendimento
+                <h3>Whatssapp 13 98882 2632
+                <br>
+                <h1>Endereço
+                <h3>Rua São Miguel dos Campos, 121
+                <h3> Catipoã - São Vicente - SP
+                
+            <div class="col-lg">    
