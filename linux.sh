@@ -5,13 +5,16 @@ git add . &&
 
 git commit -m $1 &&
 
-git oush origin master &&
+git push origin master &&
+
+Username='conectmarcelo'
+Password='mozzy@02'
 
 ssh root@51.91.121.28 <<EOF
 
 senha='lYVl47xW'
 password $senha
-cd aulahaskell &&
+cd aulaHaskell &&
 
 git pull origin master &&
 

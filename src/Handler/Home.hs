@@ -32,6 +32,12 @@ getHomeR = do
     defaultLayout $ do 
         -- remoto
         addScriptRemote "https://code.jquery.com/jquery-3.4.1.min.js"
+        addStylesheetRemote "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
+        addScriptRemote "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+        addScriptRemote "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"
+  
+        
+        
         -- esta no projeto
         addStylesheet (StaticR css_bootstrap_css)
         toWidgetHead [julius|

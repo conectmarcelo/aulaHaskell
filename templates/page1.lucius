@@ -1,35 +1,5 @@
-nav{
-    background-color:rgba(0,0,0, 0.7)
-    
-}
-
-ul{  
-    padding: 20px;
-    text-align: end;
-}
-
-li {
-    list-style: none;
-    display: inline;
-    margin-left: 20px;
-}
-
-li a{
-    text-decoration: none;
-    color:white;
-    font-family: Helvetica;
-    font-size: 20px;
-    padding: 20px;
-    transition-duration:0.5s, 0.3s;
-    cursor: pointer;
-}
-
-li a:hover{
-    width: 210px;
-    background-color: grey;
-    color:white;
-    font-size: 20px;
-    padding: 25px;
-    text-decoration: none;
-}
-
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
