@@ -12,17 +12,17 @@
 <div class="mapa col-lg-12">
     
 <div class="contato">
-    <div class="col-lg-3">    
-    <div class="col-lg-6">
-        <h1>Solicite um Orçamento teste
-        <form class="form-horizontal">
-          <div class="form-group">
-            <input type="text" class="form-control" id="nome" placeholder="Nome">
-          <div class="form-group">
-             <input type="email" class="form-control" id="email" placeholder="Email">
-          <div class="form-group">
-             <input type="text" class="form-control" id="telefone" placeholder="Telefone">
-          <div class="form-group">
-            <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
-          <div class="form-group">
-            <button type="button" class="btn btn-info btn-lg" onclick="ola()">Solicitar Orçamento    
+<div class="col-lg-3">    
+<div class="col-lg-6">
+    <h1>Solicite um Orçamento teste
+    <form class="form-horizontal">
+      <div class="form-group">
+        <input type="text" class="form-control" id="nome" placeholder="Nome">
+      <div class="form-group">
+          <input type="email" class="form-control" id="email" placeholder="Email">
+      <div class="form-group">
+          <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+      <div class="form-group">
+        <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
+      <div class="form-group">
+        <button type="button" class="btn btn-info btn-lg" onclick="ola()">Solicitar Orçamento    
