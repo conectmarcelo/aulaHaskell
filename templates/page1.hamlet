@@ -31,10 +31,10 @@
           <p>Beautiful flowers in Kolymbari, Crete.
         
     
-    <a class="left carousel-control" href="#myCarousel" role="button">
+    <a class="left carousel-control" href=@{#myCarousel} role="button">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
       <span class="sr-only">Previous
     
-    <a class="right carousel-control" href="#myCarousel" role="button">
+    <a class="right carousel-control" href=@{#myCarousel} role="button">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
       <span class="sr-only">Next
