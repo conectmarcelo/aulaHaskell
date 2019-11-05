@@ -1,8 +1,8 @@
 git add . &&
 git commit -m $1 &&
 git push origin master &&
-ssh root@51.91.126.117 <<EOF
-cd aulaadsn &&
+ssh root@51.91.127.28 <<EOF
+cd aulaHaskell &&
 git pull origin master &&
 stack build &&
 lsof -i:80 -Fp | sed 's/^p//' | head -n -1 | xargs kill -9;
