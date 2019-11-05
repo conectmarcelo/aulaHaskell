@@ -33,6 +33,7 @@ getProdutoR = undefined
             
                 <form method=post action=@{ProdutoR}
                 ^{widget}
+                <input type="submit" values="cadastrar">
         
         
         |]
