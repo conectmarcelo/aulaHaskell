@@ -1,0 +1,35 @@
+<nav class="navbar navbar-fixed-top">    
+    <ul>
+        <li>
+            <a href=@{HomeR}>Smiles Festas
+        <li>
+            <a href=@{Page1R}>Promoções
+        <li>
+            <a href=@{Page2R}>Serviços
+        <li>
+            <a href=@{Page3R}>Contatos
+
+<div class="row">
+    <div class="mapa col-lg-12">
+
+<div class="row">    
+    <div class="contato">
+    <div class="col-lg-3">    
+    <div class="col-lg-6">
+        <h1>Solicite um Orçamento teste
+        <form class="form-horizontal">
+        <div class="form-group">
+            <input type="text" class="form-control" id="nome" placeholder="Nome">
+        <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Email">
+        <div class="form-group">
+            <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+        <div class="form-group">
+            <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
+        <div class="form-group">
+            <button type="button" class="btn btn-info btn-lg" onclick="ola()">Solicitar Orçamento
+    <div class="col-lg-3">
+        <h1>Spaço Smiles
+        <h2>Rua São Miguel dos Campos, 121
+        <h2> Catipoã - São Vicente - SP
+        <h2> <i class="fas fa-whatsapp">13 98882-2632

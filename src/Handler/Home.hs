@@ -12,6 +12,14 @@ import Text.Julius
 --import Network.HTTP.Types.Status
 import Database.Persist.Postgresql
 
+
+getPage3R :: Handler Html 
+getPage3R = do 
+    defaultLayout $ do 
+        addStylesheet (StaticR css_bootstrap_css)
+        toWidgetHead $(luciusFile "templates/page3.lucius")
+        $(whamletFile "templates/page3.hamlet")
+
 getPage2R :: Handler Html 
 getPage2R = do 
     defaultLayout $ do 
@@ -144,9 +152,9 @@ getHomeR = do
                     <li>
                         <a href=@{Page1R}>Promoções
                     <li>
-                        <a href=@{Page1R}>Serviços
+                        <a href=@{Page2R}>Serviços
                     <li>
-                        <a href=@{Page2R}>Contatos
+                        <a href=@{Page3R}>Contatos
             <div class="a">
                 <div class="aa">
                     <h1>SMILES FESTAS
