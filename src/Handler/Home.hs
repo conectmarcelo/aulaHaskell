@@ -12,6 +12,15 @@ import Text.Julius
 --import Network.HTTP.Types.Status
 import Database.Persist.Postgresql
 
+
+getTesteR :: Handler Html 
+getTesteR = do 
+    defaultLayout $ do 
+        addStylesheet (StaticR css_bootstrap_css)
+        toWidgetHead $(luciusFile "templates/teste.lucius")
+        $(whamletFile "templates/teste.hamlet")
+
+
 getPage2R :: Handler Html 
 getPage2R = do 
     defaultLayout $ do 

@@ -6,3 +6,7 @@
 / HomeR GET 
 /p1 Page1R GET
 /p2 Page2R GET
+/t1 TesteR GET
+
+/produto ProtudoR GET POST
+
