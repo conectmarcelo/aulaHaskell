@@ -171,5 +171,5 @@ getHomeR = do
                           <div class="form-group">
                             <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
                           <div class="form-group">
-                            <button type="button" class="btn btn-info btn-lg" onclick="ola()">Solicitar Orçamento
+                            <button type="button" class="btn btn-info btn-lg" onclick="ola()">Orçamento
         |]
