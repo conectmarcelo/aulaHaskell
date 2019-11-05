@@ -7,5 +7,5 @@
         <li>
             <a href=@{Page2R}>Serviços
         <li>
-            <a href=@{Page3R}>Contatos
+            <a href=@{Page2R}>Contatos
 
