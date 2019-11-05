@@ -5,9 +5,9 @@
         <li>
             <a href=@{Page1R}>Promoções
         <li>
-            <a href=@{Page1R}>Serviços
+            <a href=@{Page2R}>Serviços
         <li>
-            <a href=@{Page2R}>Contatos
+            <a href=@{Page3R}>Contatos
 
 <div class="mapa col-lg-12">
     

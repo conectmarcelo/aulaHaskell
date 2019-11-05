@@ -161,7 +161,7 @@ getHomeR = do
                     <h2>Casamentos, Debutantes, Aniversários e muito mais    
                     
             <div class="b">
-                <h1>SMILES FESTASsssssssssssssssssssssss
+                <h1>SMILES FESTAS
                 <p>A empresa Smiles é um grupo dedicado a auxiliar no planejamento, execução e finalização de eventos
                 <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
             
