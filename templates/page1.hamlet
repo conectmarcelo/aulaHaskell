@@ -1,3 +1,14 @@
+<nav class="navbar navbar-fixed-top">    
+    <ul>
+        <li>
+            <a href=@{HomeR}>Smiles Festas
+        <li>
+            <a href=@{Page1R}>Promoções
+        <li>
+            <a href=@{Page2R}>Serviços
+        <li>
+            <a href=@{Page2R}>Contatos
+            
 <div class="container">
   <h2>Activate Carousel with JavaScript
   <div id="myCarousel" class="carousel slide">
@@ -31,10 +42,10 @@
           <p>Beautiful flowers in Kolymbari, Crete.
         
     
-    <a class="left carousel-control" href=@{#myCarousel} role="button">
+    <a class="left carousel-control" href="#myCarousel" role="button">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true">
       <span class="sr-only">Previous
     
-    <a class="right carousel-control" href=@{#myCarousel} role="button">
+    <a class="right carousel-control" href="#myCarousel" role="button">
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true">
       <span class="sr-only">Next
