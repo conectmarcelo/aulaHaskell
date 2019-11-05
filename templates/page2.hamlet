@@ -8,14 +8,14 @@
             <a href=@{Page2R}>Serviços
         <li>
             <a href=@{Page2R}>Contatos
-<main class"container">
+<main class="container">
     <div class="row">
         <div class="mapa col-lg-12">
         
     <div class="row">    
         <div class="contato">
-            <div class="col-lg">
-            <div class="col-lg">
+            <div class="col-lg-1">
+            <div class="col-lg-6">
                 <h1>Solicite um Orçamento
                 <form class="form-horizontal">
                 <div class="form-group">
@@ -27,14 +27,13 @@
                 <div class="form-group">
                     <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
                 <div class="form-group">
-                    <button type="button" class="btn btn-info btn-lg" onclick="ola()">Solicitar Orçamento
+                    <button type="button" class="btn btn-lg" onclick="ola()">Solicitar Orçamento
             <div class="col-lg-1">
-            <div class="col-lg">
+            <div class="col-lg"-3>
                 <h1>Atendimento
                 <h3>Whatssapp 13 98882 2632
                 <br>
                 <h1>Endereço
                 <h3>Rua São Miguel dos Campos, 121
                 <h3> Catipoã - São Vicente - SP
-                
-            <div class="col-lg">    
+            <div class="col-lg-1">    
