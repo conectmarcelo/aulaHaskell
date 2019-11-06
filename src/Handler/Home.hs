@@ -32,10 +32,10 @@ getPage1R :: Handler Html
 getPage1R = do 
     defaultLayout $ do 
         addStylesheet (StaticR css_bootstrap_css)
-        addScriptRemote "https://code.jquery.com/jquery-3.4.1.min.js"
-        addStylesheetRemote "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"
-        addScriptRemote "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"
-        addScriptRemote "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"
+        addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         toWidgetHead $(juliusFile "templates/page1.julius")
         toWidgetHead $(luciusFile "templates/page1.lucius")
         $(whamletFile "templates/page1.hamlet")
