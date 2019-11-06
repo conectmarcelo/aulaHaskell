@@ -16,7 +16,11 @@ import Database.Persist.Postgresql
 getTesteR :: Handler Html 
 getTesteR = do 
     defaultLayout $ do 
-        addStylesheet (StaticR css_bootstrap_css)
+        --addStylesheet (StaticR css_bootstrap_css)
+        addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         toWidgetHead $(luciusFile "templates/teste.lucius")
         $(whamletFile "templates/teste.hamlet")
 
@@ -24,7 +28,11 @@ getTesteR = do
 getPage2R :: Handler Html 
 getPage2R = do 
     defaultLayout $ do 
-        addStylesheet (StaticR css_bootstrap_css)
+        --addStylesheet (StaticR css_bootstrap_css)
+        addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         toWidgetHead $(luciusFile "templates/page2.lucius")
         $(whamletFile "templates/page2.hamlet")
 
@@ -155,7 +163,7 @@ getHomeR = do
         |]
         [whamlet|
         
-            <nav class="navbar justify-content-end fixed">    
+            <nav class="navbar justify-content-end navbar-fixed=top">    
                 <ul>
                     <li>
                         <a href=@{HomeR}>Smiles Festas
