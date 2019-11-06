@@ -20,7 +20,6 @@
     <div class="row">    
         <div class="contato col-lg-12">
             <div class="col-lg">
-            <div class="col-lg-4">
                 <h1>Solicite um Orçamento
                 <form class="form-horizontal">
                 <div class="form-group">
@@ -33,8 +32,7 @@
                     <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
                 <div class="form-group">
                     <button type="button" class="btn btn-lg" onclick="ola()">Solicitar Orçamento
-            <div class="col-lg-2">
-            <div class="col-lg-4">
+            <div class="col-lg">
                 <br>
                 <h1>Atendimento
                 <h3>Whatssapp
@@ -43,4 +41,3 @@
                 <h1>Endereço
                 <h3>Rua São Miguel dos Campos, 121
                 <h3> Catipoã - São Vicente - SP
-            <div class="col-lg">
