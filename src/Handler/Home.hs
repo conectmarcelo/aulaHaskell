@@ -179,7 +179,7 @@ getHomeR = do
                       <a href=@{Page2R}>Contatos
             <div class="a">
                 <div class="aa">
-                    <h1>SMILES FESTAS
+                    <h1>SMILES FESTAS TESTE
                     <h2>Casamentos, Debutantes, Aniversários e muito mais    
                     
             <div class="b">
