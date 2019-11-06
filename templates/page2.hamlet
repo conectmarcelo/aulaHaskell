@@ -3,11 +3,11 @@
       <li>
           <a href=@{HomeR}>Smiles Festas
       <li>
-          <a href=@{TesteR}>Fotos
+          <a href=@{FotosR}>Fotos
       <li>
-          <a href=@{Page1R}>Promoções
+          <a href=@{Page2R}>Promoções
       <li>
-          <a href=@{Page1R}>Serviços
+          <a href=@{Page2R}>Serviços
       <li>
           <a href=@{Page2R}>Dicas
       <li>
