@@ -36,17 +36,17 @@ getPage2R = do
         toWidgetHead $(luciusFile "templates/page2.lucius")
         $(whamletFile "templates/page2.hamlet")
 
-getPage1R :: Handler Html 
-getPage1R = do 
+getFotosR :: Handler Html 
+getFotosR = do 
     defaultLayout $ do 
         --addStylesheet (StaticR css_bootstrap_css)
         addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
         addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        toWidgetHead $(juliusFile "templates/page1.julius")
-        toWidgetHead $(luciusFile "templates/page1.lucius")
-        $(whamletFile "templates/page1.hamlet")
+        toWidgetHead $(juliusFile "templates/fotos.julius")
+        toWidgetHead $(luciusFile "templates/fotos.lucius")
+        $(whamletFile "templates/fotos.hamlet")
 
 getHomeR :: Handler Html
 getHomeR = do 
@@ -81,7 +81,7 @@ getHomeR = do
             }
 
             nav{
-                background-color:rgba(0,0,0, 0.7)
+                background-color:rgba(0,0,0, 0.9)
                
             }
             
@@ -163,12 +163,12 @@ getHomeR = do
         |]
         [whamlet|
         
-            <nav class="navbar justify-content-end navbar-fixed=top">    
+            <nav class="navbar justify-content-end navbar-fixed-top">    
                 <ul>
                     <li>
                         <a href=@{HomeR}>Smiles Festas
                     <li>
-                        <a href=@{TesteR}>Fotos
+                        <a href=@{FotosR}>Fotos
                     <li>
                         <a href=@{Page1R}>Promoções
                     <li>

@@ -6,7 +6,7 @@
 /ads.txt AdsR GET
 
 / HomeR GET 
-/p1 Page1R GET
+/p1 FotosR GET
 /p2 Page2R GET
 /t1 TesteR GET
 

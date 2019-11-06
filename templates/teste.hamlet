@@ -1,5 +1,5 @@
 <nav class="navbar navbar-fixed-top">    
-   <nav class="navbar justify-content-end navbar-fixed=top">    
+   <nav class="navbar justify-content-end navbar-fixed-top">    
   <ul>
       <li>
           <a href=@{HomeR}>Smiles Festas
