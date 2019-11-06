@@ -163,7 +163,7 @@ getHomeR = do
         |]
         [whamlet|
         
-            <nav class="navbar justify-content-end navbar-fixed-top">    
+            <nav class="navbar justify-content-end fixed-top">    
               <ul>
                   <li>
                       <a href=@{HomeR}>Smiles Festas
