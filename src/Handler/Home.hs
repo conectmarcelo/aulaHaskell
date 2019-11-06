@@ -155,16 +155,24 @@ getHomeR = do
         |]
         [whamlet|
         
-            <nav class="navbar navbar-fixed-top">    
+            <nav class="navbar justify-content-end fixed">    
                 <ul>
                     <li>
                         <a href=@{HomeR}>Smiles Festas
                     <li>
+                        <a href=@{TesteR}>Fotos
+                    <li>
                         <a href=@{Page1R}>Promoções
                     <li>
-                        <a href=@{Page2R}>Serviços
+                        <a href=@{Page1R}>Serviços
+                    <li>
+                        <a href=@{Page2R}>Dicas
                     <li>
                         <a href=@{Page2R}>Contatos
+                        
+                        
+                        
+                        
             <div class="a">
                 <div class="aa">
                     <h1>SMILES FESTAS
