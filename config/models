@@ -1,4 +1,4 @@
 Produto
-    nome Test
+    nome Text
     valor Double
     deriving Show
