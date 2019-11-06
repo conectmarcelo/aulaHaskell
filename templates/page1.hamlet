@@ -1,4 +1,4 @@
-<nav class="navbar navbar-fixed-top">    
+<nav class="navbar navbar-fixed-top justify-content-end">    
     <ul>
         <li>
             <a href=@{HomeR}>Smiles Festas
