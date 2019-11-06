@@ -11,7 +11,7 @@
 
 
 
-<main class="container w-800 h-400">
+<main class="container style="width: 800px; height: 400px;">
   <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
