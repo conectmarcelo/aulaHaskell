@@ -177,10 +177,6 @@ getHomeR = do
                       <a href=@{Page2R}>Dicas
                   <li>
                       <a href=@{Page2R}>Contatos
-                        
-                        
-                        
-                        
             <div class="a">
                 <div class="aa">
                     <h1>SMILES FESTAS
@@ -206,8 +202,4 @@ getHomeR = do
                             <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
                           <div class="form-group">
                             <button type="button" class="btn btn-info btn-lg" onclick="ola()">Orçamento
-        
-        
-        
-    						
         |]
