@@ -1,3 +1,4 @@
+
 /static StaticR Static appStatic
 
 /favicon.ico FaviconR GET
@@ -8,6 +9,6 @@
 /p2 Page2R GET
 /t1 TesteR GET
 
-/produto ProtudoR GET POST
-/listar ListProdR GEt
-/produto/#Produto/apagar ApagarProdR Post
+/produto ProdutoR GET POST
+/listar  ListProdR GET
+/produto/#ProdutoId/apagar ApagarProdR POST
