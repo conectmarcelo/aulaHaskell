@@ -38,3 +38,5 @@ li a:hover{
     width: 70%;
     margin: auto;
   }
+  
+ .img{width:300px; height:250;}
