@@ -1,0 +1,19 @@
+<table>
+    <thead>
+        <tr>
+            <th>
+                Nome
+            <th>
+                Preco
+            <th>
+    <tbody>
+        $forall Emtity pid produto <- produtos
+            <tr>
+                <td>
+                    #{produtoNome produto}
+                <td>
+                    #{produtoValor produto}
+                <td>
+                    <form method=post action=@{ApagarProdR pid}>
+                        <input type="submit" value="x">
+                        

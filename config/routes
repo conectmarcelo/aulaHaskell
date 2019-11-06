@@ -9,4 +9,5 @@
 /t1 TesteR GET
 
 /produto ProtudoR GET POST
-
+/listar ListProdR GEt
+/produto/#Produto/apagar ApagarProdR Post

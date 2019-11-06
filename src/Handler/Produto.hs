@@ -4,7 +4,7 @@
 {-# LANGUAGE QuasiQuotes #-}
 {-# LANGUAGE MultiParamTypeClasses #-}
 {-# LANGUAGE TypeFamilies #-}
-module Handler.Home where
+module Handler.Produto where
 
 import Import
 import Text.Lucius
@@ -53,3 +53,16 @@ postProdutoR = do
         redirect ProdutoR
     -> redirect HomeR
     _
+
+getListProdR :: Handler Html
+getListProdR = do
+    -- select * from Produto order by produto.nome
+    produtos <- runDB $ selectLst [] [Asc ProdutoNome]
+    $(whamletField "templastes/produtos.hamlet)")
+
+
+postApagarProdR :: ProdutoId -> Handler Html
+postProdR = do
+    _<-runDB $ get404 pid
+    runDB $ delete pid
+    redirect listProdR
