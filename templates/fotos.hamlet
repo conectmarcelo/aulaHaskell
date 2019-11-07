@@ -20,45 +20,45 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class=" img d-block w-100" src=@{StaticR casamento_11_jpg} alt="Primeiro Slide">
+          <img class=" img d-block w-100" src=@{StaticR casamento_11_jpg} alt="a">
         <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR casamento_12_jpg} alt="Segundo Slide">
+          <img class=" img d-block w-100" src=@{StaticR casamento_12_jpg} alt="b">
         <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR casamento_13_jpg} alt="Terceiro Slide">
+          <img class=" img d-block w-100" src=@{StaticR casamento_13_jpg} alt="c">
         <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR casamento_14_jpg} alt="Terceiro Slide">
+          <img class=" img d-block w-100" src=@{StaticR casamento_14_jpg} alt="d">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR casamento_15_jpg} alt="e">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR casamento_16_jpg} alt="f">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR casamento_32_jpg} alt="g">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR casamento_33_jpg} alt="h">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR casamento_34_jpg} alt="i">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR casamento_35_jpg} alt="j">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR casamento_36_jpg} alt="k">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR casamento_37_jpg} alt="l">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR casamento_38_jpg} alt="m">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR casamento_301_jpg} alt="n">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR pista_43_jpg} alt="o">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR pista_44_jpg} alt="p">
         <div class="carousel-item active">
-          <img class=" img d-block w-100" src=@{StaticR casamento_15_jpg} alt="Primeiro Slide">
+          <img class=" img d-block w-100" src=@{StaticR pista_45_jpg} alt="r">
         <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR casamento_16_jpg} alt="Segundo Slide">
+          <img class=" img d-block w-100" src=@{StaticR pista_47_jpg} alt="s">
         <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR casamento_32_jpg} alt="Terceiro Slide">
+          <img class=" img d-block w-100" src=@{StaticR pista_48_jpg} alt="t">
         <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR casamento_33_jpg} alt="Terceiro Slide">
-        <div class="carousel-item active">
-          <img class=" img d-block w-100" src=@{StaticR casamento_34_jpg} alt="Primeiro Slide">
-        <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR casamento_35_jpg} alt="Segundo Slide">
-        <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR casamento_36_jpg} alt="Terceiro Slide">
-        <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR casamento_37_jpg} alt="Terceiro Slide">
-        <div class="carousel-item active">
-          <img class=" img d-block w-100" src=@{StaticR casamento_38_jpg} alt="Primeiro Slide">
-        <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR casamento_301_jpg} alt="Segundo Slide">
-        <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR pista_43_jpg} alt="Terceiro Slide">
-        <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR pista_44_jpg} alt="Terceiro Slide">
-        <div class="carousel-item active">
-          <img class=" img d-block w-100" src=@{StaticR pista_45_jpg} alt="Primeiro Slide">
-        <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR pista_47_jpg} alt="Segundo Slide">
-        <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR pista_48_jpg} alt="Terceiro Slide">
-        <div class="carousel-item">
-          <img class=" img d-block w-100" src=@{StaticR pista_50_jpg} alt="Terceiro Slide">
+          <img class=" img d-block w-100" src=@{StaticR pista_50_jpg} alt="u">
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true">
         <span class="sr-only">Anterior
