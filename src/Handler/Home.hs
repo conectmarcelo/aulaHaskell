@@ -162,7 +162,7 @@ getHomeR = do
             <nav class="navbar justify-content-end fixed-top">    
               <ul>
                   <li>
-                      <a href=@{HomeR}>Smiles FestasS
+                      <a href=@{HomeR}>Smiles Festas
                   <li>
                       <a href=@{FotosR}>Fotos
                   <li>
