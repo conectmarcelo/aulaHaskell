@@ -168,7 +168,7 @@ getHomeR = do
                   <li>
                       <a href=@{Page2R}>Promoções
                   <li>
-                      <a href=@{ServicosR}>Serviços
+                      <a href=@{Page2R}>Serviços
                   <li>
                       <a href=@{Page2R}>Dicas
                   <li>
