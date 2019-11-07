@@ -57,19 +57,7 @@ getHomeR = do
         addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         
-getServicosR :: Handler Html 
-getServicosR = do 
-    defaultLayout $ do 
-        --addStylesheet (StaticR css_bootstrap_css)
-        addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        toWidgetHead $(luciusFile "templates/servicos.lucius")
-        $(whamletFile "templates/servicos.hamlet")
-
-
-
+        
         -- esta no projeto
         -- addStylesheet (StaticR css_bootstrap_css)
         toWidgetHead [julius|
@@ -166,12 +154,8 @@ getServicosR = do
             height: 600px;
             padding-top: 10%;
             text-align: center;
-            }
+            }               
             
-            
-            
-            
-
         |]
         [whamlet|
         

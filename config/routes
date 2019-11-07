@@ -8,7 +8,6 @@
 / HomeR GET 
 /p1 FotosR GET
 /p2 Page2R GET
-/servicos ServicosR GET
 /t1 TesteR GET
 
 
