@@ -5,13 +5,39 @@
       <li>
           <a href=@{FotosR}>Fotos
       <li>
-          <a href=@{Page2R}>Promoções
+          <a href=@{TesteR}>Promoções
       <li>
-          <a href=@{Page2R}>Serviços
+          <a href=@{TesteR}>Serviços
       <li>
-          <a href=@{Page2R}>Dicas
+          <a href=@{TesteR}>Dicas
       <li>
           <a href=@{Page2R}>Contatos
 
-<h1>Estamos Trabalhando para melhoria de nosso sistema...
-<h2>Em Breve estaremos divulgando novidades...
+<main class="container">
+    <div class="row">
+        <div class="mapa col-lg-12">
+        
+    <div class="row">    
+        <div class="contato col-lg-12">
+            <div class="col-lg">
+                <h1>Solicite um Orçamento
+                <form class="form-horizontal">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="nome" placeholder="Nome">
+                <div class="form-group">
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="telefone" placeholder="Telefone">
+                <div class="form-group">
+                    <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
+                <div class="form-group">
+                    <button type="button" class="btn btn-lg" onclick="ola()">Solicitar Orçamento
+            <div class="col-lg">
+                <br>
+                <h1>Atendimento
+                <h3>Whatssapp
+                <h1>13 98882 2632
+                <br>
+                <h1>Endereço
+                <h3>Rua São Miguel dos Campos, 121
+                <h3> Catipoã - São Vicente - SP

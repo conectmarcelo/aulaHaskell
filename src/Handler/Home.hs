@@ -166,11 +166,11 @@ getHomeR = do
                   <li>
                       <a href=@{FotosR}>Fotos
                   <li>
-                      <a href=@{Page2R}>Promoções
+                      <a href=@{TesteR}>Promoções
                   <li>
-                      <a href=@{Page2R}>Serviços
+                      <a href=@{TesteR}>Serviços
                   <li>
-                      <a href=@{Page2R}>Dicas
+                      <a href=@{TesteR}>Dicas
                   <li>
                       <a href=@{Page2R}>Contatos
             <div class="a">
