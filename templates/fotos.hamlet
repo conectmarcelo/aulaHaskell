@@ -51,7 +51,7 @@
           <img class=" img d-block w-100" src=@{StaticR pista_43_jpg} alt="o">
         <div class="carousel-item">
           <img class=" img d-block w-100" src=@{StaticR pista_44_jpg} alt="p">
-        <div class="carousel-item active">
+        <div class="carousel-item">
           <img class=" img d-block w-100" src=@{StaticR pista_45_jpg} alt="r">
         <div class="carousel-item">
           <img class=" img d-block w-100" src=@{StaticR pista_47_jpg} alt="s">
