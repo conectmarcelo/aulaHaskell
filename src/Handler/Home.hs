@@ -166,10 +166,9 @@ getHomeR = do
             <nav class="navbar justify-content-end fixed-top">    
               <ul>
                   <li>
-                      <a href=@{HomeR}>Smiles Festas bla bla
+                      <a href=@{HomeR}>Smiles Festas
                   <li>
                       <a href=@{FotosR}>Fotos
-                      
                   <li>
                       <a href=@{Page2R}>Promoções
                   <li>
@@ -180,7 +179,7 @@ getHomeR = do
                       <a href=@{Page2R}>Contatos
             <div class="a">
                 <div class="aa">
-                    <h1>SMILES FESTAS TESTE
+                    <h1>SMILES FESTAS
                     <h2>Casamentos, Debutantes, Aniversários e muito mais    
                     
             <div class="b">
