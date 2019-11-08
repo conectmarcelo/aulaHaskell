@@ -16,7 +16,7 @@ import Text.Julius
 formOrcamentos :: Form Orcamentos 
 formOrcamentos = renderBootstrap $ Orcamentos 
     <$> areq textField "Nome:" Nothing
-    <*> areq textfield "Email:" Nothing
+    <*> areq textField "Email:" Nothing
     <*> areq textField "Telefone:" Nothing
     <*> areq textField "Mensagem:" Nothing
 
