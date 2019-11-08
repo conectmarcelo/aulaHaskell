@@ -12,29 +12,50 @@ import Text.Julius
 --import Network.HTTP.Types.Status
 import Database.Persist.Postgresql
 
-
-getTesteR :: Handler Html 
-getTesteR = do 
+getDicasR :: Handler Html 
+getDicasR = do 
     defaultLayout $ do 
         --addStylesheet (StaticR css_bootstrap_css)
         addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
         addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        toWidgetHead $(luciusFile "templates/teste.lucius")
-        $(whamletFile "templates/teste.hamlet")
+        toWidgetHead $(luciusFile "templates/dicas.lucius")
+        $(whamletFile "templates/dicas.hamlet")
 
-
-getPage2R :: Handler Html 
-getPage2R = do 
+getPromocoesR :: Handler Html 
+getPromocoesR = do 
     defaultLayout $ do 
         --addStylesheet (StaticR css_bootstrap_css)
         addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
         addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        toWidgetHead $(luciusFile "templates/page2.lucius")
-        $(whamletFile "templates/page2.hamlet")
+        toWidgetHead $(luciusFile "templates/promocoes.lucius")
+        $(whamletFile "templates/promocoes.hamlet")
+
+getServicosR :: Handler Html 
+getServicosR = do 
+    defaultLayout $ do 
+        --addStylesheet (StaticR css_bootstrap_css)
+        addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        toWidgetHead $(luciusFile "templates/servicos.lucius")
+        $(whamletFile "templates/servicos.hamlet")
+
+
+getContatosR :: Handler Html 
+getContatosR = do 
+    defaultLayout $ do 
+        --addStylesheet (StaticR css_bootstrap_css)
+        addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        toWidgetHead $(luciusFile "templates/contatos.lucius")
+        $(whamletFile "templates/contatos.hamlet")
 
 getFotosR :: Handler Html 
 getFotosR = do 
@@ -166,13 +187,13 @@ getHomeR = do
                   <li>
                       <a href=@{FotosR}>Fotos
                   <li>
-                      <a href=@{TesteR}>Promoções
+                      <a href=@{PromocoesR}>Promoções
                   <li>
-                      <a href=@{TesteR}>Serviços
+                      <a href=@{ServicosR}>Serviços
                   <li>
-                      <a href=@{TesteR}>Dicas
+                      <a href=@{DicasR}>Dicas
                   <li>
-                      <a href=@{Page2R}>Contatos
+                      <a href=@{ContatosR}>Contatos
             <div class="a">
                 <div class="aa">
                     <h1>SMILES FESTAS

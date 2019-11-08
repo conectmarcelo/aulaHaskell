@@ -1,17 +1,19 @@
 <nav class="navbar justify-content-end navbar-fixed-top">    
   <ul>
-      <li>
-          <a href=@{HomeR}>Smiles Festas
-      <li>
-          <a href=@{FotosR}>Fotos
-      <li>
-          <a href=@{TesteR}>Promoções
-      <li>
-          <a href=@{TesteR}>Serviços
-      <li>
-          <a href=@{TesteR}>Dicas
-      <li>
-          <a href=@{Page2R}>Contatos
+      <nav class="navbar justify-content-end fixed-top">    
+              <ul>
+                  <li>
+                      <a href=@{HomeR}>Smiles Festas
+                  <li>
+                      <a href=@{FotosR}>Fotos
+                  <li>
+                      <a href=@{PromocoesR}>Promoções
+                  <li>
+                      <a href=@{ServicosR}>Serviços
+                  <li>
+                      <a href=@{DicasR}>Dicas
+                  <li>
+                      <a href=@{ContatosR}>Contatos
 
 <main class="container">
     <div class="row">

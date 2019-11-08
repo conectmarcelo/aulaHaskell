@@ -6,11 +6,11 @@
 /ads.txt AdsR GET
 
 / HomeR GET 
-/p1 FotosR GET
-/p2 Page2R GET
-/t1 TesteR GET
-
-
+/fotos FotosR GET
+/dicas DicasR GET
+/promocoes PromocoesR GET
+/servicos ServicosR GET
+/contatos ContatosR GET
 
 
 /produto ProdutoR GET POST
