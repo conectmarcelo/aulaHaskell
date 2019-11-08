@@ -17,10 +17,7 @@ formProduto :: Form Produto
 formProduto = renderBootstrap $ Produto 
     <$> areq textField "Nome: " Nothing
     <*> areq doubleField "Preco: " Nothing
-    <*> areq textField "Email: " Nothing
-    <*> areq textField "Telefone: " Nothing
-    <*> areq textField "Mensagem: " Nothing
-
+    
 getProdutoR :: Handler Html
 getProdutoR = do 
     (widget,enctype) <- generateFormPost formProduto 
