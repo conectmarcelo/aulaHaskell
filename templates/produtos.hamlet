@@ -6,6 +6,11 @@
             <th>
                 PRECO
             <th>
+                EMAIL
+            <th>
+                TELEFONE
+            <th>
+                MENSAGEM
     
     <tbody>
         $forall Entity pid produto <- produtos
@@ -15,5 +20,11 @@
                 <td>
                     #{produtoValor produto}
                 <td>
+                    #{produtoEmail produto}
+                <td>
+                    #{produtoTelefone produto}
+                <td>
+                    #{produtoMensagem produto}
+                
                     <form method=post action=@{ApagarProdR pid}>
                         <input type="submit" value="X">
