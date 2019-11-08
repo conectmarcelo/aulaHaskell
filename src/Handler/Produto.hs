@@ -17,7 +17,9 @@ formProduto :: Form Produto
 formProduto = renderBootstrap $ Produto 
     <$> areq textField "Nome: " Nothing
     <*> areq doubleField "Preco: " Nothing
-
+    <*> areq textField "Email: " Nothing
+    <*> areq textField "Telefone: " Nothing
+    <*> areq textField "Mensagem: " Nothing
 
 getProdutoR :: Handler Html
 getProdutoR = do 
@@ -30,7 +32,7 @@ getProdutoR = do
                     ^{mensa}
             
             <h1>
-                CADASTRO DE PRODUTOS
+                Solicite Um orçamento
                 
             <form method=post action=@{ProdutoR}>
                 ^{widget}
