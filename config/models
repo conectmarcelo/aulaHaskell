@@ -1,4 +1,7 @@
 Produto 
     nome  Text 
     valor Double
+    email Text
+    telefone Text
+    mensagem Text
     deriving Show
