@@ -73,7 +73,6 @@
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
           <a href="#!">About us
-        
       <div class="col-md-2 mb-3">
         <h6 class="text-uppercase font-weight-bold">
           <a href="#!">Products
@@ -110,5 +109,5 @@
             <i class="fab fa-instagram fa-lg white-text mr-4">
           <a class="pin-ic">
             <i class="fab fa-pinterest fa-lg white-text">
-  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+  <div class="footer-copyright text-center py-3">© 2019 Copyright:
     <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com
