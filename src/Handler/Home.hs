@@ -170,12 +170,7 @@ getHomeR = do
                 text-align: center;
             }
 
-            .c {
-            background-color:rgba(0,0,0, 0.5);
-            height: 600px;
-            padding-top: 10%;
-            text-align: center;
-            }               
+             
             
         |]
         [whamlet|
@@ -204,19 +199,5 @@ getHomeR = do
                 <p>A empresa Smiles é um grupo dedicado a auxiliar no planejamento, execução e finalização de eventos
                 <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
             
-            <div class="c">
-                    <div class="col-lg-3">    
-                    <div class="col-lg-6">
-                        <h1>Solicite um Orçamento teste
-                        <form class="form-horizontal">
-                          <div class="form-group">
-                            <input type="text" class="form-control" id="nome" placeholder="Nome">
-                          <div class="form-group">
-                             <input type="email" class="form-control" id="email" placeholder="Email">
-                          <div class="form-group">
-                             <input type="text" class="form-control" id="telefone" placeholder="Telefone">
-                          <div class="form-group">
-                            <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
-                          <div class="form-group">
-                            <button type="button" class="btn btn-info btn-lg" onclick="ola()">Orçamento
+           
         |]
