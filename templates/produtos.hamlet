@@ -5,9 +5,7 @@
                 NOME
             <th>
                 PRECO
-            <th>
-                EMAIL
-            <th>
+           <th>
                 TELEFONE
             <th>
                 MENSAGEM
@@ -20,9 +18,7 @@
                 <td>
                     #{produtoValor produto}
                 <td>
-                    #{produtoEmail produto}
-                <td>
-                    #{produtoTelefone produto}
+                   #{produtoTelefone produto}
                 <td>
                     #{produtoMensagem produto}
                 

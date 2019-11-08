@@ -1,7 +1,6 @@
 Produto 
     nome  Text 
     valor Double
-    email Text
     Telefone Text
     Mensagem Text
     deriving Show
