@@ -5,11 +5,6 @@
                 NOME
             <th>
                 PRECO
-           <th>
-                TELEFONE
-            <th>
-                MENSAGEM
-    
     <tbody>
         $forall Entity pid produto <- produtos
             <tr>
@@ -17,10 +12,5 @@
                     #{produtoNome produto}
                 <td>
                     #{produtoValor produto}
-                <td>
-                   #{produtoTelefone produto}
-                <td>
-                    #{produtoMensagem produto}
-                
                     <form method=post action=@{ApagarProdR pid}>
                         <input type="submit" value="X">
