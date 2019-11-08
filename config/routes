@@ -18,5 +18,5 @@
 /produto/#ProdutoId/apagar ApagarProdR POST
 
 /orcamentos OrcamentosR GET POST
-/listarOrcamentos ListOrcamentosR Get
+/listarOrcamentos ListOrcamentosR GET
 /orcamentos/#OrcamentosId/apagar ApagarOrcamentosR POST
