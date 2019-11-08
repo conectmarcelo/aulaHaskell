@@ -65,7 +65,6 @@ getFotosR = do
         addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
         addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        addStylesheetRemote "https://use.fontawesome.com/releases/v5.0.6/css/all.css"
         toWidgetHead $(juliusFile "templates/fotos.julius")
         toWidgetHead $(luciusFile "templates/fotos.lucius")
         $(whamletFile "templates/fotos.hamlet")

@@ -14,8 +14,7 @@
       <a href=@{ContatosR}>Contatos
 
 <main class="container">
-  <div class="col-lg-3">
-  <div class="col-lg-6">  
+    <div class="col-lg-12">  
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -64,80 +63,5 @@
       <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true">
         <span class="sr-only">Próximo
-  <div class="col-lg">
+  
 
-<footer class="pt-5 pb-4" id="contact">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
-						<h5 class="mb-4 font-weight-bold">ABOUT US
-						<p class="mb-4">Etiam laoreet in ex quis efficitur.
-						<ul class="f-address">
-							<li>
-								<div class="row">
-									<div class="col-1"><i class="fas fa-map-marker">
-									<div class="col-10">
-										<h6 class="font-weight-bold mb-0">Address:
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							<li>
-								<div class="row">
-									<div class="col-1"><i class="far fa-envelope">
-									<div class="col-10">
-										<h6 class="font-weight-bold mb-0">Have any questions?
-										<p><a href="#">Support@userthemes.com
-							<li>
-								<div class="row">
-									<div class="col-1"><i class="fas fa-phone-volume">
-									<div class="col-10">
-										<h6 class="font-weight-bold mb-0">Address:
-										<p><a href="#">+XX (0) XX XX-XXXX-XXXX
-					<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
-						<h5 class="mb-4 font-weight-bold">FRESH TWEETS
-						<ul class="f-address">
-							<li>
-								<div class="row">
-									<div class="col-1"><i class="fab fa-twitter">
-									<div class="col-10">
-										<p class="mb-0"><a href="#">@userthemesrel 
-										<label>10 Mins Ago
-							<li>
-								<div class="row">
-									<div class="col-1"><i class="fab fa-twitter">
-									<div class="col-10">
-										<p class="mb-0"><a href="#">@userthemesrel 
-										<label>10 Mins Ago
-							<li>
-								<div class="row">
-									<div class="col-1"><i class="fab fa-twitter">
-									<div class="col-10">
-										<p class="mb-0"><a href="#">@userthemesrel 
-										<label>10 Mins Ago
-					<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
-						<h5 class="mb-4 font-weight-bold">LATEST UPDATES
-						<ul class="recent-post">
-							<li>
-								<label class="mr-3">28 <br><span>APR
-								<span>Rendomised words which dont look eveable.
-							<li>
-								<label class="mr-3">29 <br><span>APR
-								<span>Rendomised words which dont look eveable.
-							<li>
-								<label class="mr-3">30 <br><span>APR
-								<span>Rendomised words which dont look eveable.
-					<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
-						<h5 class="mb-4 font-weight-bold">CONNECT WITH US
-						<div class="input-group">
-						  	<input type="text" class="form-control" placeholder="Your Email Address">
-						  	<span class="input-group-addon" id="basic-addon2"><i class="fas fa-check">
-						<ul class="social-pet mt-4">
-							<li><a href="#" title="facebook"><i class="fab fa-facebook-f">
-							<li><a href="#" title="twitter"><i class="fab fa-twitter">
-							<li><a href="#" title="google-plus"><i class="fab fa-google-plus-g">
-							<li><a href="#" title="instagram"><i class="fab fa-instagram">
-		<section class="copyright">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 ">
-						<div class="text-center text-white">
-							&copy; 2018 Your Company. All Rights Reserved.
-		
