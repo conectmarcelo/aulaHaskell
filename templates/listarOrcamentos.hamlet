@@ -1,0 +1,23 @@
+
+
+<table>
+    <thead>
+        <tr>
+            <th>
+                NOME
+            <th>
+                EMAIL
+            <th>
+                TELEFONE
+            <th>
+                MENSAGEM    
+                
+    <tbody>
+        $forall Entity pid orcamentos <- orcamentos
+            <tr>
+                <td>
+                    #{orcamentosNome orcamentos}
+                <td>
+                    #{orcamentosEmail orcamentos}
+                    <form method=post action=@{ApagarOrcamentosR pid}>
+                        <input type="submit" value="Deletar">

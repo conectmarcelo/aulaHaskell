@@ -2,3 +2,10 @@ Produto
     nome  Text 
     valor Double
     deriving Show
+    
+Orcamentos 
+    nome  Text 
+    email Text
+    telefone Text
+    mensagem Text
+    deriving Show
