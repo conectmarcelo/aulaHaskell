@@ -1,20 +1,20 @@
 <nav class="navbar justify-content-end fixed-top">    
-              <ul>
-                  <li>
-                      <a href=@{HomeR}>Smiles Festas
-                  <li>
-                      <a href=@{FotosR}>Fotos
-                  <li>
-                      <a href=@{PromocoesR}>Promoções
-                  <li>
-                      <a href=@{ServicosR}>Serviços
-                  <li>
-                      <a href=@{DicasR}>Dicas
-                  <li>
-                      <a href=@{ContatosR}>Contatos
+  <ul>
+    <li>
+      <a href=@{HomeR}>Smiles Festas
+    <li>
+      <a href=@{FotosR}>Fotos
+    <li>
+      <a href=@{PromocoesR}>Promoções
+    <li>
+      <a href=@{ServicosR}>Serviços
+    <li>
+      <a href=@{DicasR}>Dicas
+    <li>
+      <a href=@{ContatosR}>Contatos
 
 <main class="container">
-  <div class="col-lg">
+  <div class="col-lg-3">
   <div class="col-lg-6">  
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
@@ -64,4 +64,51 @@
       <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true">
         <span class="sr-only">Próximo
-  <div class="col-lg">  
+  <div class="col-lg">
+
+  
+<footer class="page-footer font-small indigo">
+  <div class="container">
+    <div class="row text-center d-flex justify-content-center pt-5 mb-3">
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">About us
+        
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Products
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Awards
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Help
+      <div class="col-md-2 mb-3">
+        <h6 class="text-uppercase font-weight-bold">
+          <a href="#!">Contact
+    <hr class="rgba-white-light" style="margin: 0 15%;">
+    <div class="row d-flex text-center justify-content-center mb-md-0 mb-4">
+      <div class="col-md-8 col-12 mt-5">
+        <p style="line-height: 1.7rem">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium, totam rem
+          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+          explicabo.
+          Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur.
+    <hr class="clearfix d-md-none rgba-white-light" style="margin: 10% 15% 5%;">
+    <div class="row pb-3">
+      <div class="col-md-12">
+         <div class="mb-5 flex-center">
+        <a class="fb-ic">
+            <i class="fab fa-facebook-f fa-lg white-text mr-4">
+          <a class="tw-ic">
+            <i class="fab fa-twitter fa-lg white-text mr-4">
+          <a class="gplus-ic">
+            <i class="fab fa-google-plus-g fa-lg white-text mr-4">
+          <a class="li-ic">
+            <i class="fab fa-linkedin-in fa-lg white-text mr-4">
+          <a class="ins-ic">
+            <i class="fab fa-instagram fa-lg white-text mr-4">
+          <a class="pin-ic">
+            <i class="fab fa-pinterest fa-lg white-text">
+  <div class="footer-copyright text-center py-3">© 2018 Copyright:
+    <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com
