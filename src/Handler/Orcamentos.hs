@@ -113,13 +113,12 @@ getOrcamentosR = do
             <div>
                 ^{mensa}
                 
-                <h1>
-                    Solicite um orçamento
+                <h1>Solicite um orçamento
                     
-                    <form method=post action=@{OrcamentosR}>
+                <form method=post action=@{OrcamentosR}>
                     ^{widget}
                     <input class="button" type="submit" value="Cadastrar">
-                               
+                           
         |]
         
 
