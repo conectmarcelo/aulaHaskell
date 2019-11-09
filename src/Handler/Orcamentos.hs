@@ -87,9 +87,7 @@ getOrcamentosR = do
         }
         
         .form{background-color:lightgrey;
-        margin-top:10%;
-        margin-left:50%;
-            
+        padding:10px;       
         }            
 
             
