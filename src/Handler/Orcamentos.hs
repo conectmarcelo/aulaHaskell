@@ -86,7 +86,9 @@ getOrcamentosR = do
         h1{color:rgb(192, 159, 75);
         }
         
-        form{margin:auto;}            
+        .form{margin:auto;
+            
+        }            
 
             
             
@@ -111,14 +113,16 @@ getOrcamentosR = do
         $maybe mensa <- msg
             <div>
                 ^{mensa}
-            
-        <h1>
-            Solicite um orçamento
-            
-        <form method=post action=@{OrcamentosR}>
-            ^{widget}
-            <input type="submit" value="Cadastrar">
-              
+        
+        <div class="form">
+            >    
+            <h1>
+                Solicite um orçamento
+                
+            <form method=post action=@{OrcamentosR}>
+                ^{widget}
+                <input type="submit" value="Cadastrar">
+                  
         |]
         
 
