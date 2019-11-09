@@ -86,7 +86,9 @@ getOrcamentosR = do
         h1{color:rgb(192, 159, 75);
         }
         
-        .form{margin:auto;
+        .form{background-color:lightgrey;
+        margin-top:10%;
+        margin-left:50%;
             
         }            
 
@@ -115,7 +117,6 @@ getOrcamentosR = do
                 ^{mensa}
         
         <div class="form">
-            >    
             <h1>
                 Solicite um orçamento
                 
