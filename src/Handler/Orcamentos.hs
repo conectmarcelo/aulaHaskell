@@ -92,9 +92,7 @@ getOrcamentosR = do
         |]
         msg <- getMessage
         [whamlet|
-            
-            
-            <nav class="navbar justify-content-end fixed-top">    
+           <nav class="navbar justify-content-end fixed-top">    
                 <ul>
                     <li>
                         <a href=@{HomeR}>Smiles Festas
@@ -112,12 +110,13 @@ getOrcamentosR = do
             $maybe mensa <- msg
                 <div>
                     ^{mensa}
-                    
-                    <h1>Solicite um orçamento
-                        
-                    <form method=post action=@{OrcamentosR}>
-                        ^{widget}
-                        <input type="submit" value="Cadastrar">
+                
+            <h1>
+                Solicite um orçamento
+                
+            <form method=post action=@{OrcamentosR}>
+                ^{widget}
+                <input type="submit" value="Cadastrar">
               
         |]
         
