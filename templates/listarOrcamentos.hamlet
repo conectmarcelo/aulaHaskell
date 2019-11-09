@@ -24,4 +24,4 @@
                 <td>
                     #{orcamentosMensagem orcamentos}    
                     <form method=post action=@{ApagarOrcamentosR pid}>
-                        <input type="submit" value="Deletar">
+                    <input type="submit" value="Deletar"><tr>
