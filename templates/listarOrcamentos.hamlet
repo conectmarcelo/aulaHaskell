@@ -19,5 +19,9 @@
                     #{orcamentosNome orcamentos}
                 <td>
                     #{orcamentosEmail orcamentos}
+                <td>
+                    #{orcamentosTelefone orcamentos}
+                <td>
+                    #{orcamentosMessagem orcamentos}    
                     <form method=post action=@{ApagarOrcamentosR pid}>
                         <input type="submit" value="Deletar">
