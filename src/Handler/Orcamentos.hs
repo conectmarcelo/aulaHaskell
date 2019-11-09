@@ -119,7 +119,7 @@ getOrcamentosR = do
                 
         <form method=post action=@{OrcamentosR}>
             ^{widget}
-            <input class="btn btn-lg" type="submit" value="Cadastrar">
+            <input class="button" type="submit" value="Cadastrar">
                 
         |]
         
