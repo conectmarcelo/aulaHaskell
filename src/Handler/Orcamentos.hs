@@ -94,31 +94,31 @@ getOrcamentosR = do
         [whamlet|
             
             
-        <nav class="navbar justify-content-end fixed-top">    
-            <ul>
-                <li>
-                    <a href=@{HomeR}>Smiles Festas
-                <li>
-                    <a href=@{FotosR}>Fotos
-                <li>
-                    <a href=@{PromocoesR}>Promoções
-                <li>
-                    <a href=@{ServicosR}>Serviços
-                <li>
-                    <a href=@{DicasR}>Dicas
-                <li>
-                    <a href=@{ContatosR}>Contatos    
+            <nav class="navbar justify-content-end fixed-top">    
+                <ul>
+                    <li>
+                        <a href=@{HomeR}>Smiles Festas
+                    <li>
+                        <a href=@{FotosR}>Fotos
+                    <li>
+                        <a href=@{PromocoesR}>Promoções
+                    <li>
+                        <a href=@{ServicosR}>Serviços
+                    <li>
+                        <a href=@{DicasR}>Dicas
+                    <li>
+                        <a href=@{ContatosR}>Contatos    
    
-        $maybe mensa <- msg
-            <div>
-                ^{mensa}
-                
-                <h1>Solicite um orçamento
+            $maybe mensa <- msg
+                <div>
+                    ^{mensa}
                     
-                <form method=post action=@{OrcamentosR}>
-                    ^{widget}
-                    <input class="button" type="submit" value="Cadastrar">
-                           
+                    <h1>Solicite um orçamento
+                        
+                    <form method=post action=@{OrcamentosR}>
+                        ^{widget}
+                        <input type="submit" value="Cadastrar">
+              
         |]
         
 
