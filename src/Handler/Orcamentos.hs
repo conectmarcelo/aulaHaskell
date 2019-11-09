@@ -49,11 +49,99 @@ getOrcamentosR = do
                     ^{mensa}
             
             <h1>
-                Solicite Um orçamento
+                Solicite um orçamento
                 
             <form method=post action=@{OrcamentosR}>
                 ^{widget}
                 <input type="submit" value="Cadastrar">
+        |]
+        
+        
+         toWidgetHead [lucius|
+            
+            * {
+            margin:0px;
+            padding: 0px;
+            }
+
+            body {
+                background-image: url(@{StaticR foto_jpg});
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-attachment: fixed;
+            }
+
+            nav{
+                background-color:rgba(0,0,0, 0.9)
+               
+            }
+            
+           ul{  
+                padding: 20px;
+                text-align: end;
+            }
+
+            li {
+                list-style: none;
+                display: inline;
+                margin-left: 20px;
+            }
+
+            li a{
+                text-decoration: none;
+                color:white;
+                font-family: Helvetica;
+                font-size: 20px;
+                padding: 20px;
+                transition-duration:0.5s, 0.3s;
+                cursor: pointer;
+            }
+
+            li a:hover{
+                width: 210px;
+                background-color: grey;
+                color:white;
+                font-size: 20px;
+                padding: 25px;
+                text-decoration: none;
+            }
+            .a {
+                background:rgba(0,0,0, 0.5);
+                background-size: 100%;
+                height: 800px;
+                margin-top: -60px;
+            }
+
+            .aa {
+                padding-top: 500px;
+                padding-left: 100px;
+                height: 100px;
+                background-color: rgba(0,0,0, 0.0);
+            }
+
+            h1{
+                color: rgb(192, 159, 75);
+                font-size:  40px;}    
+                h2{color: white;
+                font-size: 30px;
+            }
+
+            p{
+                color:black;
+                font-family: Helvetica, sans-serif;
+                font-size:25px;
+                margin: 20px 200px 0px 200px;
+            }
+
+            .b {
+                background-color: silver;
+                height: 600px;
+                padding-top: 10%;
+                text-align: center;
+            }
+
+             
+            
         |]
 
 postOrcamentosR :: Handler Html
