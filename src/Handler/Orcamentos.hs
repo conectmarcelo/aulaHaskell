@@ -26,6 +26,24 @@ getOrcamentosR = do
     defaultLayout $ do 
         msg <- getMessage
         [whamlet|
+            
+            <nav class="navbar justify-content-end navbar-fixed-top">    
+              <ul>
+                <nav class="navbar justify-content-end fixed-top">    
+                    <ul>
+                        <li>
+                            <a href=@{HomeR}>Smiles Festas
+                        <li>
+                            <a href=@{FotosR}>Fotos
+                        <li>
+                            <a href=@{PromocoesR}>Promoções
+                        <li>
+                            <a href=@{ServicosR}>Serviços
+                        <li>
+                            <a href=@{DicasR}>Dicas
+                        <li>
+                            <a href=@{ContatosR}>Contatos    
+
             $maybe mensa <- msg
                 <div>
                     ^{mensa}
