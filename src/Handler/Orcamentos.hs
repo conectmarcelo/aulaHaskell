@@ -93,8 +93,7 @@ getOrcamentosR = do
         msg <- getMessage
         [whamlet|
             
-            <nav class="navbar justify-content-end navbar-fixed-top">    
-              <ul>
+            
                 <nav class="navbar justify-content-end fixed-top">    
                     <ul>
                         <li>
@@ -109,17 +108,29 @@ getOrcamentosR = do
                             <a href=@{DicasR}>Dicas
                         <li>
                             <a href=@{ContatosR}>Contatos    
-            <main class="container">
+           
                 $maybe mensa <- msg
                     <div>
                         ^{mensa}
                 
                 <h1>
                     Solicite um orçamento
-                    
-                <form method=post action=@{OrcamentosR}>
-                    ^{widget}
-                    <input type="submit" value="Cadastrar">
+                
+                <div class="row">    
+                    <div class="contato col-lg-12">
+                        <div class="col-lg">    
+                            <form method=post action=@{OrcamentosR}>
+                            ^{widget}
+                            <input type="submit" value="Cadastrar">
+                        <div class="col-lg">
+                <br>
+                <h1>Atendimento
+                <h3>Whatssapp
+                <h1>13 98882 2632
+                <br>
+                <h1>Endereço
+                <h3>Rua São Miguel dos Campos, 121
+                <h3> Catipoã - São Vicente - SP
         |]
         
         
