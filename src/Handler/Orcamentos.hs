@@ -78,7 +78,7 @@ getOrcamentosR = do
                     Text-align: center;
                     margin-top:50px;
                     }
-        button{
+        .button{
                 background-color:black;
                 color:white
         }
@@ -119,7 +119,8 @@ getOrcamentosR = do
                 
                 <form method=post action=@{OrcamentosR}>
                     ^{widget}
-                    <input type="submit" value="Cadastrar">
+                    <input class ="btn btn-lg button" a where
+                        type="submit" value="Cadastrar">
                 
         |]
         
