@@ -110,16 +110,16 @@ getOrcamentosR = do
                         <li>
                             <a href=@{ContatosR}>Contatos    
             <main class="container justify-contetnt-center">
-            $maybe mensa <- msg
-                <div>
-                    ^{mensa}
-            
-            <h1>
-                Solicite um orçamento
+                $maybe mensa <- msg
+                    <div>
+                        ^{mensa}
                 
-            <form method=post action=@{OrcamentosR}>
-                ^{widget}
-                <input type="submit" value="Cadastrar">
+                <h1>
+                    Solicite um orçamento
+                    
+                <form method=post action=@{OrcamentosR}>
+                    ^{widget}
+                    <input type="submit" value="Cadastrar">
         |]
         
         
