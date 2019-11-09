@@ -23,8 +23,6 @@
                     #{orcamentosTelefone orcamentos}
                 <td>
                     #{orcamentosMensagem orcamentos}    
-                
-                <form method=post action=@{ApagarOrcamentosR pid}>
-                
                 <td>
+                    <form method=post action=@{ApagarOrcamentosR pid}>
                     <input type="submit" value="Deletar">
