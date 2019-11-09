@@ -109,7 +109,7 @@ getOrcamentosR = do
                             <a href=@{DicasR}>Dicas
                         <li>
                             <a href=@{ContatosR}>Contatos    
-            <main class="container justify-content-center">
+            <main class="container">
                 $maybe mensa <- msg
                     <div>
                         ^{mensa}
