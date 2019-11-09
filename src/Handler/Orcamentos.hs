@@ -115,16 +115,15 @@ getOrcamentosR = do
                 
         <h1>
             Solicite um orçamento
-                
-                
-        <form method=post action=@{OrcamentosR}>
-            ^{widget}
-            <input class="button" type="submit" value="Cadastrar">
-                
+            
+            <div class="col-lg">    
+            <div class="col-lg-6">
+                <form method=post action=@{OrcamentosR}>
+                    ^{widget}
+                    <input class="button" type="submit" value="Cadastrar">
+            <div class="col-lg">            
         |]
         
-        
-         
 
 postOrcamentosR :: Handler Html
 postOrcamentosR = do 
@@ -134,7 +133,7 @@ postOrcamentosR = do
             runDB $ insert orcamentos
             setMessage [shamlet|
                 <h2>
-                    orcamento INSERIDO COM SUCESSO
+                    Mensagem enviada com sucesso!
             |]
             redirect OrcamentosR
         _ -> redirect HomeR
