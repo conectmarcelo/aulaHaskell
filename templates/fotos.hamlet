@@ -27,19 +27,19 @@
   <div class="box_img">
     <a href="#img3" class="btn" id="prev">Antes
     <a href="" class="btn" id="close"fecha
-      <img src=@(StaticR casamento_11_jpg}>
+      <img src=@{StaticR casamento_11_jpg}>
     <a href="#img2" class="btn" id="next">depois
 <div class="lbox" id="img1">
   <div class="box_img">
     <a href="#img1" class="btn" id="prev">Antes
     <a href="" class="btn" id="close"fecha
-      <img src=@(StaticR casamento_12_jpg}>
+      <img src=@{StaticR casamento_12_jpg}>
     <a href="#img2" class="btn" id="next">depois
 <div class="lbox" id="img1">
   <div class="box_img">
     <a href="#img2" class="btn" id="prev">Antes
     <a href="" class="btn" id="close"fecha
-      <img src=@(StaticR casamento_13_jpg}>
+      <img src=@{StaticR casamento_13_jpg}>
     <a href="#img1" class="btn" id="next">depois
 
 
