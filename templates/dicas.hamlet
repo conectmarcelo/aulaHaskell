@@ -12,5 +12,50 @@
             <a href=@{DicasR}>Dicas
         <li>
             <a href=@{OrcamentosR}>Contatos
-    <h1>Estamos Trabalhando para melhoria de nosso sistema...
-    <h2>Em Breve estaremos divulgando novidades...
+<h1>Estamos Trabalhando para melhoria de nosso sistema...
+<h2>Em Breve estaremos divulgando novidades...
+
+<footer class="pt-5 pb-4" id="contact">
+	<div class="container">
+		<div class="row" style="margin-top: -30px;margin-bottom: -40px;">
+			<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+				<h5 class="mb-4 font-weight-bold">SOBRE NÓS
+				
+				<ul class="f-address">
+					<li>
+						<div class="row">
+							<div class="col-1"><i class="fas fa-map-marker">
+							<div class="col-10">
+								<h6 class="font-weight-bold mb-0">Endereço:
+								<p>Avenida Ana Costa 200, Vila Mathias|Santos/SP<br>CEP 11013-020
+			<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+				<h5 class="mb-4 font-weight-bold">TWEETS RECENTES
+				<ul class="f-address">
+			
+					<li>
+						<div class="row">
+							<div class="col-1"><i class="fab fa-twitter">
+							<div class="col-10">
+								<p class="mb-0"><h6 class="font-weight-bold mb-0">@GlobalCâmbio 10 Min Atrás
+    		<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+				<h5 class="mb-4 font-weight-bold">ULTIMA ATUALIZAÇÃO
+				<ul class="recent-post">
+					<li>
+						<label class="mr-3">25<br><span>SET
+						<h6 class="font-weight-bold mb-0">Cotações atualizadas
+    		<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+				<h5 class="mb-4 font-weight-bold">CONECTE-SE CONOSCO
+				<div class="input-group">
+				  	<input type="text" class="form-control" placeholder="Seu email">
+				  	<span class="input-group-addon" id="basic-addon2"><i class="fas fa-check">
+				<ul class="social-pet mt-4">
+					<li><a href="#" title="facebook"><i class="fab fa-facebook-f">
+					<li><a href="#" title="twitter"><i class="fab fa-twitter">
+					<li><a href="#" title="google-plus"><i class="fab fa-google-plus-g">
+					<li><a href="#" title="instagram"><i class="fab fa-instagram">
+<section class="copyright">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 ">
+				<div class="text-center text-white">
+					&copy; 2019 Global Câmbio. All Rights Reserved.
