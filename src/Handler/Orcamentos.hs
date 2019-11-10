@@ -87,7 +87,7 @@ getOrcamentosR = do
         }
         
         .form{background-color:lightgrey;
-        padding:10px;       
+        padding:0px;       
         
             
         }            
@@ -119,8 +119,7 @@ getOrcamentosR = do
         
         div {
           border-radius: 5px;
-          background-color: #f2f2f2;
-          padding: 20px;
+        
         }
                     
         |]
