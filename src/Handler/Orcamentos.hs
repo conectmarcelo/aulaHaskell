@@ -147,6 +147,7 @@ getOrcamentosR = do
             <div>
                 ^{mensa}
         
+        <div class="mapa">
         <div class="form">
             <h1>
                 Solicite um orçamento
@@ -154,7 +155,7 @@ getOrcamentosR = do
             <form method=post action=@{OrcamentosR}>
                 ^{widget}
                 <input class=""btn btn-default btn-lg" type="submit" value="Cadastrar">
-            <div class="mapa">
+            
                       
         |]
         
