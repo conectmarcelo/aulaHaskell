@@ -13,27 +13,29 @@
     <li>
       <a href=@{OrcamentosR}>Contatos
 
-<div class="row">
-  <div class="galeria">
-  <div class="galeria">
-  <div class="galeria">
-  <div class="galeria">
-<div class="row">
-  <div class="galeria">
-  <div class="galeria">
-  <div class="galeria">
-  <div class="galeria">
-<div class="row">
-  <div class="galeria">
-  <div class="galeria">
-  <div class="galeria">
-  <div class="galeria">
-<div class="row">
-  <div class="galeria">
-  <div class="galeria">
-  <div class="galeria">
-  <div class="galeria">
-    
+<main class="container">
+  <div class="row">
+    <div class="galeria">
+      <img src=@{StaticR casamento_11_jpg}
+    <div class="galeria">
+    <div class="galeria">
+    <div class="galeria">
+  <div class="row">
+    <div class="galeria">
+    <div class="galeria">
+    <div class="galeria">
+    <div class="galeria">
+  <div class="row">
+    <div class="galeria">
+    <div class="galeria">
+    <div class="galeria">
+    <div class="galeria">
+  <div class="row">
+    <div class="galeria">
+    <div class="galeria">
+    <div class="galeria">
+    <div class="galeria">
+<br>    
 <footer>
   <div class="row justify-content-center">
     <div class="col-12">
