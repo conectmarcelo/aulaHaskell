@@ -169,11 +169,13 @@ getHomeR = do
                 padding-top: 10%;
                 text-align: center;
             }
-
+            
             footer{background-color:black;
             
             }
 
+            img {width:30px; height:30px;}
+            
             
         |]
         [whamlet|
