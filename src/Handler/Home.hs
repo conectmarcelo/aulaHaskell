@@ -174,7 +174,7 @@ getHomeR = do
             text-align:center;
             padding:20px;}
 
-            img {width:30px; height:30px;}
+            img {width:50px; height:50px;}
             
             
         |]
