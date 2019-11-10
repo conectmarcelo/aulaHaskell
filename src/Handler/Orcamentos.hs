@@ -121,6 +121,8 @@ getOrcamentosR = do
           border-radius: 5px;
         
         }
+        
+        .form {padding:100px;}
                     
         |]
         msg <- getMessage
