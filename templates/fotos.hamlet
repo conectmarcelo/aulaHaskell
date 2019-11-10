@@ -16,11 +16,11 @@
 <main class="modelos">
   <ul>
     <li>
-      <a href="#img1"><img src="imagens/01.jpeg" class="min">
+      <a href="#img1"><img src=@{Static casamento_11_jpg} class="min">
     <li>
-      <a href="#img2"><img src="imagens/02.jpeg" class="min">
+      <a href="#img2"><img src=@{Static casamento_12_jpg} class="min">
     <li>
-      <a href="#img3"><img src="imagens/03.jpeg" class="min">
+      <a href="#img3"><img src=@{Static casamento_13_jpg} class="min">
 
 
 <div class="lbox" id="img1">
