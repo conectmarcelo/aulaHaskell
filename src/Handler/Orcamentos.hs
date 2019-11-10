@@ -115,7 +115,7 @@ getOrcamentosR = do
         }
         
         input[type=submit]:hover {
-          background-color: #45a049;
+          background-color: grey;
         }
         
         div {
@@ -126,6 +126,11 @@ getOrcamentosR = do
         .form {padding:100px 200px 50px 200px;
                 margin:50px;
         }
+        
+        footer{background-color:black;
+            text-align:center;
+            padding:20px;}
+        img {width:50px; height:50px;}
                     
         |]
         msg <- getMessage
@@ -166,6 +171,20 @@ getOrcamentosR = do
             <h1>Endereço
             <h3>Rua São Miguel dos Campos, 121
             <h3> Catipoã - São Vicente - SP    
+        
+        <footer>
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <div class="footer">
+                    <h1>Smiles Festas
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="footer">
+                        <ul>
+                            <l1>
+                                <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
+                            <l1>
+                                <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
                       
         |]
         
