@@ -33,18 +33,15 @@ li a:hover{
     text-decoration: none;
 }
 
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
-  }
-  
+
 .carrosel{width:800px; height:600px;}
+
+
  
  .galeria{background-color:blue;
- width:200px;
+ width:250px;
  height:200px;
  margin:auto;
- margin-top:10px;}
+ margin-top:15px;}
 
  
