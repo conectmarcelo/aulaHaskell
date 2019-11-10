@@ -171,7 +171,7 @@ getHomeR = do
             }
             
             footer{background-color:black;
-            
+            text-align:center;
             }
 
             img {width:30px; height:30px;}
@@ -207,11 +207,11 @@ getHomeR = do
             <footer>
                 <div class="row">
                     <div class="col-12">
-                        <div class="justify-content-center">
+                        <div class="footer">
                             <h1>Smiles Festas
                     <div class="row">
                         <div class="col-12">
-                            <div class="justify-content-center">
+                            <div class="footer">
                                 <ul class="footer-social">
                                     <l1>
                                         <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
