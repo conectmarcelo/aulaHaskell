@@ -12,9 +12,24 @@
             <a href=@{DicasR}>Dicas
         <li>
             <a href=@{OrcamentosR}>Contatos
-    <h1>Estamos Trabalhando para melhoria de nosso sistema...
-    <h2>Em Breve estaremos divulgando novidades...
 
+<main class="container">
+  <div class="carrosel">
+    <div class="col-lg-8">  
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR promo_promo2_png} alt="g">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR promo_promo3_png} alt="h">
+        <div class="carousel-item">
+          <img class=" img d-block w-100" src=@{StaticR casamento_34_jpg} alt="i">
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true">
+        <span class="sr-only">Anterior
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true">
+        <span class="sr-only">Próximo    
 <footer>
     <div class="row justify-content-center">
       <div class="col-12">
