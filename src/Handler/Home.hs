@@ -207,11 +207,15 @@ getHomeR = do
             <footer>
                 <div class="row">
                     <div class="col-12">
-                        <h1>Smiles Festas
-                        <ul class="footer-social">
-                            <l1>
-                                <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
-                            <l1>
-                                <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
-                                
+                        <div class="justify-content-center">
+                            <h1>Smiles Festas
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="justify-content-center">
+                                <ul class="footer-social">
+                                    <l1>
+                                        <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
+                                    <l1>
+                                        <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
+                                        
         |]
