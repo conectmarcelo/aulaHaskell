@@ -16,10 +16,13 @@
 <main class="container">
   <div class="row">
     <div class="galeria">
-      <img src=@{StaticR casamento_11_jpg}>
+      <img class="foto" src=@{StaticR casamento_11_jpg}>
     <div class="galeria">
+      <img class="foto" src=@{StaticR casamento_12_jpg}>
     <div class="galeria">
+      <img class="foto" src=@{StaticR casamento_13_jpg}>
     <div class="galeria">
+      <img class="foto" src=@{StaticR casamento_14_jpg}>
   <div class="row">
     <div class="galeria">
     <div class="galeria">
