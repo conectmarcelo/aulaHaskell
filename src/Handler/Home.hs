@@ -225,15 +225,14 @@ getHomeR = do
             <footer>
                 <div class="row">
                     <div class="col-12">
-                        <div class="logo">
                         <h1>Smiles Festas
                         <ul class="footer-social">
                             <l1>
-                                <a href="www.facebook.com/espacosmiles" target="_blank">
+                                <a href=@{www.facebook.com/espacosmiles}>
                                 <i class="im im-facebook" area-hidden="true">
                                 <span>Facebook
                             <l1>
-                                <a href="www.facebook.com/espacosmiles" target="_blank">
+                                <a href="www.facebook.com/espacosmiles" >
                                 <i class="im im-whatsapp" area-hidden="true">
                                 <span>Whatsapp
                
