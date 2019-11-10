@@ -41,6 +41,9 @@ li a:hover{
   
  .img{width:300px; height:250;}
  
- .galeria{background-color:blue;}
+ .galeria{background-color:blue;
+ width:200px;
+ height:200px;
+ margin:10px;}
 
  
