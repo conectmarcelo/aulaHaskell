@@ -92,7 +92,7 @@ getOrcamentosR = do
             
         }            
         
-        #hident2{background-color:green;}
+       input{background-color:green;}
             
             
         |]
