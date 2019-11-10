@@ -173,19 +173,15 @@ getOrcamentosR = do
             <h3> Catipoã - São Vicente - SP    
         
         <footer>
-        <div class="row justify-content-center">
-            <div class="col-12">
-                <div class="footer">
-                    <h1>Smiles Festas
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <div class="footer">
-                        <ul>
-                            <l1>
-                                <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
-                            <l1>
-                                <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
-                      
+            <div class="footer">
+                <h1>Smiles Festas
+            <div class="footer">
+                <ul>
+                    <l1>
+                        <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
+                    <l1>
+                        <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
+              
         |]
         
 
