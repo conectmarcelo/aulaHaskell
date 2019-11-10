@@ -7,5 +7,5 @@ Orcamentos
     nome  Text 
     email Text
     telefone Text
-    mensagem Textarea
+    mensagem Text
     deriving Show

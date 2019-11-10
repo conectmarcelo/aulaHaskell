@@ -188,7 +188,7 @@ getHomeR = do
                   <li>
                       <a href=@{DicasR}>Dicas
                   <li>
-                      <a href=@{ContatosR}>Contatos
+                      <a href=@{OrcamentosR}>Contatos
             <div class="a">
                 <div class="aa">
                     <h1>SMILES FESTAS

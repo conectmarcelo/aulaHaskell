@@ -11,7 +11,7 @@
     <li>
       <a href=@{DicasR}>Dicas
     <li>
-      <a href=@{ContatosR}>Contatos
+      <a href=@{OrcamentosR}>Contatos
 
 <main class="container">
     <div class="col-lg-8">  
