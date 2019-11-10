@@ -105,7 +105,7 @@ getOrcamentosR = do
         
         input[type=submit] {
           width: 100%;
-          background-color: #4CAF50;
+          background-color: black;
           color: white;
           padding: 14px 20px;
           margin: 8px 0;
