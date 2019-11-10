@@ -31,7 +31,6 @@
 			<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
 				<h5 class="mb-4 font-weight-bold">TWEETS RECENTES
 				<ul class="f-address">
-			
 					<li>
 						<div class="row">
 							<div class="col-1"><i class="fab fa-twitter">
@@ -53,9 +52,4 @@
 					<li><a href="#" title="twitter"><i class="fab fa-twitter">
 					<li><a href="#" title="google-plus"><i class="fab fa-google-plus-g">
 					<li><a href="#" title="instagram"><i class="fab fa-instagram">
-<section class="copyright">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 ">
-				<div class="text-center text-white">
-					&copy; 2019 Global Câmbio. All Rights Reserved.
+
