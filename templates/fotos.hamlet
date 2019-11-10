@@ -25,19 +25,23 @@
       <img class="foto" src=@{StaticR casamento_14_jpg}>
   <div class="row">
     <div class="galeria">
+      <img class="foto" src=@{StaticR casamento_15_jpg}>
     <div class="galeria">
+      <img class="foto" src=@{StaticR casamento_16_jpg}>
     <div class="galeria">
+      <img class="foto" src=@{StaticR casamento_32_jpg}>
     <div class="galeria">
+      <img class="foto" src=@{StaticR casamento_33_jpg}>
   <div class="row">
     <div class="galeria">
+      <img class="foto" src=@{StaticR casamento_34_jpg}>
     <div class="galeria">
+      <img class="foto" src=@{StaticR casamento_35_jpg}>
     <div class="galeria">
+      <img class="foto" src=@{StaticR casamento_36_jpg}>
     <div class="galeria">
-  <div class="row">
-    <div class="galeria">
-    <div class="galeria">
-    <div class="galeria">
-    <div class="galeria">
+      <img class="foto" src=@{StaticR casamento_37_jpg}>
+ 
 <br>    
 <footer>
   <div class="row justify-content-center">
