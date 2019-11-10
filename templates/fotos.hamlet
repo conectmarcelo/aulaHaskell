@@ -16,7 +16,7 @@
 <main class="container">
   <div class="row">
     <div class="galeria">
-      <img src=@{StaticR casamento_11_jpg}
+      <img src=@{StaticR casamento_11_jpg}>
     <div class="galeria">
     <div class="galeria">
     <div class="galeria">
