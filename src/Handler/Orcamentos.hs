@@ -69,7 +69,7 @@ getOrcamentosR = do
             background-image: url(@{StaticR mapa_jpg});
             background-repeat: no-repeat;
             background-size: 100%;
-            height:400px
+            height:400px;
             margin:50px;
             
         }
