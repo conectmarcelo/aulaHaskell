@@ -13,19 +13,6 @@
     <li>
       <a href=@{OrcamentosR}>Contatos
 
-<main class="modelos">
-  <ul>
-    <li>
-      <a href="#img1"><img src=@{Static casamento_11_jpg} class="min">
-    <li>
-      <a href="#img2"><img src=@{Static casamento_12_jpg} class="min">
-    <li>
-      <a href="#img3"><img src=@{Static casamento_13_jpg} class="min">
-
-
-
-
-
   <div class="row">
     <div class="galeria">
     <div class="galeria">
