@@ -172,7 +172,7 @@ getHomeR = do
             
             footer{background-color:black;
             text-align:center;
-            }
+            padding:20px;}
 
             img {width:30px; height:30px;}
             
