@@ -122,7 +122,7 @@ getOrcamentosR = do
         
         }
         
-        .form {padding:100px;}
+        .form {padding:100px 200px 50px 200px;}
                     
         |]
         msg <- getMessage
