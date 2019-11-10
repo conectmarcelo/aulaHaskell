@@ -70,8 +70,9 @@ getOrcamentosR = do
             background-repeat: no-repeat;
             background-size: 100%;
             height:400px;
-            margin-top:5%;
-            }
+            padding:100px 200px 50px 200px;
+            
+        }
          
          .contato {
                     background-color:lightgrey;
@@ -153,7 +154,9 @@ getOrcamentosR = do
             <form method=post action=@{OrcamentosR}>
                 ^{widget}
                 <input class=""btn btn-default btn-lg" type="submit" value="Cadastrar">
-                  
+        
+        <div class="mapa">
+                      
         |]
         
 
