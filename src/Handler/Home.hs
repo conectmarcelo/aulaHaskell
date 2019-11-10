@@ -222,18 +222,19 @@ getHomeR = do
                 <h1>SMILES FESTAS
                 <p>A empresa Smiles é um grupo dedicado a auxiliar no planejamento, execução e finalização de eventos
                 <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
-        <div class="row">
-            <div class="coll-full">
-                <div class="logo">
-                <h1>Smiles Festas
-            <ul class="footer-social">
-                <l1>
-                    <a href="www.facebook.com/espacosmiles" target="_blank">
-                        <i class="im im-facebook" area-hidden="true">
-                        <span>Facebook
-                <l1>
-                    <a href="www.facebook.com/espacosmiles" target="_blank">
-                        <i class="im im-whatsapp" area-hidden="true">
-                        <span>Whatsapp
-           
+        <footer>
+            <div class="row">
+                <div class="coll-full">
+                    <div class="logo">
+                    <h1>Smiles Festas
+                <ul class="footer-social">
+                    <l1>
+                        <a href="www.facebook.com/espacosmiles" target="_blank">
+                            <i class="im im-facebook" area-hidden="true">
+                            <span>Facebook
+                    <l1>
+                        <a href="www.facebook.com/espacosmiles" target="_blank">
+                            <i class="im im-whatsapp" area-hidden="true">
+                            <span>Whatsapp
+               
         |]
