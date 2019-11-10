@@ -208,8 +208,8 @@ getHomeR = do
                         <h1>Smiles Festas
                         <ul class="footer-social">
                             <l1>
-                                <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_jpg} alt="facebook">
+                                <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
                             <l1>
-                                <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_jpg} alt="whatsapp">
+                                <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
                                 
         |]
