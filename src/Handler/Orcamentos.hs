@@ -123,7 +123,9 @@ getOrcamentosR = do
         
         }
         
-        .form {padding:100px 200px 50px 200px;}
+        .form {padding:100px 200px 50px 200px;
+                margin:50px;
+        }
                     
         |]
         msg <- getMessage
@@ -151,11 +153,19 @@ getOrcamentosR = do
         <div class="form">
             <h1>
                 Solicite um orçamento
+            <br>
                 
             <form method=post action=@{OrcamentosR}>
                 ^{widget}
                 <input class=""btn btn-default btn-lg" type="submit" value="Cadastrar">
-            
+            <br>
+            <h1>Atendimento
+            <h3>Whatssapp
+            <h1>13 98882 2632
+            <br>
+            <h1>Endereço
+            <h3>Rua São Miguel dos Campos, 121
+            <h3> Catipoã - São Vicente - SP    
                       
         |]
         
