@@ -88,8 +88,11 @@ getOrcamentosR = do
         
         .form{background-color:lightgrey;
         padding:10px;       
+        
+            
         }            
-
+        
+        #hident2{background-color:green;}
             
             
         |]
