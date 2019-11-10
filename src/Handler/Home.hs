@@ -170,7 +170,7 @@ getHomeR = do
                 text-align: center;
             }
             
-            .footer{background-color:black;
+            footer{background-color:black;
             text-align:center;
             }
 
@@ -205,11 +205,11 @@ getHomeR = do
                 <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
             
             <footer>
-                <div class="row">
+                <div class="row justify-content-center">
                     <div class="col-12">
                         <div class="footer">
                             <h1>Smiles Festas
-                    <div class="row">
+                    <div class="row justify-content-center">
                         <div class="col-12">
                             <div class="footer">
                                 <ul>
