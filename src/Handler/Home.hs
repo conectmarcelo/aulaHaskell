@@ -170,31 +170,10 @@ getHomeR = do
                 text-align: center;
             }
 
-            footer {
-            font-family: "montserrat-regular", sans-serif;
-            font-size: 14px;
-            padding: 4rem 0 1rem;
-            text-align: center;
-            color: rgba(255, 255, 255, 0.6);
+            footer{background-color:black;
+            
             }
 
-
-            .footer-social li a {
-            color: #FFFFFF;
-            }
-            
-            .footer-social li i {
-            font-size: 1.7rem;
-            line-height: 3rem;
-            vertical-align: middle;}
-            
-            .im {
-            display: inline-block;
-            font: normal normal normal 24px/1 'iconmonstr-iconic-font';
-            text-rendering: auto;
-            -webkit-font-smoothing: antialiased;
-            }
-            
             
         |]
         [whamlet|
@@ -222,18 +201,15 @@ getHomeR = do
                 <h1>SMILES FESTAS
                 <p>A empresa Smiles é um grupo dedicado a auxiliar no planejamento, execução e finalização de eventos
                 <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
+            
             <footer>
                 <div class="row">
                     <div class="col-12">
                         <h1>Smiles Festas
                         <ul class="footer-social">
                             <l1>
-                                <a href=@{www.facebook.com/espacosmiles}>
-                                <i class="im im-facebook" area-hidden="true">
-                                <span>Facebook
+                                <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_jpg} alt="facebook">
                             <l1>
-                                <a href="www.facebook.com/espacosmiles" >
-                                <i class="im im-whatsapp" area-hidden="true">
-                                <span>Whatsapp
-               
+                                <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_jpg} alt="whatsapp">
+                                
         |]
