@@ -10,12 +10,6 @@
             <a href=@{ServicosR}>Serviços
         <li>
             <a href=@{DicasR}>Dicas
-        <div class="dropdown">
-          <button class="dropbtn">Dropdown
-          <div class="dropdown-content">
-          <a href="#">
-          <a href="#">
-          <a href="#">
         <li>
           <a href=@{OrcamentosR}>Contatos
 

@@ -1,45 +1,34 @@
-<nav class="navbar justify-content-end navbar-fixed-top">    
-  <ul>
-      <nav class="navbar justify-content-end fixed-top">    
-              <ul>
-                  <li>
-                      <a href=@{HomeR}>Smiles Festas
-                  <li>
-                      <a href=@{FotosR}>Fotos
-                  <li>
-                      <a href=@{PromocoesR}>Promoções
-                  <li>
-                      <a href=@{ServicosR}>Serviços
-                  <li>
-                      <a href=@{DicasR}>Dicas
-                  <li>
-                      <a href=@{ContatosR}>Contatos
-
-<main class="container">
-    <div class="row">
-        <div class="mapa col-lg-12">
-        
-    <div class="row">    
-        <div class="contato col-lg-12">
-            <div class="col-lg">
-                <h1>Solicite um Orçamento
-                <form class="form-horizontal">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="nome" placeholder="Nome">
-                <div class="form-group">
-                    <input type="email" class="form-control" id="email" placeholder="Email">
-                <div class="form-group">
-                    <input type="text" class="form-control" id="telefone" placeholder="Telefone">
-                <div class="form-group">
-                    <textarea class="form-control" rows="3" id="mensagem" placeholder="Mensagem">
-                <div class="form-group">
-                    <button type="button" class="btn btn-lg" onclick="ola()">Solicitar Orçamento
-            <div class="col-lg">
-                <br>
-                <h1>Atendimento
-                <h3>Whatssapp
-                <h1>13 98882 2632
-                <br>
-                <h1>Endereço
-                <h3>Rua São Miguel dos Campos, 121
-                <h3> Catipoã - São Vicente - SP
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Smiles Festas
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Fotos
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href=@{FotosR}>Casamentos
+          <a class="dropdown-item" href="#">Festa Infantil
+      
+      
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#">Promoçoes
+      
+      <li class="nav-item">
+        <a class="nav-link" href="#">Serviços
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Blogs
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href=@{DicasR}>Dicas Festa Infantil
+          <a class="dropdown-item" href="#">Casamentos
+      
+      <li class="nav-item">
+        <a class="nav-link" href=@{OrcamentosR}>Contatos
+      
