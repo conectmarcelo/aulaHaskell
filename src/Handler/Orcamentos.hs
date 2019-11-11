@@ -69,8 +69,7 @@ getOrcamentosR = do
             background-image: url(@{StaticR mapa_jpg});
             background-repeat: no-repeat;
             background-size: 100%;
-            height:400px;
-            margin:50px;
+            
             
         }
          
@@ -157,7 +156,6 @@ getOrcamentosR = do
             <div>
                 ^{mensa}
         
-        <div class="mapa">
         <div class="form">
             <h1>
                 Solicite um orçamento
@@ -167,14 +165,17 @@ getOrcamentosR = do
                 ^{widget}
                 <input class=""btn btn-default btn-lg" type="submit" value="Cadastrar">
             <br>
-            <h1>Atendimento
-            <h3>Whatssapp
-            <h1>13 98882 2632
-            <br>
-            <h1>Endereço
-            <h3>Rua São Miguel dos Campos, 121
-            <h3> Catipoã - São Vicente - SP    
-        
+            <div class="row"
+                <div class="col-lg"
+                    <h1>Atendimento
+                    <h3>Whatssapp
+                    <h1>13 98882 2632
+                    <br>
+                    <h1>Endereço
+                    <h3>Rua São Miguel dos Campos, 121
+                    <h3> Catipoã - São Vicente - SP    
+                <div class="col-lg"
+                    <div class="mapa">            
         <footer>
             <div class="footer">
                 <h1>Smiles Festas
