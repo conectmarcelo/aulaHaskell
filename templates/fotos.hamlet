@@ -59,7 +59,7 @@
 
 <ul class="listaFotos">
   <li class="lista">
-    <a href="#img11"><img src=@{StaticR casamento_11_jpg} class="min">
+    <a href=@{#img11}><img src=@{StaticR casamento_11_jpg} class="min">
   <li class="lista">
     <a href="#img12"><img src=@{StaticR casamento_12_jpg} class="min">
   <li class="lista">
