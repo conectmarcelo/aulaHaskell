@@ -38,8 +38,8 @@ h1{color:rgb(192, 159, 75);
 }
 
 main{margin-top:100px;
-    background-color:rgba(255,255,255,0.1);
-            }
+    background:rgba(255,255,255, 0.5);
+    }
 
 margin-top:100px;}
 
