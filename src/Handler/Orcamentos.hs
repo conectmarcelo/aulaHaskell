@@ -166,7 +166,7 @@ getOrcamentosR = do
                 <input class=""btn btn-default btn-lg" type="submit" value="Cadastrar">
             <br>
             <div>
-                <div class="col-lg"
+                <div class="col-lg">
                     <h1>Atendimento
                     <h3>Whatssapp
                     <h1>13 98882 2632
@@ -174,7 +174,7 @@ getOrcamentosR = do
                     <h1>Endereço
                     <h3>Rua São Miguel dos Campos, 121
                     <h3> Catipoã - São Vicente - SP    
-                <div class="col-lg"
+                <div class="col-lg">
                     <div class="mapa">            
         <footer>
             <div class="footer">
