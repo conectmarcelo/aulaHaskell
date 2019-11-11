@@ -17,6 +17,10 @@
   <div class="row">
     <div class="galeria">
       <img class="foto" src=@{StaticR loucas_60_jpg}>
+      <div class="card-body">
+        <h5 class="card-title">Equipe</h5>
+        <p class="card-text">Equipe de profissionais qualificados
+        <a href=@{Contatos} class="btn btn-primary">Contate-nos...
     <div class="galeria">
       <img class="foto" src=@{StaticR loucas_73_jpg}>
     <div class="galeria">
