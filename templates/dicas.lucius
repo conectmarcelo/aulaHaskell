@@ -34,19 +34,16 @@ li a:hover{
 }
 
 
-h1{color:yellow);
+h1{color:blue;)
 }
 
 
-margin-top:100px;}
-
-
 body{
-background-image: url(@{StaticR blog_jpg});
-background-repeat: no-repeat;
-background-size: 100%;
-background-attachment: fixed;
-opacity:0.5;}
+    background-image: url(@{StaticR foto_jpg});
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
 
 main{margin-top:100px;
     padding:20px;}
