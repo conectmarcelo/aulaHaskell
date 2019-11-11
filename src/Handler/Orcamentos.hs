@@ -131,6 +131,9 @@ getOrcamentosR = do
             text-align:center;
             padding:20px;}
         img {width:50px; height:50px;}
+        
+        .rodape{text-align:center}
+        
                     
         |]
         msg <- getMessage
@@ -146,7 +149,7 @@ getOrcamentosR = do
                 <li>
                     <a href=@{ServicosR}>Serviços
                 <li>
-                    <a href=@{DicasR}>Dicas
+                    <a href=@{DicasR}>Blog
                 <li>
                     <a href=@{ContatosR}>Contatos    
    
@@ -176,7 +179,7 @@ getOrcamentosR = do
             <div class="footer">
                 <h1>Smiles Festas
             <div class="footer">
-                <ul>
+                <ul class="rodape">
                     <l1>
                         <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
                     <l1>

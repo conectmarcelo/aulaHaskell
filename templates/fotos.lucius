@@ -24,6 +24,8 @@ li a{
     cursor: pointer;
 }
 
+h1{color:rgb(192, 159, 75);}
+
 main{margin-top:100px;}
 
 footer{background-color:black;
