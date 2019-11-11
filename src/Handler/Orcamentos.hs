@@ -69,8 +69,7 @@ getOrcamentosR = do
             background-image: url(@{StaticR mapa_jpg});
             background-repeat: no-repeat;
             background-size: 100%;
-            width:200px;
-            height:200px;
+            
             
             
         }
@@ -168,15 +167,15 @@ getOrcamentosR = do
                 <input class=""btn btn-default btn-lg" type="submit" value="Cadastrar">
             <br>
             <div>
-                <div class="col-lg">
+                <div class="col-lg-6">
                     <h1>Atendimento
                     <h3>Whatssapp
                     <h1>13 98882 2632
-                    <br>
+                <div class="col-lg-6">
                     <h1>Endereço
                     <h3>Rua São Miguel dos Campos, 121
                     <h3> Catipoã - São Vicente - SP    
-                <div class="col-lg">
+                <div class="col-lg-12">
                     <div class="mapa">            
         <footer>
             <div class="footer">
