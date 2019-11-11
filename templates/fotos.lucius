@@ -51,5 +51,16 @@ li a:hover{
  height:200px;
  margin:auto;
  margin-top:15px;}
+ 
+.listaFotos{width:870px;
+	list-style: none;
+	display:flex;
+	margin:150px 100px 100px 100px;
+	overflow-x: scroll;
+	}
+
+.min{width:200px;
+	padding:10px;
+	}
 
  

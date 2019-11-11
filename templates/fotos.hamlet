@@ -55,4 +55,8 @@
             <l1>
               <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
             <l1>
-              <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">  
+              <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
+
+<ul class="listaFotos">
+
+<li><a href="#img1"><img src=@{StaticR casamento_11_jpg} class="min">
