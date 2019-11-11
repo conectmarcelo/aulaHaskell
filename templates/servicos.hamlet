@@ -59,10 +59,10 @@
         <p class="card-text">Mais sabor e diversão para sua festa
         <a href=@{OrcamentosR} class="btn btn-primary">Contate-nos...
     <div class="galeria">
-    <div class="card-body">
       <img class="foto" src=@{StaticR pista_402_jpg}>
+      <div class="card-body">
         <h5 class="card-title">Dj
-        <p class="card-text">Diversão garantida para todas as idades
+        <p class="card-text">Musica e diversão garantida para todas as idades
         <a href=@{OrcamentosR} class="btn btn-primary">Contate-nos...
 <footer>
     <div class="row justify-content-center">
