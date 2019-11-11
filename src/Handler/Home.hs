@@ -164,7 +164,7 @@ getHomeR = do
             }
 
             .b {
-                background-color: silver;
+                background-color:#e9e9e9;
                 height: 600px;
                 padding-top: 10%;
                 text-align: center;

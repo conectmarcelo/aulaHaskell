@@ -87,7 +87,7 @@ getOrcamentosR = do
         h1{color:rgb(192, 159, 75);
         }
         
-        .form{background-color:lightgrey;
+        .form{background-color:#e9e9e9;
         padding:0px;       
         
             
