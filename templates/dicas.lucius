@@ -51,7 +51,7 @@ background-image: url(@{StaticR blog_jpg});
 background-repeat: no-repeat;
 background-size: 100%;
 background-attachment: fixed;
-}
+0pacity:0.5;}
 
 
 footer{background-color:black;
