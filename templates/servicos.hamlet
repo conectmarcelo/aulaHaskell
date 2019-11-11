@@ -18,24 +18,50 @@
     <div class="galeria">
       <img class="foto" src=@{StaticR loucas_60_jpg}>
       <div class="card-body">
-        <h5 class="card-title">Equipe</h5>
+        <h5 class="card-title">Equipe
         <p class="card-text">Equipe de profissionais qualificados
         <a href=@{OrcamentosR} class="btn btn-primary">Contate-nos...
     <div class="galeria">
       <img class="foto" src=@{StaticR loucas_73_jpg}>
+      <div class="card-body">
+        <h5 class="card-title">Louças
+        <p class="card-text">Locação de pratos, copos, talheres...
+        <a href=@{OrcamentosR} class="btn btn-primary">Contate-nos...
     <div class="galeria">
       <img class="foto" src=@{StaticR doces_54_jpg}>
+      <div class="card-body">
+        <h5 class="card-title">Doces Finos</h5>
+        <p class="card-text">Os mais lindos e deliciosos doces para seu evento
+        <a href=@{OrcamentosR} class="btn btn-primary">Contate-nos...
     <div class="galeria">
       <img class="foto" src=@{StaticR casamento_13_jpg}>
+      <div class="card-body">
+        <h5 class="card-title">Decoraçoes Casamentos
+        <p class="card-text">Lindas decorações para cerimoniais e casamentos
+        <a href=@{OrcamentosR} class="btn btn-primary">Contate-nos...
   <div class="row">
     <div class="galeria">
       <img class="foto" src=@{StaticR infantil_20_jpg}>
+      <div class="card-body">
+        <h5 class="card-title">Decorações Infantis
+        <p class="card-text">Diversos temas, confira...
+        <a href=@{OrcamentosR} class="btn btn-primary">Contate-nos...
     <div class="galeria">
       <img class="foto" src=@{StaticR brinquedos_49_jpg}>
+      <div class="card-body">
+        <h5 class="card-title">Brinquedo Infantis
+        <p class="card-text">Diversão garantida para a garotada
+        <a href=@{OrcamentosR} class="btn btn-primary">Contate-nos...
     <div class="galeria">
       <img class="foto" src=@{StaticR brinquedos_46_jpg}>
+      <h5 class="card-title">Barraquinhas
+        <p class="card-text">Mais sabor e diversão para sua festa
+        <a href=@{OrcamentosR} class="btn btn-primary">Contate-nos...
     <div class="galeria">
       <img class="foto" src=@{StaticR pista_402_jpg}>
+      <h5 class="card-title">Dj
+        <p class="card-text">Diversão garantida para todas as idades
+        <a href=@{OrcamentosR} class="btn btn-primary">Contate-nos...
 <footer>
     <div class="row justify-content-center">
       <div class="col-12">
