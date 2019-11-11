@@ -28,7 +28,7 @@ li a{
 footer{background-color:black;
             text-align:center;
             padding:20px;}
-img {width:50px; height:50px;}
+
 li a:hover{
     width: 210px;
     background-color: grey;
@@ -36,26 +36,25 @@ li a:hover{
     font-size: 20px;
     padding: 25px;
     text-decoration: none;
-}
 
-.mapa {
-    background-image: url(@{StaticR mapa_jpg});
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height:400px;
-    margin-top:10%;
-    }
- 
- .contato {
-            background-color:lightgrey;
-            height: 600px;
-            text-align: center;
-            margin-top:50px;
-            }
-button{
-        background-color:black;
-        color:white
-}
 
 h1{color:rgb(192, 159, 75);
-}
+
+main{margin-top:100px;}
+
+footer{background-color:black;
+            text-align:center;
+            padding:20px;}
+
+img {width:50px; height:50px;}
+
+.foto{width:250px; height:200px;}
+
+
+
+ .galeria{background-color:blue;
+ width:250px;
+ height:200px;
+ margin:auto;
+ margin-top:15px;}
+
