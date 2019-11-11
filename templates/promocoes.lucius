@@ -51,8 +51,8 @@ main{margin-top:100px;
 
 
  .galeria{background-color:blue;
- width:250px;
- height:200px;
+ width:500px;
+ height:500px;
  margin:auto;
- margin-top:15px;}
+ margin-top:30px;}
  
