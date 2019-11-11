@@ -39,6 +39,14 @@ h1{color:rgb(192, 159, 75);
 
 main{margin-top:100px;}
 
+body {background-image: url(@{StaticR blog_jpg});
+      background-repeat: no-repeat;
+      background-size: 100%;
+      background-attachment: fixed;
+            }
+
+
+
 footer{background-color:black;
             text-align:center;
             padding:20px;}
