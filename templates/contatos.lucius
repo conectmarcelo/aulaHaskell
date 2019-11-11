@@ -73,7 +73,7 @@ opacity:0;
 			visibility:visible;
 			width:1100px;
 			height:660px;
-			background: rgba(10, 10, 10,.7);
+			background: rgba(0, 0, 0,.7);
 			position:absolute;
 			left:50%
 			margin: auto;
@@ -82,7 +82,8 @@ opacity:0;
 
 .box_img{width:800px;
 		margin:auto;
-		margin-top:10%;}
+		margin-top:30px;
+		margin-botton:30px;}
 
 .btn{color:#fff;
 font-family:'Arial';
@@ -96,16 +97,16 @@ text-align:center
 
 #prev{left:1%;
 top:45%;
-color:rgba(105, 208, 46);	}
+color:white	}
 
 #next{right:1%;
 top:45%;
-color:rgba(105, 208, 46);}
+color:white;}
 
 #close{top:0;
 right:1%;
 z-index: 3;
-color:rgba(105, 208, 46);}
+color:white;}
 
 .box_img img{opacity:0;}
 
