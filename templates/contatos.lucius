@@ -73,17 +73,16 @@ opacity:0;
 			visibility:visible;
 			width:1100px;
 			height:660px;
-			top:0;
-			left:0;
 			background: rgba(10, 10, 10,.7);
 			position:absolute;
 			left:50%
-			margin-left:-350px;
+			margin: auto;
+			margin-top:10%;
 			}
 
-.box_img{width:600px;
-		margin-left: 320px ;
-		margin-top:20px;}
+.box_img{width:800px;
+		margin:auto;
+		margin-top:10%;}
 
 .btn{color:#fff;
 font-family:'Arial';
