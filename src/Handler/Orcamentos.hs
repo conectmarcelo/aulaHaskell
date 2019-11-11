@@ -165,7 +165,7 @@ getOrcamentosR = do
                 ^{widget}
                 <input class=""btn btn-default btn-lg" type="submit" value="Cadastrar">
             <br>
-            <div class="row"
+            <div>
                 <div class="col-lg"
                     <h1>Atendimento
                     <h3>Whatssapp
