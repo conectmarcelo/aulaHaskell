@@ -40,13 +40,18 @@ h1{color:rgb(192, 159, 75);
 
 margin-top:100px;}
 
-body {  background-image: url(@{StaticR blog_jpg});
-        background-repeat: no-repeat;
-        background-size: 100%;
-        background-attachment: fixed;
+body {background-image: url(@{StaticR blog_jpg});
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;
 }
 
-main{margin-top:100px;}
+main{margin-top:100px;
+background-image: url(@{StaticR blog_jpg});
+background-repeat: no-repeat;
+background-size: 100%;
+background-attachment: fixed;
+}
 
 
 footer{background-color:black;
