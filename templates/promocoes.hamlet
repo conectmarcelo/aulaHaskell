@@ -15,9 +15,9 @@
 <main class="container">
   <div class="row">
     <div class="galeria">
-      <img class="foto" src=@{StaticR promo_promo2_jpg}>
+      <img class="foto" src=@{StaticR promo_promo2_png}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR promo_promo3_jpg}>
+      <img class="foto" src=@{StaticR promo_promo3_png}>
 <footer>
     <div class="row justify-content-center">
       <div class="col-12">

@@ -43,10 +43,11 @@ li a:hover{
 
 h1{color:rgb(192, 159, 75);}
 
-main{margin-top:100px;}
+main{margin-top:100px;
+    }
 
 
-.foto{width:250px; height:200px;}
+.foto{width:400px; height:400px;}
 
 
  .galeria{background-color:blue;
