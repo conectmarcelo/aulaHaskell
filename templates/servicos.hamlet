@@ -49,7 +49,7 @@
     <div class="galeria">
       <img class="foto" src=@{StaticR brinquedos_49_jpg}>
       <div class="card-body">
-        <h5 class="card-title">Brinquedo Infantis
+        <h5 class="card-title">Brinquedos Infantis
         <p class="card-text">Diversão garantida para a garotada
         <a href=@{OrcamentosR} class="btn btn-primary">Contate-nos...
     <div class="galeria">
@@ -62,7 +62,7 @@
       <img class="foto" src=@{StaticR pista_402_jpg}>
       <div class="card-body">
         <h5 class="card-title">Dj
-        <p class="card-text">Musica e diversão garantida para todas as idades
+        <p class="card-text">Musica e diversão garantidas para todas as idades
         <a href=@{OrcamentosR} class="btn btn-primary">Contate-nos...
 <footer>
     <div class="row justify-content-center">
