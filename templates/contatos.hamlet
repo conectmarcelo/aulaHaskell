@@ -16,9 +16,9 @@
 <main class="container">
   <div class="row">
     <div class="galeria">
-      <img class="foto" src=@{StaticR casamento_11_jpg}>
+      <a href="#img11"><img class="foto" src=@{StaticR casamento_11_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR casamento_12_jpg}>
+      <a href="#img12"><img class="foto" src=@{StaticR casamento_12_jpg}>
     <div class="galeria">
       <img class="foto" src=@{StaticR casamento_13_jpg}>
     <div class="galeria">
