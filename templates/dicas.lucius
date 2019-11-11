@@ -43,11 +43,12 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
-    opacity:0.5;
+    
 }
 
 main{margin-top:100px;
-    padding:20px;}
+    padding:20px;
+    background-color:rgba(255,255,255,0.5)}
 
 footer{background-color:black;
             text-align:center;
