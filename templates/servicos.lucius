@@ -49,8 +49,8 @@ main{margin-top:100px;}
 .foto{width:250px; height:200px;}
 
 
- .galeria{background-color:blue;
+ .galeria{
  width:250px;
- height:200px;
+ height:400px;
  margin:auto;
  margin-top:15px;}
