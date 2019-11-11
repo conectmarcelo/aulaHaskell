@@ -113,4 +113,4 @@ color:rgba(105, 208, 46);}
 .lbox:target .box_img img{opacity:1;
 transition: opacity .5s linear;}
 
-.listaimg {width:200px; height:200px;}
+.listaimg {width:800px; height:600px;}
