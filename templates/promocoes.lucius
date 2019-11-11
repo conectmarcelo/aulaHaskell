@@ -47,10 +47,10 @@ main{margin-top:100px;
     }
 
 
-.foto{width:400px; height:400px;}
+.foto{width:500px; height:500px;}
 
 
- .galeria{background-color:blue;
+ .galeria{
  width:500px;
  height:500px;
  margin:auto;
