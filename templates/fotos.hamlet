@@ -58,5 +58,13 @@
               <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
 
 <ul class="listaFotos">
-
-<li><a href="#img1"><img src=@{StaticR casamento_11_jpg} class="min">
+  <li>
+    <a href="#img1"><img src=@{StaticR casamento_11_jpg} class="min">
+  <li>
+    <a href="#img1"><img src=@{StaticR casamento_12_jpg} class="min">
+  <li>
+    <a href="#img1"><img src=@{StaticR casamento_13_jpg} class="min">
+  <li>
+    <a href="#img1"><img src=@{StaticR casamento_14_jpg} class="min">
+  <li>
+    <a href="#img1"><img src=@{StaticR casamento_15_jpg} class="min">  
