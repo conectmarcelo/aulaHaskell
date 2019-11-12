@@ -180,7 +180,7 @@ getHomeR = do
             
         |]
         [whamlet|
-        
+        <script data-ad-client="ca-pub-6395641199023717" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
             <nav class="navbar justify-content-end fixed-top">    
               <ul>
                   <li>
