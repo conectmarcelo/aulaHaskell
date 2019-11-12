@@ -75,10 +75,7 @@ opacity:0;
 			height:660px;
 			background: rgba(0, 0, 0,.9);
 			position:absolute;
-			left:50%
-			top:50%
-			margin-left:-550px ;
-			margin-top:-330px;
+			margin-top:-1600px;
 			}
 
 .box_img{width:800px;
