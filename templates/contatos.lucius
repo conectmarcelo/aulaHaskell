@@ -73,7 +73,7 @@ opacity:0;
 			visibility:visible;
 			width:1100px;
 			height:660px;
-			background: rgba(0, 0, 0,.7);
+			background: rgba(0, 0, 0,.9);
 			position:absolute;
 			left:50%
 			margin: auto;
@@ -95,7 +95,7 @@ font-size: 80px;
 text-align:center
 }
 
-#prev{left:1%;
+#prev{left:0%;
 top:45%;
 color:white	}
 
