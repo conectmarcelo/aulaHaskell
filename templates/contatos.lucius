@@ -69,9 +69,8 @@ li a:hover{
 opacity:0;
 position:absolute;
 			top:50%;
-			left50%;
-			margin-top:-330px;
-			margin-left:-550px;
+			margin-top:-300px;
+	
 }
 
 .lbox:target{opacity:1;
@@ -81,9 +80,8 @@ position:absolute;
 			background: rgba(0, 0, 0,.9);
 			position:absolute;
 			top:50%;
-			left50%;
-			margin-top:-330px;
-			margin-left:-550px;
+			margin-top:-300px;
+			
 			}
 
 .box_img{width:800px;
