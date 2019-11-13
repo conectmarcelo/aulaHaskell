@@ -25,10 +25,3 @@ getAdsR :: Handler TypedContent
 getAdsR = return $ TypedContent typePlain
                     $ toContent $(embedFile "config/ads.txt")
 
-getCssR :: Handler TypedContent
-getCssR = return $ TypedContent typePlain
-                    $ toContent $(embedFile "config/css.css")
-                    
-getJavaR :: Handler TypedContent
-getJavaR = return $ TypedContent typePlain
-                    $ toContent $(embedFile "config/java.js")

@@ -79,8 +79,10 @@ getHomeR = do
         addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         
         -- esta no projeto
-        -- addStylesheet (StaticR css_bootstrap_css)
-         
+        addStylesheet (StaticR css_bootstrap_css)
+        addStylesheet (StaticR css_css_css)
+        addScript (StaticR css_java_js)
+        
         toWidgetHead [hamlet|
         
         <script data-ad-client="ca-pub-6395641199023717" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
