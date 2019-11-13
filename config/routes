@@ -4,6 +4,9 @@
 /favicon.ico FaviconR GET
 /robots.txt RobotsR GET
 /ads.txt AdsR GET
+/css.css CssR GET
+/java.js JavaR GET
+
 
 / HomeR GET 
 /fotos FotosR GET
