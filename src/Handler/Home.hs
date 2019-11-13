@@ -173,10 +173,13 @@ getHomeR = do
 
             img {width:50px; height:50px;}
             
-            
+            #48674-3{z-index:1;}
             
         |]
         [whamlet|
+        <div id="48674-3">
+            <script src="//ads.themoneytizer.com/s/gen.js?type=3">
+            <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=3">
         
         <nav class="navbar justify-content-end fixed-top">    
           <ul>
