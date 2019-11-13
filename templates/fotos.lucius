@@ -1,4 +1,4 @@
-.rowdicas{height:100px;padding:80px;}
+.rowdicas{height:100px;padding:120px;}
 
 nav{
     background-color:rgba(0,0,0, 0.9)
