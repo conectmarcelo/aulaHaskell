@@ -207,8 +207,12 @@ getListOrcamentosR :: Handler Html
 getListOrcamentosR = do 
     -- select * from Orcamentos order by orcamentos.nome
     orcamentos <- runDB $ selectList [] [Asc OrcamentosNome]
-    defaultLayout $ do 
+    defaultLayout $ do
+        addStylesheet (StaticR css_bootstrap_css)
         $(whamletFile "templates/listarOrcamentos.hamlet")
+
+
+
 
 postApagarOrcamentosR :: OrcamentosId -> Handler Html
 postApagarOrcamentosR pid = do 
