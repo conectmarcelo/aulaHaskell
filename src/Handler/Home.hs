@@ -177,42 +177,46 @@ getHomeR = do
         |]
         [whamlet|
         
-            <nav class="navbar justify-content-end fixed-top">    
-              <ul>
-                  <li>
-                      <a href=@{HomeR}>Home
-                  <li>
-                      <a href=@{FotosR}>Fotos
-                  <li>
-                      <a href=@{PromocoesR}>Promoções
-                  <li>
-                      <a href=@{ServicosR}>Serviços
-                  <li>
-                      <a href=@{DicasR}>Blog
-                  <li>
-                      <a href=@{OrcamentosR}>Contatos
-            <div class="a">
-                <div class="aa">
-                    <h1>SMILES FESTAS
-                    <h2>Casamentos, Debutantes, Aniversários e muito mais    
-                    
-            <div class="b">
+        <div id="48674-1">
+            <script src="//ads.themoneytizer.com/s/gen.js?type=1">
+            <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=1">
+        
+        <nav class="navbar justify-content-end fixed-top">    
+          <ul>
+              <li>
+                  <a href=@{HomeR}>Home
+              <li>
+                  <a href=@{FotosR}>Fotos
+              <li>
+                  <a href=@{PromocoesR}>Promoções
+              <li>
+                  <a href=@{ServicosR}>Serviços
+              <li>
+                  <a href=@{DicasR}>Blog
+              <li>
+                  <a href=@{OrcamentosR}>Contatos
+        <div class="a">
+            <div class="aa">
                 <h1>SMILES FESTAS
-                <p>A empresa Smiles é um grupo dedicado a auxiliar no planejamento, execução e finalização de eventos
-                <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
-            
-            <footer>
+                <h2>Casamentos, Debutantes, Aniversários e muito mais    
+                
+        <div class="b">
+            <h1>SMILES FESTAS
+            <p>A empresa Smiles é um grupo dedicado a auxiliar no planejamento, execução e finalização de eventos
+            <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
+        
+        <footer>
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="footer">
+                        <h1>Smiles Festas
                 <div class="row justify-content-center">
                     <div class="col-12">
                         <div class="footer">
-                            <h1>Smiles Festas
-                    <div class="row justify-content-center">
-                        <div class="col-12">
-                            <div class="footer">
-                                <ul>
-                                    <l1>
-                                        <a href="https://www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
-                                    <l1>
-                                        <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
+                            <ul>
+                                <l1>
+                                    <a href="https://www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
+                                <l1>
+                                    <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
                                         
         |]
