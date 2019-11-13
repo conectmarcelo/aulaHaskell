@@ -21,3 +21,5 @@
 /orcamentos OrcamentosR GET POST
 /listarOrcamentos ListOrcamentosR GET
 /orcamentos/#OrcamentosId/apagar ApagarOrcamentosR POST
+
+/cadastro UsuarioR GET POST

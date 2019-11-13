@@ -9,3 +9,12 @@ Orcamentos
     telefone Text
     mensagem Text
     deriving Show
+    
+Usuario
+    nome Text
+    email Text
+    senha Text
+    UniqueEmailRest email
+    deriving Show
+    
+    
