@@ -15,11 +15,11 @@ import Database.Persist.Postgresql
 formUsu :: Form (Usuario< Text)
 formUsu = rederBootstrap $ (,)
 -- ou  formUsu = rederDivs
-    <$> (Usuario <$>)
-        <$>areq textField "Nome : " Nothing
-        <*>areq emailField "E-mail : " Nothing
-        <$>areq passwordField "Nome : " Nothing)
-    <*> areq passwordField "Digite Novamente" Nothing
+    <$> (Usuario 
+        <$> areq textField "Nome: " Nothing
+        <*> areq emailField "E-mail: " Nothing
+        <*> areq passwordField "Senha: " Nothing)
+    <*> areq passwordField "Digite Novamente: " Nothing
 
 
 getUsuarioR :: Handler Html
@@ -30,7 +30,7 @@ getUsuarioR = do
         [whamlet|
             $maybe mensa <- msg
                 <div>
-                    ^{msg}
+                    ^{mensa}
             <h1>
                 CADASTRO DE USUARIO
                 
@@ -54,5 +54,11 @@ postUsuarioR = do
                     
                     redirect UsuarioR
                 else do
-                    setMessage
+                    setMessage[shamlet|
+                        <div>
+                            SENHA E VERIFICACAO NAO CONFEREM
+                    
+                    |]
+                    redirec UsuarioR
+            -> redirect HomeR
 
