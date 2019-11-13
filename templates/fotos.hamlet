@@ -13,6 +13,17 @@
     <li>
       <a href=@{OrcamentosR}>Contatos
 
+<div class="row rowdicas">
+  <div id="48674-1">
+      <script src="//ads.themoneytizer.com/s/gen.js?type=1">
+      <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=1">
+  <div id="48674-3">
+      <script src="//ads.themoneytizer.com/s/gen.js?type=3">
+      <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=3">
+  <div style="text-align:center;" id="48674-31">
+      <script src="//ads.themoneytizer.com/s/gen.js?type=31">
+      <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=31">
+    
 <main class="container">
   <div class="row">
     <div class="galeria">
@@ -53,7 +64,7 @@
         <div class="footer">
           <ul>
             <l1>
-              <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
+              <a href="https://www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
             <l1>
               <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
 
