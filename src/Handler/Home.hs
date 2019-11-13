@@ -98,23 +98,23 @@ getHomeR = do
                 background-attachment: fixed;
             }
 
-            nav{
+            nav{z-index:-1;
                 background-color:rgba(0,0,0, 0.9)
                
             }
             
-           ul{  
+           ul{  z-index:-1;
                 padding: 20px;
                 text-align: end;
             }
 
-            li {
+            li {z-index:-1;
                 list-style: none;
                 display: inline;
                 margin-left: 20px;
             }
 
-            li a{
+            li a{z-index:-1;
                 text-decoration: none;
                 color:white;
                 font-family: Helvetica;
@@ -124,7 +124,7 @@ getHomeR = do
                 cursor: pointer;
             }
 
-            li a:hover{
+            li a:hover{z-index:-1;
                 width: 210px;
                 background-color: grey;
                 color:white;
@@ -132,54 +132,55 @@ getHomeR = do
                 padding: 25px;
                 text-decoration: none;
             }
-            .a {
+            .a {z-index:-1;
                 background:rgba(0,0,0, 0.5);
                 background-size: 100%;
                 height: 800px;
                 margin-top: -60px;
             }
 
-            .aa {
+            .aa {z-index:-1;
                 padding-top: 500px;
                 padding-left: 100px;
                 height: 100px;
                 background-color: rgba(0,0,0, 0.0);
             }
 
-            h1{
+            h1{z-index:-1;
                 color: rgb(192, 159, 75);
                 font-size:  40px;}    
                 h2{color: white;
                 font-size: 30px;
             }
 
-            p{
+            p{z-index:-1;
                 color:black;
                 font-family: Helvetica, sans-serif;
                 font-size:25px;
                 margin: 20px 200px 0px 200px;
             }
 
-            .b {
+            .b {z-index:-1;
                 background-color:#e9e9e9;
                 height: 600px;
                 padding-top: 10%;
                 text-align: center;
             }
-            
+            z-index:-1;
             footer{background-color:black;
             text-align:center;
             padding:20px;}
 
-            img {width:50px; height:50px;}
+            img {width:50px; height:50px;z-index:-1;}
             
-            #48674-3{z-index:1;}
+            
             
         |]
         [whamlet|
-        <div id="48674-3">
-            <script src="//ads.themoneytizer.com/s/gen.js?type=3">
-            <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=3">
+        
+        <div id="48674-1">
+            <script src="//ads.themoneytizer.com/s/gen.js?type=1">
+            <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=1">
         
         <nav class="navbar justify-content-end fixed-top">    
           <ul>
@@ -195,6 +196,8 @@ getHomeR = do
                   <a href=@{DicasR}>Blog
               <li>
                   <a href=@{OrcamentosR}>Contatos
+        
+        
         <div class="a">
             <div class="aa">
                 <h1>SMILES FESTAS
