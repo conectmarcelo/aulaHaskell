@@ -4,7 +4,7 @@
             <script src="//ads.themoneytizer.com/s/gen.js?type=1">
             <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=1">
     
-    <nav class="navbar justify-content-end >    
+    <nav class="navbar justify-content-end" >    
         <ul>
             <li>
                 <a href=@{HomeR}>Home
