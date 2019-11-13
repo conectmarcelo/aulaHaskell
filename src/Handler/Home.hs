@@ -178,10 +178,6 @@ getHomeR = do
         |]
         [whamlet|
         
-        <div id="48674-1">
-            <script src="//ads.themoneytizer.com/s/gen.js?type=1">
-            <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=1">
-        
         <nav class="navbar justify-content-end fixed-top">    
           <ul>
               <li>
@@ -221,7 +217,8 @@ getHomeR = do
                                     <a href="https://www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
                                 <l1>
                                     <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
-                                        
+                                    
+            
         |]
         
       
