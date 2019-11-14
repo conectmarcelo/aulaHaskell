@@ -12,10 +12,11 @@ import Text.Julius
 --import Network.HTTP.Types.Status
 import Database.Persist.Postgresql
 
-formUsu :: Form (Usuario, Text)
-formUsu = renderBootstrap $ (,)
+-- renderDivs
+formLogin :: Form (Text, Text)
+formLogin = renderBootstrap $ (,)
     <$> areq emailField "E-mail: " Nothing
-    <*> areq passwordField "Digite Novamente: " Nothing
+    <*> areq passwordField "Senha: " Nothing
 
 getEntrarR :: Handler Html
 getEntrarR = do 
@@ -39,6 +40,9 @@ postEntrarR :: Handler Html
 postEntrarR = do 
     ((result,_),_) <- runFormPost formLogin
     case result of 
+        FormSuccess ("root@root.com","root125") -> do 
+            setSession "_NOME" "admin"
+            redirect AdminR
         FormSuccess (email,senha) -> do 
            -- select * from usuario where email=digitado.email
            usuario <- runDB $ getBy (UniqueEmailRest email)
@@ -52,7 +56,7 @@ postEntrarR = do
                 Just (Entity _ usu) -> do 
                     if (usuarioSenha usu == senha) then do
                         setSession "_NOME" (usuarioNome usu)
-                        redirect EntrarR
+                        redirect HomeR
                     else do 
                         setMessage [shamlet|
                             <div>
@@ -61,9 +65,14 @@ postEntrarR = do
                         redirect EntrarR 
         _ -> redirect HomeR
 
-postSairR :: Handler Html
+postSairR :: Handler Html 
 postSairR = do 
     deleteSession "_NOME"
     redirect HomeR
-    
-    
+
+getAdminR :: Handler Html
+getAdminR = do 
+    defaultLayout [whamlet|
+        <h1>
+            BEM-VINDO MEU REI!
+    |]

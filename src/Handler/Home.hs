@@ -191,28 +191,28 @@ getHomeR = do
         <nav class="navbar justify-content-end fixed-top">    
           <ul>
               <li>
-                  <a href=@{HomeR}>Home
+                <a href=@{HomeR}>Home
               <li>
-                  <a href=@{FotosR}>Fotos
+                <a href=@{FotosR}>Fotos
               <li>
-                  <a href=@{PromocoesR}>Promoções
+                <a href=@{PromocoesR}>Promoções
               <li>
-                  <a href=@{ServicosR}>Serviços
+                <a href=@{ServicosR}>Serviços
               <li>
-                  <a href=@{DicasR}>Blog
+                <a href=@{DicasR}>Blog
               <li>
-                  <a href=@{OrcamentosR}>Contatos
+                <a href=@{OrcamentosR}>Contatos
                   
               $maybe nome <- sess
                     <li>
                         <div>
-                            Ola#{nome}
+                            Ola #{nome}
                         <form method=post action=@{SairR}>
-                            <input type= "submit" value="sair">
-              $nothing
-              <li>
-                    <div>
-                        convidado
+                            <input type="submit" value="Sair">
+                $nothing
+                    <li>
+                        <div>
+                            convidado
         
         
         <div class="a">

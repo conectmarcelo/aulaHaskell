@@ -12,6 +12,7 @@ import Text.Julius
 --import Network.HTTP.Types.Status
 import Database.Persist.Postgresql
 
+-- renderDivs
 formUsu :: Form (Usuario, Text)
 formUsu = renderBootstrap $ (,)
     <$> (Usuario 
@@ -57,4 +58,3 @@ postUsuarioR = do
                 |]
                 redirect UsuarioR
         _ -> redirect HomeR
-
