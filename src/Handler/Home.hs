@@ -189,21 +189,21 @@ getHomeR = do
         [whamlet|
         
         <nav class="navbar justify-content-end fixed-top">    
-          <ul>
-              <li>
-                <a href=@{HomeR}>Home
-              <li>
-                <a href=@{FotosR}>Fotos
-              <li>
-                <a href=@{PromocoesR}>Promoções
-              <li>
-                <a href=@{ServicosR}>Serviços
-              <li>
-                <a href=@{DicasR}>Blog
-              <li>
-                <a href=@{OrcamentosR}>Contatos
-                  
-              $maybe nome <- sess
+            <ul>
+                <li>
+                    <a href=@{HomeR}>Home
+                <li>
+                    <a href=@{FotosR}>Fotos
+                <li>
+                    <a href=@{PromocoesR}>Promoções
+                <li>
+                    <a href=@{ServicosR}>Serviços
+                <li>
+                    <a href=@{DicasR}>Blog
+                <li>
+                    <a href=@{OrcamentosR}>Contatos
+  
+                $maybe nome <- sess
                     <li>
                         <div>
                             Ola #{nome}
