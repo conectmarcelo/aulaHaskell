@@ -22,6 +22,7 @@ getDicasR = do
         addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         toWidgetHead $(luciusFile "templates/dicas.lucius")
         $(whamletFile "templates/dicas.hamlet")
+        
 
 getPromocoesR :: Handler Html 
 getPromocoesR = do 
@@ -77,6 +78,8 @@ getHomeR = do
         addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
         addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        
+        sess <- lookupSession "_NOME"
         
         -- esta no projeto
         addStylesheet (StaticR css_bootstrap_css)
@@ -199,6 +202,17 @@ getHomeR = do
                   <a href=@{DicasR}>Blog
               <li>
                   <a href=@{OrcamentosR}>Contatos
+                  
+              $maybe nome <- sess
+                    <li>
+                        <div>
+                            Ola#{nome}
+                        <form method=post action=@{SairR}>
+                            <input type= "submit" value="sair">
+              $nothing
+              <li>
+                    <div>
+                        convidado
         
         
         <div class="a">
