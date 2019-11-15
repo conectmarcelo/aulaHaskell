@@ -26,6 +26,7 @@ getUsuarioR = do
     (widget,_) <- generateFormPost formUsu
     msg <- getMessage
     defaultLayout $ 
+        
         toWidgetHead [lucius|
             
             * {
@@ -105,21 +106,12 @@ getUsuarioR = do
                   <a href=@{DicasR}>Blog
                 <li>
                   <a href=@{OrcamentosR}>Contatos
-            $maybe nome <- sess
                 <li>
                     <a href=@{UsuarioR}>Usuario
                 <li>
                     <a href=@{ListOrcamentosR}>OrcamentosR
                 <li>
-                    <div>
-                        Ola #{nome}
-                    <form method=post action=@{SairR}>
-                        <input type="submit" value="Sair">
-            $nothing
-                <li>
-                    <div>
-                        convidado      
-
+            
             
             $maybe mensa <- msg 
 
