@@ -26,6 +26,69 @@ getUsuarioR = do
     (widget,_) <- generateFormPost formUsu
     msg <- getMessage
     defaultLayout $ 
+        toWidgetHead [lucius|
+            
+            * {
+            margin:0px;
+            padding: 0px;
+            }
+
+            
+            nav{
+                background-color:rgba(0,0,0, 0.9)
+               
+            }
+            
+           ul{  
+                padding: 20px;
+                text-align: end;
+            }
+
+            li {
+                list-style: none;
+                display: inline;
+                margin-left: 20px;
+            }
+
+            li a{
+                text-decoration: none;
+                color:white;
+                font-family: Helvetica;
+                font-size: 20px;
+                padding: 20px;
+                transition-duration:0.5s, 0.3s;
+                cursor: pointer;
+            }
+
+            li a:hover{
+                width: 210px;
+                background-color: grey;
+                color:white;
+                font-size: 20px;
+                padding: 25px;
+                text-decoration: none;
+            }
+            
+
+            h1{
+                color: rgb(192, 159, 75);
+                font-size:  40px;}    
+                h2{color: white;
+                font-size: 30px;
+            }
+
+            p{
+                color:black;
+                font-family: Helvetica, sans-serif;
+                font-size:25px;
+                margin: 20px 200px 0px 200px;
+            }
+
+            
+            
+            
+        |]
+        
         [whamlet|
             
             <nav class="navbar justify-content-end fixed-top">    
@@ -42,6 +105,20 @@ getUsuarioR = do
                   <a href=@{DicasR}>Blog
                 <li>
                   <a href=@{OrcamentosR}>Contatos
+            $maybe nome <- sess
+                <li>
+                    <a href=@{UsuarioR}>Usuario
+                <li>
+                    <a href=@{ListOrcamentosR}>OrcamentosR
+                <li>
+                    <div>
+                        Ola #{nome}
+                    <form method=post action=@{SairR}>
+                        <input type="submit" value="Sair">
+            $nothing
+                <li>
+                    <div>
+                        convidado      
 
             
             $maybe mensa <- msg 
