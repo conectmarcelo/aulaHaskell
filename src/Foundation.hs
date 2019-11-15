@@ -34,7 +34,8 @@ instance Yesod App where
     isAuthorized OrcamentosR _ = return Authorized 
     isAuthorized EntrarR _ = return Authorized
     isAuthorized (StaticR _) _ = return Authorized
-    isAuthorized AdminR _ = isAdmin
+    isAuthorized ListOrcamentosR _ = isAdmin
+    isAuthorized UsuarioR _ = isAdmin
     isAuthorized _ _ = isUsuario
     
 isAdmin :: Handler AuthResult
