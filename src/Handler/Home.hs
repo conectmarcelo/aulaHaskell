@@ -209,9 +209,7 @@ getHomeR = do
                     <form method=post action=@{SairR}>
                         <input type="submit" value="Sair">
             $nothing
-                <li>
-                    <div>
-                        convidado
+                  
 
                
         
