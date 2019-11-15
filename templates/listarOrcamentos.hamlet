@@ -12,6 +12,10 @@
                     <a href=@{DicasR}>Blog
                 <li>
                     <a href=@{ContatosR}>Contatos
+                <li>
+                    <a href=@{UsuarioR}>Cadastrar
+                <li>
+                    <a href=@{EntarR}>Login
                 
 
 <div class="container">
