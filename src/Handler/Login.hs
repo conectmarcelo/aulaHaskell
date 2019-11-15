@@ -28,12 +28,29 @@ getEntrarR = do
                 <div>
                     ^{mensa}
             
-            <h1>
-                ENTRAR
             
-            <form method=post action=@{EntrarR}>
-                ^{widget}
-                <input type="submit" value="Entrar">
+            <nav class="navbar justify-content-end fixed-top">    
+              <ul>
+                <li>
+                  <a href=@{HomeR}>Home
+                <li>
+                  <a href=@{FotosR}>Fotos
+                <li>
+                  <a href=@{PromocoesR}>Promoções
+                <li>
+                  <a href=@{ServicosR}>Serviços
+                <li>
+                  <a href=@{DicasR}>Blog
+                <li>
+                  <a href=@{OrcamentosR}>Contatos
+
+           <div class="container justify-content-center"> 
+                <h1>
+                    ENTRAR
+                
+                <form method=post action=@{EntrarR}>
+                    ^{widget}
+                    <input type="submit" value="Entrar">
         |]
 
 postEntrarR :: Handler Html
