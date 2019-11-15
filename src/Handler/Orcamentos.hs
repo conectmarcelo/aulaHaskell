@@ -65,20 +65,7 @@ getOrcamentosR = do
             text-decoration: none;
         }
         
-        .mapa {
-            background-image: url(@{StaticR mapa_jpg});
-            background-repeat: no-repeat;
-            background-size: 100%;
-            
-            
-            
-        }
-         
-         .contato {
-                    background-color:lightgrey;
-                    Text-align: center;
-                    margin-top:50px;
-                    }
+        
         .button{
                 background-color:black;
                 color:white
