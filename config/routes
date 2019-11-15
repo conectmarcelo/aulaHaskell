@@ -25,4 +25,3 @@
 /cadastro   UsuarioR    GET POST
 /entrar     EntrarR     GET POST
 /sair       SairR       POST
-/admin    AdminR   GET

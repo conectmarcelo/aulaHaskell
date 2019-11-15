@@ -42,7 +42,7 @@ postEntrarR = do
     case result of 
         FormSuccess ("root@root.com","root125") -> do 
             setSession "_NOME" "admin"
-            redirect AdminR
+            redirect UsuarioR
         FormSuccess (email,senha) -> do 
            -- select * from usuario where email=digitado.email
            usuario <- runDB $ getBy (UniqueEmailRest email)
@@ -50,7 +50,7 @@ postEntrarR = do
                 Nothing -> do 
                     setMessage [shamlet|
                         <div>
-                            E-mail N ENCONTRADO!
+                            E-mail Não ENCONTRADO!
                     |]
                     redirect EntrarR
                 Just (Entity _ usu) -> do 
@@ -70,9 +70,4 @@ postSairR = do
     deleteSession "_NOME"
     redirect HomeR
 
-getAdminR :: Handler Html
-getAdminR = do 
-    defaultLayout [whamlet|
-        <h1>
-            BEM-VINDO MEU REI!
-    |]
+
