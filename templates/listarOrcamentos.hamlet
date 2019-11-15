@@ -12,16 +12,7 @@
                     <a href=@{DicasR}>Blog
                 <li>
                     <a href=@{ContatosR}>Contatos
-                $maybe nome <- sess
-                    <li>
-                        <div>
-                            Ola #{nome}
-                        <form method=post action=@{SairR}>
-                            <input type="submit" value="Sair">
-                $nothing
-                    <li>
-                        <div>
-                            convidado
+                
 
 <div class="container">
     <table class="table table-striped">
