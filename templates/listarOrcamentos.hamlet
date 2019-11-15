@@ -15,7 +15,7 @@
                 <li>
                     <a href=@{UsuarioR}>Cadastrar
                 <li>
-                    <a href=@{EntarR}>Login
+                    <a href=@{EntrarR}>Login
                 
 
 <div class="container">
