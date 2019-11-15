@@ -24,7 +24,7 @@ formUsu = renderBootstrap $ (,)
 getUsuarioR :: Handler Html
 getUsuarioR = do 
     (widget,_) <- generateFormPost formUsu
-    defaultLayout $
+    defaultLayout $ do
         msg <- getMessage
         [whamlet|
             
