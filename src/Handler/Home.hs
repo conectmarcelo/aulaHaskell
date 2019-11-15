@@ -233,7 +233,7 @@ getHomeR = do
                         <div class="footer">
                             <ul>
                                 <l1>
-                                    <a href="https://www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
+                                    <a href="https://www.facebook.com/espacosmiles" target="_blank"><img src=@{StaticR face_png} alt="facebook">
                                 <l1>
                                     <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
                                     
