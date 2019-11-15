@@ -137,9 +137,6 @@ getEntrarR = do
         
         msg <- getMessage
         [whamlet|
-            
-            
-            
             <nav class="navbar justify-content-end fixed-top">    
               <ul>
                 <li>
@@ -160,7 +157,7 @@ getEntrarR = do
                     ^{mensa}
 
 
-            <div class="container justify-content-center"> 
+            <div class="form"> 
                 <h1>
                     ENTRAR
                 
