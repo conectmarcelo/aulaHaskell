@@ -24,8 +24,8 @@ formUsu = renderBootstrap $ (,)
 getUsuarioR :: Handler Html
 getUsuarioR = do 
     (widget,_) <- generateFormPost formUsu
-    defaultLayout $ do
-        msg <- getMessage
+    msg <- getMessage
+    defaultLayout $ 
         [whamlet|
             
             <nav class="navbar justify-content-end fixed-top">    
