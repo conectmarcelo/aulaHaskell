@@ -24,22 +24,160 @@ formUsu = renderBootstrap $ (,)
 getUsuarioR :: Handler Html
 getUsuarioR = do 
     (widget,_) <- generateFormPost formUsu
-    msg <- getMessage
-    defaultLayout $ 
-        [whamlet|
+    defaultLayout $ do 
+        toWidgetHead [lucius|
             
-            
-        $maybe mensa <- msg 
+        * {
+        margin:0px;
+        padding: 0px;
+        }
+        
+        nav{
+        background-color:rgba(0,0,0, 0.9)
+        }
 
-            <div>
-                ^{mensa}
+        ul{  
+            padding: 20px;
+            text-align: end;
+        }
         
-        <h1>
-            CADASTRO DE USUARIO
+        li {
+            list-style: none;
+            display: inline;
+            margin-left: 20px;
+        }
         
-        <form method=post action=@{UsuarioR}>
-            ^{widget}
-            <input type="submit" value="Cadastrar">
+        li a{
+            text-decoration: none;
+            color:white;
+            font-family: Helvetica;
+            font-size: 20px;
+            padding: 20px;
+            transition-duration:0.5s, 0.3s;
+            cursor: pointer;
+        }
+        
+        li a:hover{
+            width: 210px;
+            background-color: grey;
+            color:white;
+            font-size: 20px;
+            padding: 25px;
+            text-decoration: none;
+        }
+        
+        .mapa {
+            background-image: url(@{StaticR mapa_jpg});
+            background-repeat: no-repeat;
+            background-size: 100%;
+            
+            
+            
+        }
+         
+         .contato {
+                    background-color:lightgrey;
+                    Text-align: center;
+                    margin-top:50px;
+                    }
+        .button{
+                background-color:black;
+                color:white
+        }
+        
+        h1{color:rgb(192, 159, 75);
+        }
+        
+        .form{background-color:#e9e9e9;
+        padding:0px;       
+        
+            
+        }            
+     
+        input[type=email], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        
+         input[type=password], select {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+        }
+        
+        
+        input[type=submit] {
+          width: 100%;
+          background-color: black;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+        
+        input[type=submit]:hover {
+          background-color: grey;
+        }
+        
+        div {
+          border-radius: 5px;
+        
+        }
+        
+        .form {padding:100px 200px 50px 200px;
+                margin:50px;
+        }
+        
+        footer{background-color:black;
+            text-align:center;
+            padding:20px;}
+        img {width:50px; height:50px;}
+        
+        .rodape{text-align:center}
+        
+                    
+        |]
+        
+        msg <- getMessage
+        
+        [whamlet|
+        
+        <nav class="navbar justify-content-end fixed-top">    
+          <ul>
+            <li>
+              <a href=@{HomeR}>Home
+            <li>
+              <a href=@{FotosR}>Fotos
+            <li>
+              <a href=@{PromocoesR}>Promoções
+            <li>
+              <a href=@{ServicosR}>Serviços
+            <li>
+              <a href=@{DicasR}>Blog
+            <li>
+              <a href=@{OrcamentosR}>Contatos
+
+        <div class="form"> 
+            <h1>
+                CADASTRO DE USUARIO
+            
+            <form method=post action=@{UsuarioR}>
+                ^{widget}
+                <input type="submit" value="Cadastrar">
+                $maybe mensa <- msg 
+                    <div>
+                        ^{mensa}
         |]
 
 postUsuarioR :: Handler Html
