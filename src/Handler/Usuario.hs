@@ -43,7 +43,7 @@ getUsuarioR = do
                 <li>
                   <a href=@{OrcamentosR}>Contatos
                 <li>
-                    <a href=@{UsuarioR}>Usuario
+                    <a href=@{EntrarR}Login
                 <li>
                     <a href=@{ListOrcamentosR}>OrcamentosR
                 <li>
