@@ -28,36 +28,18 @@ getUsuarioR = do
     defaultLayout $ 
         [whamlet|
             
-            <nav class="navbar justify-content-end fixed-top">    
-              <ul>
-                <li>
-                  <a href=@{HomeR}>Home
-                <li>
-                  <a href=@{FotosR}>Fotos
-                <li>
-                  <a href=@{PromocoesR}>Promoções
-                <li>
-                  <a href=@{ServicosR}>Serviços
-                <li>
-                  <a href=@{DicasR}>Blog
-                <li>
-                  <a href=@{OrcamentosR}>Contatos
-                <li>
-                    <a href=@{EntrarR}Login
-                <li>
-                    <a href=@{ListOrcamentosR}>OrcamentosR
-               
-            $maybe mensa <- msg 
+            
+        $maybe mensa <- msg 
 
-                <div>
-                    ^{mensa}
-            
-            <h1>
-                CADASTRO DE USUARIO
-            
-            <form method=post action=@{UsuarioR}>
-                ^{widget}
-                <input type="submit" value="Cadastrar">
+            <div>
+                ^{mensa}
+        
+        <h1>
+            CADASTRO DE USUARIO
+        
+        <form method=post action=@{UsuarioR}>
+            ^{widget}
+            <input type="submit" value="Cadastrar">
         |]
 
 postUsuarioR :: Handler Html
