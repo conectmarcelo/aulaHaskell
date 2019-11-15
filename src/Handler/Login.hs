@@ -163,11 +163,6 @@ getEntrarR = do
                 <li>
                   <a href=@{OrcamentosR}>Contatos
 
-            $maybe mensa <- msg 
-                <div>
-                    ^{mensa}
-
-
             <div class="form"> 
                 <h1>
                     ENTRAR
@@ -175,6 +170,9 @@ getEntrarR = do
                 <form method=post action=@{EntrarR}>
                     ^{widget}
                     <input type="submit" value="Entrar">
+                    $maybe mensa <- msg 
+                        <div>
+                            ^{mensa}
         |]
 
 postEntrarR :: Handler Html
