@@ -38,7 +38,6 @@ instance Yesod App where
     isAuthorized ListOrcamentosR _ = isAdmin
     isAuthorized AdminR _ = isAdmin
     isAuthorized ListUsuarioR _ = isAdmin
-    isAuthorized SairR _ = isAdmin
     isAuthorized _ _ = isUsuario
     
 isAdmin :: Handler AuthResult
