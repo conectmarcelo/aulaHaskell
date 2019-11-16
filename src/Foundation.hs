@@ -36,7 +36,7 @@ instance Yesod App where
     isAuthorized SairR _ = return Authorized
     isAuthorized (StaticR _) _ = return Authorized
     isAuthorized ListOrcamentosR _ = isAdmin
-    isAuthorized UsuarioR _ = isAdmin
+    isAuthorized AdminR _ = isAdmin
     isAuthorized ListUsuarioR _ = isAdmin
     isAuthorized _ _ = isUsuario
     
@@ -46,7 +46,7 @@ isAdmin = do
     case sess of 
         Nothing -> return AuthenticationRequired
         Just "admin" -> return Authorized
-        Just _ -> return $ Unauthorized "VC EH USUARIO COMUM"    
+        Just _ -> return $ Unauthorized "VOCÊ NÃO TEM PERMISSÃO PARA ACESSAR ESTA PÁGINA"    
 
 isUsuario :: Handler AuthResult
 isUsuario = do 

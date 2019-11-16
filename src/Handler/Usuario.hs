@@ -25,7 +25,8 @@ formUsu = renderBootstrap $ (,)
 getUsuarioR :: Handler Html
 getUsuarioR = do 
     (widget,_) <- generateFormPost formUsu
-    defaultLayout $ do 
+    msg <- getMessage
+    defaultLayout $ 
         toWidgetHead [lucius|
             
         * {
@@ -160,7 +161,7 @@ getUsuarioR = do
                     
         |]
         
-        msg <- getMessage
+       
         
         [whamlet|
         
@@ -201,13 +202,13 @@ postUsuarioR = do
                 runDB $ insert usuario 
                 setMessage [shamlet|
                     <div>
-                        USUARIO INCLUIDO
+                        USUÁRIO INCLUIDO
                 |]
                 redirect UsuarioR
             else do 
                 setMessage [shamlet|
                     <div>
-                        SENHA E VERIFICACAO N CONFEREM
+                        SENHA E VERIFICAÇÃO NÃO CONFEREM
                 |]
                 redirect UsuarioR
         _ -> redirect HomeR
