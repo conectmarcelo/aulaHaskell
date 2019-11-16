@@ -21,7 +21,7 @@ formUsu = renderBootstrap $ (,)
         <*> areq passwordField "Senha: " Nothing)
     <*> areq passwordField "Digite Novamente: " Nothing
 
-getListUsuaruiR :: Handler Html 
+getListUsuarioR :: Handler Html 
 getListUsuarioR = do 
     -- select * from Usuario order by produto.nome
     usuario <- runDB $ selectList [] [Asc UsuarioNome]
