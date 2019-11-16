@@ -184,7 +184,7 @@ getUsuarioR = do
             <h1>
                 CADASTRO DE USUARIO
             
-            <form method=get action=@{UsuarioR}>
+            <form method=POST action=@{UsuarioR}>
                 ^{widget}
                 <input type="submit" value="Cadastrar">
                 $maybe mensa <- msg 
