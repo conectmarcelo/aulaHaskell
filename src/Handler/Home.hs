@@ -204,14 +204,12 @@ getHomeR = do
                     <a href=@{OrcamentosR}>Contatos
             $maybe nome <- sess
                 <li>
-                    <div>
-                        Ola #{nome}
+                    Ola #{nome}
                     <form method=post action=@{SairR}>
                         <input type="submit" value="Sair">
             $nothing
                 <li>
-                    <div>
-                        convidado
+                    convidado
           
 
                
