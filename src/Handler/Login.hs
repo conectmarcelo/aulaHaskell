@@ -274,7 +274,7 @@ getAdminR = do
                 <li>
                     <a href=@{UsuarioR}>Cadastrar
                 <li>
-                    <a href=@{EntrarR}>Login
+                    <a href=@{EntrarR}>LoginN
                 
 
         <div class="container">
