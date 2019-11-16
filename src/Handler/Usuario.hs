@@ -26,7 +26,7 @@ getUsuarioR :: Handler Html
 getUsuarioR = do 
     (widget,_) <- generateFormPost formUsu
     msg <- getMessage
-    defaultLayout $ 
+    defaultLayout $ do
         toWidgetHead [lucius|
             
         * {
