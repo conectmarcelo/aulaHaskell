@@ -21,6 +21,24 @@ formUsu = renderBootstrap $ (,)
         <*> areq passwordField "Senha: " Nothing)
     <*> areq passwordField "Digite Novamente: " Nothing
 
+getListUsuaruiR :: Handler Html 
+getListUsuarioR = do 
+    -- select * from Usuario order by produto.nome
+    usuario <- runDB $ selectList [] [Asc UsuarioNome]
+    defaultLayout $ do 
+        $(whamletFile "templates/listarUsuario.hamlet")
+
+postApagarUsuarioR :: UsuarioId -> Handler Html
+postApagarUsuarioR pid = do 
+    _ <- runDB $ get404 pid
+    runDB $ delete pid
+    redirect ListUsuarioR
+
+
+
+
+
+
 getUsuarioR :: Handler Html
 getUsuarioR = do 
     (widget,_) <- generateFormPost formUsu

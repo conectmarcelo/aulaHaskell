@@ -22,7 +22,17 @@
 /listarOrcamentos ListOrcamentosR GET
 /orcamentos/#OrcamentosId/apagar ApagarOrcamentosR POST
 
+
 /cadastro   UsuarioR    GET POST
+/listarUsuario ListUsuarioR GET
+/usuario/#UsuarioId/apagarU ApagarUsuarioR POST
+
+
+
+
+
+
+
 /entrar     EntrarR     GET POST
 /sair       SairR       GET POST
 /admin      AdminR      GET
