@@ -395,7 +395,7 @@ getUsuarioR = do
             
             <form method=post action=@{UsuarioR}>
                 ^{widget}
-                <input type="submit" value="Cadastrar">
+                    <input type="submit" value="Cadastrar">
                 $maybe mensa <- msg 
                     <div>
                         ^{mensa}
