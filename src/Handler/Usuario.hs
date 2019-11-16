@@ -23,7 +23,7 @@ formUsu = renderBootstrap $ (,)
 
 getListUsuarioR :: Handler Html 
 getListUsuarioR = do 
-    -- select * from Usuario order by produto.nome
+    -- select * from Usuario order by usuario.nome
     usuario <- runDB $ selectList [] [Asc UsuarioNome]
     defaultLayout $ do 
         $(whamletFile "templates/listarUsuario.hamlet")
