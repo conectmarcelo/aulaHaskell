@@ -7,7 +7,7 @@
                 <li>
                     <a href=@{UsuarioR}>Cadastrar Usuário
                 <li>
-                    <a href=@{UsuarioR}>Gerênciar Usuários
+                    <a href=@{UsuarioR}>Gerenciar Usuários
                 <li>
                     <a href=@{EntrarR}>Login
                 <li>
