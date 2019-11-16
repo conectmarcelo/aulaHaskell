@@ -21,23 +21,6 @@ formUsu = renderBootstrap $ (,)
         <*> areq passwordField "Senha: " Nothing)
     <*> areq passwordField "Digite Novamente: " Nothing
 
-getListUsuarioR :: Handler Html 
-getListUsuarioR = do 
-    -- select * from Usuario order by usuario.nome
-    usuario <- runDB $ selectList [] [Asc UsuarioNome]
-    defaultLayout $ do 
-        $(whamletFile "templates/listarUsuario.hamlet")
-
-postApagarUsuarioR :: UsuarioId -> Handler Html
-postApagarUsuarioR pid = do 
-    _ <- runDB $ get404 pid
-    runDB $ delete pid
-    redirect ListUsuarioR
-
-
-
-
-
 
 getUsuarioR :: Handler Html
 getUsuarioR = do 
@@ -208,6 +191,7 @@ getUsuarioR = do
                         ^{mensa}
         |]
 
+
 postUsuarioR :: Handler Html
 postUsuarioR = do 
     ((result,_),_) <- runFormPost formUsu
@@ -227,3 +211,71 @@ postUsuarioR = do
                 |]
                 redirect UsuarioR
         _ -> redirect HomeR
+
+
+getListUsuarioR :: Handler Html 
+getListUsuarioR = do 
+    -- select * from Usuario order by usuario.nome
+    usuario <- runDB $ selectList [] [Asc UsuarioNome]
+    defaultLayout $ do 
+        addStylesheet (StaticR css_bootstrap_css)
+        $(whamletFile "templates/listarUsuario.hamlet")
+
+        
+        toWidgetHead [lucius|
+            
+        * {
+        margin:0px;
+        padding: 0px;
+        }
+        
+        nav{
+        background-color:rgba(0,0,0, 0.9)
+        }
+
+        ul{  
+            padding: 20px;
+            text-align: end;
+        }
+        
+        li {
+            list-style: none;
+            display: inline;
+            margin-left: 20px;
+        }
+        
+        li a{
+            text-decoration: none;
+            color:white;
+            font-family: Helvetica;
+            font-size: 20px;
+            padding: 20px;
+            transition-duration:0.5s, 0.3s;
+            cursor: pointer;
+        }
+        
+        li a:hover{
+            width: 210px;
+            background-color: grey;
+            color:white;
+            font-size: 20px;
+            padding: 25px;
+            text-decoration: none;
+        }
+        
+        
+        footer{background-color:black;
+            text-align:center;
+            padding:20px;}
+        img {width:50px; height:50px;}
+        
+        .rodape{text-align:center}
+        
+                    
+        |]
+
+postApagarUsuarioR :: UsuarioId -> Handler Html
+postApagarUsuarioR pid = do 
+    _ <- runDB $ get404 pid
+    runDB $ delete pid
+    redirect ListUsuarioR
