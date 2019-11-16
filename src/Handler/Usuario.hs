@@ -375,20 +375,20 @@ getUsuarioR = do
         [whamlet|
         
         <nav class="navbar justify-content-end fixed-top">    
-          <ul>
-            <li>
-              <a href=@{HomeR}>Home
-            <li>
-              <a href=@{FotosR}>Fotos
-            <li>
-              <a href=@{PromocoesR}>Promoções
-            <li>
-              <a href=@{ServicosR}>Serviços
-            <li>
-              <a href=@{DicasR}>Blog
-            <li>
-              <a href=@{OrcamentosR}>Contatos
-
+            <ul>
+                 <li>
+                    <a href=@{HomeR}>Home
+                <li>
+                    <a href=@{ListOrcamentosR}>Orçamentos
+                <li>
+                    <a href=@{UsuarioR}>Cadastrar Usuário
+                <li>
+                    <a href=@{UsuarioR}>Gerênciar Usuários
+                <li>
+                    <a href=@{EntrarR}>Login
+                <li>
+                    <a href=@{SairR}>Logout
+                    
         <div class="form"> 
             <h1>
                 CADASTRO DE USUARIO
@@ -410,13 +410,13 @@ postUsuarioR = do
                 runDB $ insert usuario 
                 setMessage [shamlet|
                     <div>
-                        USUARIO INCLUIDO
+                        USUARIO INCLUIDO COM SUCESSO!
                 |]
                 redirect UsuarioR
             else do 
                 setMessage [shamlet|
                     <div>
-                        SENHA E VERIFICACAO N CONFEREM
+                        SENHA E VERIFICACAO NÃO CONFEREM
                 |]
                 redirect UsuarioR
         _ -> redirect HomeR
