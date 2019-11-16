@@ -157,7 +157,7 @@ getEntrarR = do
                 <li>
                     <a href=@{UsuarioR}>Cadastrar Usuário
                 <li>
-                    <a href=@{UsuarioR}>Gerênciar Usuários
+                    <a href=@{ListUsuarioR}>Gerênciar Usuários
                 <li>
                     <a href=@{EntrarR}>Login
                 <li>
@@ -265,7 +265,7 @@ getAdminR = do
                 <li>
                     <a href=@{UsuarioR}>Cadastrar Usuário
                 <li>
-                    <a href=@{UsuarioR}>Gerênciar Usuários
+                    <a href=@{ListUsuarioR}>Gerênciar Usuários
                 <li>
                     <a href=@{EntrarR}>Login
                 <li>
