@@ -78,12 +78,7 @@ getHomeR = do
         addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
         addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        
         sess <- lookupSession "_NOME"
-        
-        -- esta no projeto
-        addStylesheet (StaticR css_bootstrap_css)
-        
         toWidgetHead [hamlet|
         
         <script data-ad-client="ca-pub-6395641199023717" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
@@ -92,7 +87,6 @@ getHomeR = do
         <style rel="stylesheet" type="text/css" href=@{StaticR css_css_css}>
         
         |]
-        
         
         toWidgetHead [lucius|
             
@@ -202,15 +196,17 @@ getHomeR = do
                     <a href=@{DicasR}>Blog
                 <li>
                     <a href=@{OrcamentosR}>Contatos
-            $maybe nome <- sess
-                <li>
-                    Ola #{nome}
-                    <form method=post action=@{SairR}>
-                        <input type="submit" value="Sair">
-            $nothing
-                <li>
-                    convidado
-          
+                
+                $maybe nome <- sess
+                    <li>
+                        <div>
+                            Ola #{nome}
+                        <form method=post action=@{SairR}>
+                            <input type="submit" value="Sair">
+                $nothing
+                    <li>
+                        <div>
+                            convidado
 
                
         
