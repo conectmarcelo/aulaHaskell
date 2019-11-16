@@ -181,7 +181,7 @@ postEntrarR = do
     case result of 
         FormSuccess ("root@root.com","root125") -> do 
             setSession "_NOME" "admin"
-            redirect UsuarioR
+            redirect AdminR
         FormSuccess (email,senha) -> do 
            -- select * from usuario where email=digitado.email
            usuario <- runDB $ getBy (UniqueEmailRest email)
@@ -209,4 +209,9 @@ postSairR = do
     deleteSession "_NOME"
     redirect HomeR
 
-
+getAdminR :: Handler Html
+getAdminR = do 
+    defaultLayout [whamlet|
+        <h1>
+            BEM-VINDO MEU REI!
+    |]
