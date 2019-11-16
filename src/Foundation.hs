@@ -36,7 +36,6 @@ instance Yesod App where
     isAuthorized SairR _ = return Authorized
     isAuthorized (StaticR _) _ = return Authorized
     isAuthorized ListOrcamentosR _ = isAdmin
-    isAuthorized ApagarOrcamentosR _= isAdmin
     isAuthorized AdminR _ = isAdmin
     isAuthorized ListUsuarioR _ = isAdmin
     isAuthorized SairR _ = isAdmin
