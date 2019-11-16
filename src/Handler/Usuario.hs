@@ -168,7 +168,7 @@ getUsuarioR = do
                 <li>
                     <a href=@{HomeR}>Home
                 <li>
-                    <a href=@{listarOrcamentos}>Orçamentos
+                    <a href=@{ListOrcamentosR}>Orçamentos
                 <li>
                     <a href=@{UsuarioR}>Cadastrar Usuário
                 <li>
