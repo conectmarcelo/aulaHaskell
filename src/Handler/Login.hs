@@ -151,18 +151,17 @@ getEntrarR = do
             <nav class="navbar justify-content-end fixed-top">    
               <ul>
                 <li>
-                  <a href=@{HomeR}>Home
+                    <a href=@{HomeR}>Home
                 <li>
-                  <a href=@{FotosR}>Fotos
+                    <a href=@{listarOrcamentos}>Orçamentos
                 <li>
-                  <a href=@{PromocoesR}>Promoções
+                    <a href=@{UsuarioR}>Cadastrar Usuário
                 <li>
-                  <a href=@{ServicosR}>Serviços
+                    <a href=@{UsuarioR}>Gerênciar Usuários
                 <li>
-                  <a href=@{DicasR}>Blog
+                    <a href=@{EntrarR}>Login
                 <li>
-                  <a href=@{OrcamentosR}>Contatos
-
+                    <a href=@{SairR}>Logout
             <div class="form"> 
                 <h1>
                     ENTRAR
@@ -262,20 +261,15 @@ getAdminR = do
                 <li>
                     <a href=@{HomeR}>Home
                 <li>
-                    <a href=@{FotosR}>Fotos
+                    <a href=@{listarOrcamentos}>Orçamentos
                 <li>
-                    <a href=@{PromocoesR}>Promoções
+                    <a href=@{UsuarioR}>Cadastrar Usuário
                 <li>
-                    <a href=@{ServicosR}>Serviços
-                <li>
-                    <a href=@{DicasR}>Blog
-                <li>
-                    <a href=@{ContatosR}>Contatos
-                <li>
-                    <a href=@{UsuarioR}>Cadastrar
+                    <a href=@{UsuarioR}>Gerênciar Usuários
                 <li>
                     <a href=@{EntrarR}>Login
-                
+                <li>
+                    <a href=@{SairR}>Logout
 
         <div class="container">
             <h1>
