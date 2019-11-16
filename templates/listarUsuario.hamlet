@@ -28,7 +28,7 @@
                     MENSAGEM    
                     
         <tbody>
-            $forall Entity pid orcamentos <- orcamentos
+            $forall Entity pid usuario <- usuario
                 <tr>
                     <td>
                         #{usuarioNome usuario}
@@ -36,8 +36,6 @@
                         #{usuarioEmail usuario}
                     <td>
                         #{usuarioSenha usuario}
-                    <td>
-                        #{orcamentosMensagem orcamentos}    
                     <td>    
                         <form method=post action=@{ApagarUsuarioR pid}>
                             <input type="submit" value="Deletar">
