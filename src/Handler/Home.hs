@@ -73,7 +73,7 @@ getFotosR = do
 getHomeR :: Handler Html
 getHomeR = do 
     defaultLayout $ do 
-        setTitle $ toHtml "Hi There!"
+        setTitle toHtml "Hi There!"
         -- remoto
         addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
