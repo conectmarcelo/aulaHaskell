@@ -41,22 +41,7 @@
       <a href="#img36"><img class="foto" src=@{StaticR casamento_36_jpg}>
     <div class="galeria">
       <a href="#img37"><img class="foto" src=@{StaticR casamento_37_jpg}>
-<br>    
-<footer>
-  <div class="row justify-content-center">
-    <div class="col-12">
-      <div class="footer">
-        <h1>Smiles Festas
-    <div class="row justify-content-center">
-      <div class="col-12">
-        <div class="footer">
-          <ul>
-            <l1>
-              <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
-            <l1>
-              <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp"> 
-
-<div class="container">
+  
   <div class="lbox" id="img11">
     <div class="box_img">
       <a href="#img37" class="btn" id="prev">&#171
@@ -140,6 +125,24 @@
       <a href="" class="btn" id="close">x
       <img class="listaimg" src=@{StaticR casamento_37_jpg}>
       <a href="#img11" class="btn" id="next">&#187
+  
+<br>    
+<footer>
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <div class="footer">
+        <h1>Smiles Festas
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="footer">
+          <ul>
+            <l1>
+              <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
+            <l1>
+              <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp"> 
+
+
+  
     
 
 
