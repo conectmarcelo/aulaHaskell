@@ -54,7 +54,7 @@ li a:hover{
  margin:auto;
  margin-top:15px;}
  
-.galeria:hover{
+.foto:hover{
     width: 400px;
     height:300px;
     margin:auto;
