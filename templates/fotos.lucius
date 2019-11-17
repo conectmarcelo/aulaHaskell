@@ -1,0 +1,59 @@
+.rowdicas{height:100px;padding:100px;}
+
+nav{
+    background-color:rgba(0,0,0, 0.9)
+    
+}
+
+ul{  
+    padding: 20px;
+    text-align: end;
+}
+
+li {
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color:white;
+    font-family: Helvetica;
+    font-size: 20px;
+    padding: 20px;
+    transition-duration:0.5s, 0.3s;
+    cursor: pointer;
+}
+
+h1{color:rgb(192, 159, 75);}
+
+main{margin-top:100px;}
+
+footer{background-color:black;
+            text-align:center;
+            padding:20px;}
+
+img {width:50px; height:50px;}
+
+.foto{width:250px; height:200px;
+}
+
+li a:hover{
+    width: 210px;
+    background-color: grey;
+    color:white;
+    font-size: 20px;
+    padding: 25px;
+    text-decoration: none;
+}
+
+
+ .galeria{background-color:white;
+ width:250px;
+ height:200px;
+ margin:auto;
+ margin-top:15px;
+ }
+ 
+
