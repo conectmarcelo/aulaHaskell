@@ -48,10 +48,15 @@ li a:hover{
 }
 
 
- .galeria{background-color:blue;
+ .galeria{background-color:white;
  width:250px;
  height:200px;
  margin:auto;
  margin-top:15px;}
  
- 
+.galeria:hover{
+    width: 400px;
+    height:300px;
+    margin:auto;
+    margin-top:15px;}
+} 
