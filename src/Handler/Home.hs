@@ -73,7 +73,7 @@ getFotosR = do
 getHomeR :: Handler Html
 getHomeR = do 
     defaultLayout $ do 
-        setTitle toHtml "Hi There!"
+        
         -- remoto
         addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -81,7 +81,8 @@ getHomeR = do
         addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         sess <- lookupSession "_NOME"
         toWidgetHead [hamlet|
-        <title>Smiles Festas
+        <link rel="stylesheet" type="text/css" href="bannertxt.css" media="screen" />
+        <script type="text/javascript" src="bannertxt.js">
         
         <script data-ad-client="ca-pub-6395641199023717" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
         
