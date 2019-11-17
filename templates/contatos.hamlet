@@ -143,15 +143,5 @@
 
 
   
-<div class="carousel-inner" id="img37">
-    <div class="carousel-item">
-      <a href="#img36" class="btn" id="prev">&#171
-      <a href="" class="btn" id="close">x
-      <img class="listaimg" src=@{StaticR casamento_37_jpg}>
-      <a href="#img11" class="btn" id="next">&#187    
-
-
-
-
 
     
