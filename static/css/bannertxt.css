@@ -38,17 +38,17 @@
 .qc-cmp-toggle-status,
 .qc-cmp-table,
 .qc-cmp-table-header {
-    color: #000000 !important;
+	color: #000000 !important;
 }
-
+	
 .qc-cmp-ui {
-    background-color: #ffffff !important;
+		background-color: #ffffff !important;
 }
 
 .qc-cmp-table,
 .qc-cmp-table-row {
-        border: 1px solid !important;
-        border-color: #000000 !important;
+	  border: 1px solid !important;
+	  border-color: #000000 !important;
 } 
 #qcCmpButtons a {
         text-decoration: none !important;

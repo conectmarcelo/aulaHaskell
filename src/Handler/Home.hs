@@ -73,6 +73,8 @@ getFotosR = do
 getHomeR :: Handler Html
 getHomeR = do 
     defaultLayout $ do 
+        addStylesheet (StaticR css_bannertxt_css)
+        addScript (StaticR css_bannertxt_js)
         -- remoto
         addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
