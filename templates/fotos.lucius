@@ -58,5 +58,6 @@ li a:hover{
     width: 400px;
     height:300px;
     margin:auto;
-    margin-top:15px;}
+    margin-top:15px;
+    z-index:1;}
 
