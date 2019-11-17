@@ -72,6 +72,7 @@ getFotosR = do
 
 getHomeR :: Handler Html
 getHomeR = do 
+    setTitle $ toHtml "Smiles Festas"
     defaultLayout $ do 
        
         -- remoto
