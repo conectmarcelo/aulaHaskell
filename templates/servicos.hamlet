@@ -45,7 +45,7 @@
       <div class="card-body">
         <h5 class="card-title">Doces Finos</h5>
         <p class="card-text">Os mais lindos e deliciosos doces para seu evento
-        <a href=@{OrcamentosR} class="btn btn-primary">Contate-nos...
+        <a href=@{DocesR} class="btn btn-primary">Fotos...
     <div class="galeria">
       <img class="foto" src=@{StaticR casamento_13_jpg}>
       <div class="card-body">

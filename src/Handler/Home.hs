@@ -70,6 +70,18 @@ getFotosR = do
         toWidgetHead $(luciusFile "templates/fotos.lucius")
         $(whamletFile "templates/fotos.hamlet")
 
+getDocesR :: Handler Html 
+getDocesR = do 
+    defaultLayout $ do 
+        --addStylesheet (StaticR css_bootstrap_css)
+        addStylesheetRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        addScriptRemote "https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        toWidgetHead $(juliusFile "templates/doces.julius")
+        toWidgetHead $(luciusFile "templates/doces.lucius")
+        $(whamletFile "templates/doces.hamlet")
+
 getHomeR :: Handler Html
 getHomeR = do 
     defaultLayout $ do 
