@@ -42,7 +42,7 @@
       <img class="foto" src=@{StaticR doces_62_jpg}>
     <div class="galeria">
       <img class="foto" src=@{StaticR doces_63_jpg}>
-<div class="row">
+  <div class="row">
     <div class="galeria">
       <img class="foto" src=@{StaticR doces_64_jpg}>
     <div class="galeria">
