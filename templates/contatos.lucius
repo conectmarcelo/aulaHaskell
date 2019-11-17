@@ -65,8 +65,7 @@ opacity:0;
 width:1110px;
 height:640px;
 position:absolute;
-top:50%;
-margin-top:-280px;
+
 	
 }
 
