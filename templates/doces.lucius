@@ -1,4 +1,4 @@
-.rowdicas{height:100px;padding:100px;}
+.rowdicas{height:100px;padding:110px;}
 
 nav{
     background-color:rgba(0,0,0, 0.9)
@@ -28,7 +28,7 @@ li a{
 
 h1{color:rgb(192, 159, 75);}
 
-main{margin-top:100px;}
+main{margin-top:0px;}
 
 footer{background-color:black;
             text-align:center;
