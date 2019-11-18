@@ -222,7 +222,7 @@ getHomeR = do
         
         <div class="a">
             <div class="aa">
-                <h1>SMILES FESTAS.
+                <h1>SMILES FESTAS
                 <h2>Casamentos, Debutantes, Aniversários e muito mais    
                 
         <div class="b">
