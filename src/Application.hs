@@ -22,6 +22,7 @@ import Database.Persist.Postgresql          (createPostgresqlPool, pgConnStr,
                                              pgPoolSize, runSqlPool)
 import Import
 import Language.Haskell.TH.Syntax           (qLocation)
+import Network.Wai.Handler
 import Network.Wai (Middleware)
 import Network.Wai.Handler.Warp             (Settings, defaultSettings,
                                              defaultShouldDisplayException,
@@ -140,7 +141,6 @@ develMain :: IO ()
 develMain = develMainHelper getApplicationDev
 
 -- | The @main@ function for an executable running this site.
-
 appMain :: IO ()
 appMain = do
     let cp s = "/etc/letsencrypt/live/aulahaskell.ml/" ++ s
