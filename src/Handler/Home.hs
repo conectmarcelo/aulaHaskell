@@ -96,8 +96,6 @@ getHomeR = do
         <link rel="stylesheet" type="text/css" href="bannertxt.css" media="screen" />
         <script type="text/javascript" src="bannertxt.js">
         
-        <script data-ad-client="ca-pub-6395641199023717" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js">
-        
         
         |]
         
