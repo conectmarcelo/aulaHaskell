@@ -9,7 +9,7 @@ module Handler.Home where
 import Import
 import Text.Lucius
 import Text.Julius
-import Network.HTTP.Types.Status
+--import Network.HTTP.Types.Status
 import Database.Persist.Postgresql
 
 getDicasR :: Handler Html 
