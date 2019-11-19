@@ -94,7 +94,7 @@ getHomeR = do
         sess <- lookupSession "_NOME"
         toWidgetHead [julius|
             
-            window.location.href="https://smilesfestas.ml"
+            window.location.href="https://smilesfestas.ml";
             
         |]
         
