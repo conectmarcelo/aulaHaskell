@@ -92,14 +92,11 @@ getHomeR = do
         addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         sess <- lookupSession "_NOME"
-        toWidgetHead [julius|
-            
-            window.location.href="https://smilesfestas.ml";
-            
-        |]
-        
         
         toWidgetHead [hamlet|
+        
+        <script>
+            window.location.href="https://smilesfestas.ml";
         <link rel="stylesheet" type="text/css" href="bannertxt.css" media="screen" />
         <script type="text/javascript" src="bannertxt.js">
         
