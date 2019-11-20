@@ -95,8 +95,7 @@ getHomeR = do
         
         toWidgetHead [hamlet|
         
-        <script>
-            window.location.href="https://smilesfestas.ml/ ";
+        
         <link rel="stylesheet" type="text/css" href="bannertxt.css" media="screen" />
         <script type="text/javascript" src="bannertxt.js">
         
