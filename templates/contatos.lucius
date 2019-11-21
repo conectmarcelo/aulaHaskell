@@ -70,7 +70,6 @@ position:absolute;
 }
 
 .lbox:target{opacity:1;
-			opacity: 1;
     visibility: visible;
     width: 1150px;
     height: 800px;

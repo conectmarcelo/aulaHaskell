@@ -48,7 +48,91 @@
       <img class="foto" src=@{StaticR casamento_36_jpg}>
     <div class="galeria">
       <img class="foto" src=@{StaticR casamento_37_jpg}>
- 
+<div class="lbox" id="img11">
+    <div class="box_img">
+      <a href="#img37" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_11_jpg}>
+      <a href="#img12" class="btn" id="next">&#187
+  
+  <div class="lbox" id="img12">
+    <div class="box_img">
+      <a href="#img11" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_12_jpg}>
+      <a href="#img13" class="btn" id="next">&#187
+  
+  <div class="lbox" id="img13">
+    <div class="box_img">
+      <a href="#img12" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_13_jpg}>
+      <a href="#img14" class="btn" id="next">&#187
+  
+  <div class="lbox" id="img14">
+    <div class="box_img">
+      <a href="#img13" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_14_jpg}>
+      <a href="#img15" class="btn" id="next">&#187
+  
+  <div class="lbox" id="img15">
+    <div class="box_img">
+      <a href="#img14" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_15_jpg}>
+      <a href="#img16" class="btn" id="next">&#187
+  
+  <div class="lbox" id="img16">
+    <div class="box_img">
+      <a href="#img15" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_16_jpg}>
+      <a href="#img32" class="btn" id="next">&#187
+  
+  <div class="lbox" id="img32">
+    <div class="box_img">
+      <a href="#img16" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_32_jpg}>
+      <a href="#img33" class="btn" id="next">&#187
+      
+  <div class="lbox" id="img33">
+    <div class="box_img">
+      <a href="#img32" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_33_jpg}>
+      <a href="#img34" class="btn" id="next">&#187
+      
+  <div class="lbox" id="img34">
+    <div class="box_img">
+      <a href="#img33" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_34_jpg}>
+      <a href="#img35" class="btn" id="next">&#187
+      
+  <div class="lbox" id="img35">
+    <div class="box_img">
+      <a href="#img34" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_35_jpg}>
+      <a href="#img36" class="btn" id="next">&#187
+      
+  <div class="lbox" id="img36">
+    <div class="box_img">
+      <a href="#img35" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_36_jpg}>
+      <a href="#img37" class="btn" id="next">&#187
+      
+  <div class="lbox" id="img37">
+    <div class="box_img">
+      <a href="#img36" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_37_jpg}>
+      <a href="#img11" class="btn" id="next">&#187
+      
+
 <br>    
 <footer>
   <div class="row justify-content-center">
