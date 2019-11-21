@@ -21,39 +21,32 @@
   
     
 <main class="container">
+  <div class="galeria">
+      <a href="#img11"><img class="foto" src=@{StaticR casamento_11_jpg}>
+    <div class="galeria">
+      <a href="#img12"><img class="foto" src=@{StaticR casamento_12_jpg}>
+    <div class="galeria">
+      <a href="#img13"><img class="foto" src=@{StaticR casamento_13_jpg}>
+    <div class="galeria">
+      <a href="#img14"><img class="foto" src=@{StaticR casamento_14_jpg}>
   <div class="row">
     <div class="galeria">
-      <img class="foto" src=@{StaticR casamento_11_jpg}>
+      <a href="#img15"><img class="foto" src=@{StaticR casamento_15_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR casamento_12_jpg}>
+      <a href="#img16"><img class="foto" src=@{StaticR casamento_16_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR casamento_13_jpg}>
+      <a href="#img132"><img class="foto" src=@{StaticR casamento_32_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR casamento_14_jpg}>
+      <a href="#img33"><img class="foto" src=@{StaticR casamento_33_jpg}>
   <div class="row">
     <div class="galeria">
-      <img class="foto" src=@{StaticR casamento_15_jpg}>
+      <a href="#img134"><img class="foto" src=@{StaticR casamento_34_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR casamento_16_jpg}>
+      <a href="#img35"><img class="foto" src=@{StaticR casamento_35_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR casamento_32_jpg}>
+      <a href="#img36"><img class="foto" src=@{StaticR casamento_36_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR casamento_33_jpg}>
-  <div class="row">
-    <div class="galeria">
-      <img class="foto" src=@{StaticR casamento_34_jpg}>
-    <div class="galeria">
-      <img class="foto" src=@{StaticR casamento_35_jpg}>
-    <div class="galeria">
-      <img class="foto" src=@{StaticR casamento_36_jpg}>
-    <div class="galeria">
-      <img class="foto" src=@{StaticR casamento_37_jpg}>
-<div class="lbox" id="img11">
-    <div class="box_img">
-      <a href="#img37" class="btn" id="prev">&#171
-      <a href="" class="btn" id="close">x
-      <img class="listaimg" src=@{StaticR casamento_11_jpg}>
-      <a href="#img12" class="btn" id="next">&#187
+      <a href="#img37"><img class="foto" src=@{StaticR casamento_37_jpg}>
   
   <div class="lbox" id="img12">
     <div class="box_img">
