@@ -76,7 +76,7 @@ position:absolute;
     height: 800px;
     background: rgba(0, 0, 0,.9);
     position: absolute;
-    margin-top: -650px;
+    margin-top: -750px;
 			
 			}
 			
@@ -132,7 +132,7 @@ color:white;}
     z-index: 3;
     color: white;
     margin-top: 100px;
-    top: -10%;
+    top: -5%;
 }
 .box_img img{opacity:0;}
 
