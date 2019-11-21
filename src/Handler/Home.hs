@@ -32,7 +32,7 @@ getInfantilR = do
         addScriptRemote "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
         addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         toWidgetHead $(luciusFile "templates/infantil.lucius")
-        $(whamletFile "templates/i.hamlet")        
+        $(whamletFile "templates/infantil.hamlet")        
         
 
 getPromocoesR :: Handler Html 
