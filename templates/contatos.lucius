@@ -121,6 +121,7 @@ top:45%;
 color:white;}
 
 #close{
+right:1%;
 z-index: 3;
 color:white;
 margin-top:100px;}
