@@ -9,6 +9,7 @@
 / HomeR GET 
 /fotos FotosR GET
 /doces DocesR GET
+/infatil InfantilR GET
 /dicas DicasR GET
 /promocoes PromocoesR GET
 /servicos ServicosR GET
