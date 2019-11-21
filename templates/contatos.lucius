@@ -70,26 +70,27 @@ position:absolute;
 }
 
 .lbox:target{opacity:1;
-			visibility:visible;
-			width:1150px;
-			height:800px;
-			background: rgba(0, 0, 0,.9);
-			position:absolute;
-			margin-top:100px;
+			opacity: 1;
+    visibility: visible;
+    width: 1150px;
+    height: 800px;
+    background: rgba(0, 0, 0,.9);
+    position: absolute;
+    margin-top: -650px;
 			
 			}
 			
 			
 @media only screen and (max-device-width: 700px){
 
-.lbox:target{opacity:1;
-			visibility:visible;
-			width:900px;
-			height:1300px;
-			background: rgba(0, 0, 0,.9);
-			position:absolute;
-			margin-top:100px;
-			
+.lbox:target{    opacity: 1;
+    visibility: visible;
+    width: 900px;
+    height: 1300px;
+    background: rgba(0, 0, 0,.9);
+    position: absolute;
+    margin-top: -1300px;
+    padding-top: 200px;
 			}
 
 
