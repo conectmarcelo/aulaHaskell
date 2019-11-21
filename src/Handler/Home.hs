@@ -243,7 +243,7 @@ getHomeR = do
             <h1>SMILES FESTAS
             <p>A empresa Smiles é um grupo dedicado a auxiliar no planejamento, execução e finalização de eventos
             <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
-        
+            <a href=href="https://wa.me/5513988822632?text=Atendimento%20Smiles" class="btn btn-primary">Atendimento
         <footer>
             <div class="row justify-content-center">
                 <div class="col-12">
@@ -256,7 +256,7 @@ getHomeR = do
                                 <l1>
                                     <a href="https://www.facebook.com/espacosmiles" target="_blank"><img src=@{StaticR face_png} alt="facebook">
                                 <l1>
-                                    <a href="https://wa.me/5513988822632?text=Atendimento%20Smilesb" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
+                                    <a href="https://wa.me/5513988822632?text=Atendimento%20Smiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
                                     
             
         |]
