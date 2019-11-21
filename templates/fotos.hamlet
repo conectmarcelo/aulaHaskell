@@ -1,4 +1,5 @@
 <nav class="navbar justify-content-end fixed-top">    
+ <nav class="navbar justify-content-end fixed-top">    
   <ul>
     <li>
       <a href=@{HomeR}>Home
@@ -13,15 +14,9 @@
     <li>
       <a href=@{OrcamentosR}>Contatos
 
-<div class="row rowdicas">
-  <div id="48674-1">
-      <script src="//ads.themoneytizer.com/s/gen.js?type=1">
-      <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=1">
-  
-  
-    
 <main class="container">
-  <div class="galeria">
+  <div class="row">
+    <div class="galeria">
       <a href="#img11"><img class="foto" src=@{StaticR casamento_11_jpg}>
     <div class="galeria">
       <a href="#img12"><img class="foto" src=@{StaticR casamento_12_jpg}>
@@ -47,6 +42,14 @@
       <a href="#img36"><img class="foto" src=@{StaticR casamento_36_jpg}>
     <div class="galeria">
       <a href="#img37"><img class="foto" src=@{StaticR casamento_37_jpg}>
+  
+  
+  <div class="lbox" id="img11">
+    <div class="box_img">
+      <a href="#img37" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_11_jpg}>
+      <a href="#img12" class="btn" id="next">&#187
   
   <div class="lbox" id="img12">
     <div class="box_img">
@@ -125,7 +128,6 @@
       <img class="listaimg" src=@{StaticR casamento_37_jpg}>
       <a href="#img11" class="btn" id="next">&#187
       
-
 <br>    
 <footer>
   <div class="row justify-content-center">
@@ -137,6 +139,7 @@
         <div class="footer">
           <ul>
             <l1>
-              <a href="https://www.facebook.com/espacosmiles" target="_blank"><img src=@{StaticR face_png} alt="facebook">
+              <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
             <l1>
-              <a href="https://wa.me/5513988822632?text=Atendimento%20Smilesb" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
+              <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp"> 
+
