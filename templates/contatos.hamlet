@@ -41,7 +41,8 @@
       <a href="#img36"><img class="foto" src=@{StaticR casamento_36_jpg}>
     <div class="galeria">
       <a href="#img37"><img class="foto" src=@{StaticR casamento_37_jpg}>
-  
+
+<div class="col-lg-lg col-sm-12" 
   <div class="lbox" id="img11">
     <div class="box_img">
       <a href="#img37" class="btn" id="prev">&#171
