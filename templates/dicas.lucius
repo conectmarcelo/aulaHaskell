@@ -1,9 +1,10 @@
-.rowdicas{height:100px;padding:110px;}
+
+.rowdicas{height:100px;padding-top:110px;
+    margin-left:100px;}
 
 nav{
     background-color:rgba(0,0,0, 0.9)
-    
-}
+    }
 
 ul{  
     padding: 20px;
@@ -42,7 +43,7 @@ h1{color:rgb(192, 159, 75);
 
 body{
     background-image: url(@{StaticR blog_jpg});
-    background-repeat: no-repeat;
+    background-repeat:repeat;
     background-size: 100%;
     background-attachment: fixed;
     
