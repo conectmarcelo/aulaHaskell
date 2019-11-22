@@ -1,8 +1,9 @@
 
+.rowdicas{height:100px;padding:110px;}
+
 nav{
     background-color:rgba(0,0,0, 0.9)
-    
-}
+    }
 
 ul{  
     padding: 20px;

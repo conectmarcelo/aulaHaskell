@@ -15,6 +15,11 @@
       <a href=@{OrcamentosR}>Contatos
 
 <main class="container">
+
+<div class="row rowdicas">
+        <div id="48674-1">
+            <script src="//ads.themoneytizer.com/s/gen.js?type=1">
+            <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=1">
   <div class="row">
     <div class="galeria">
       <a href="#img11"><img class="foto" src=@{StaticR casamento_11_jpg}>
@@ -129,7 +134,7 @@
       <a href="#img11" class="btn" id="next">&#187
       
 <br>    
-<footer>
+<footer class="container-fluid">
   <div class="row justify-content-center">
     <div class="col-12">
       <div class="footer">
