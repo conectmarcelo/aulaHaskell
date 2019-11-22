@@ -14,7 +14,7 @@
     <li>
       <a href=@{OrcamentosR}>Contatos
 
-<div class="row rowdicas">
+<div class="row rowdicas container">
         <div id="48674-1">
             <script src="//ads.themoneytizer.com/s/gen.js?type=1">
             <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=1">
@@ -136,7 +136,7 @@
       <a href="#img11" class="btn" id="next">&#187
       
 <br>    
-<footer">
+<footer>
   <div class="row justify-content-center">
     <div class="col-12">
       <div class="footer">
