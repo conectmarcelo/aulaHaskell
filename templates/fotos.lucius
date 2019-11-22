@@ -1,5 +1,6 @@
 
-.rowdicas{height:100px;padding-top:110px;}
+.rowdicas{height:100px;padding-top:110px;
+    }
 
 nav{
     background-color:rgba(0,0,0, 0.9)
@@ -72,11 +73,11 @@ position:absolute;
 
 .lbox:target{opacity:1;
     visibility: visible;
-    width: 1150px;
+    width: 1110px;
     height: 800px;
     background: rgba(0, 0, 0,.9);
     position: absolute;
-    margin-top: -650px;
+    margin-top: -750px;
 			
 			}
 			
@@ -106,8 +107,8 @@ position:absolute;
 
 .box_img{width:800px;
 		margin:auto;
-		margin-top:0px;
-		margin-botton:0px;}
+		margin-top:100px;
+		margin-botton:30px;}
 
 .btn{color:#fff;
 font-family:'Arial';
