@@ -1,64 +1,64 @@
-    
-    
-    <nav class="navbar justify-content-end" >    
-        <ul>
-            <li>
-                <a href=@{HomeR}>Home
-            <li>
-                <a href=@{FotosR}>Fotos
-            <li>
-                <a href=@{PromocoesR}>Promoções
-            <li>
-                <a href=@{ServicosR}>Serviços
-            <li>
-                <a href=@{DicasR}>Blog
-            <li>
-                <a href=@{OrcamentosR}>Contato
-    <div class="row rowdicas">
-        <div id="48674-1">
-            <script src="//ads.themoneytizer.com/s/gen.js?type=1">
-            <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=1">
-       
-    
-    <main class="container">
-        <h1>10 dicas para organizar uma festa infantil perfeita
-        <P>Todo mundo quer aprender a organizar uma festa infantil perfeita. Comemorar as datas importantes de sua família é importante e os aniversários dos filhos não fogem disso. Serão momentos que sempre estarão presentes na memória, por isso todos querem que tudo saia perfeitamente do jeito imaginado. Mas como realizar uma festa infantil sem erros? Como sair satisfeita com o resultado? A resposta é simples: um bom planejamento. Foi pensando nisso que separamos para você 10 dicas imperdíveis de como organizar uma festa infantil perfeita. Leia abaixo o que é necessário para que o momento de comemoração de mais um ano dos seus filhos seja ainda mais memorável.
-        
-        <h2>Escolha um local apropriado
-        <p>Está em dúvida entre realizar a festa em casa, em um buffet ou qualquer outro espaço? Pois bem, escolha aquele que não seja só economicamente mais viável, mas que também tenha o que você espera. Geralmente a residência não é uma boa opção para quem planeja uma festa com animação ou uma decoração especifica. Lembre-se que é importante que o espaço possua móveis, cozinha, banheiro e espaço suficiente para os seus convidados se sentirem confortáveis.
-        <br>
-        <h2>Defina um bom tema
-        <P>Palhaços, princesas, super heróis… qual é o tema da festa de seus filhos? É sempre bom escolher um tema que agrade não você, mas seus filhos, em primeiro lugar. Então, qual é o desenho que ele não consegue tirar da cabeça? Esse será o tema e também a decoração da sua festa. Balões, forros de mesa, bonecos… tudo isso vai fazer parte da cenografia da festa. Portanto escolha um tema que você possa extrair o máximo e que faça seus filhos felizes.
-        <br>
-        <h2>Destine um tempo para os convites
-        <p>Você já escolheu o local, certamente já planejou a data e tem também o tema em mente, portanto já está pronta para os convites. É sempre legal que os convites também sigam o tema da festa, por isso faça com que eles sejam personalizados. É importante se certificar que eles também contenham a data, horário e local corretos da festa e que tenham uma mensagem simpática para os seus convidados. Um convite por família é suficiente.
-        <h2>Procure comidas adequadas para sua festa
-        <p>Se você prefere optar por um buffet pode fazer várias degustações até encontrar aquele cardápio perfeito. Mas qual é o estilo de seus convidados e também o seu? É importante não buscar somente se agradar, mas também àqueles que estarão presentes. Lembre-se que festas durante o horário do almoço ou janta devem ter um prato especifico, por exemplo as massas. Já as festas para o período da tarde podem oferecer somente salgadinhos e petiscos para os convidados.
-        <h2>Se preocupe com as bebidas
-        <P>As bebidas são parte fundamental de uma festa, portanto é preciso se preocupar com as escolhas. Refrigerante, suco, água e bebidas alcoólicas (caso os convidados a consumam) devem estar no cardápio. Mas além de se preocupar com o que irá servir, é preciso checar a temperatura das bebidas, afinal ninguém gostar de um refrigerante quente, por exemplo. Por isso é necessário que você tenha um freezer ou geladeira somente para isso. Alguns buffets oferecem esse serviço bem como salões de festas.
-        <h2>Não exagere na quantidade dos doces
-        <p>Primeiro: decida quantos doces serão servidos. O ideal é que seja calculado de seis a sete doces por convidado, incluindo as crianças presentes. O bolo, entretanto, não deve chegar à totalidade do número de convidados, sempre calcule um número inferior de 30 a 40 pessoas. Se achar que convém, tenha também uma mesa de guloseimas com balas, pirulitos, chicletes etc.
-        <h2>Atenção na escolha da animação
-        <p>Se o espaço for suficiente, é sempre interessante ter atrações para distrair as crianças e também os adultos. Por isso, talvez valha a pena investir em uma empresa de animadores para cuidarem das crianças e, para os adultos, quem sabe alguma brincadeira? Claro, somente para aqueles que queiram participar. Lembre-se que é desagradável forçar alguma situação ou até mesmo desligar o som da festa para que haja alguma brincadeira.
-        <h2>Escolha boas músicas para o momento
-        <P>Na maioria das festas infantis as músicas escolhidas são sempre as dedicadas para os baixinhos e acabamos nos esquecendo que os adultos também estão ali para aproveitar um momento agradável. Por isso é importante ter uma boa mistura de gêneros musicais que agradem tanto as crianças como também seus pais.
-        <h2>Contrate um fotógrafo profissional
-        <P>Quer ter essas lembranças para sempre? Nada mais justo do que registrar elas através de fotografias ou até mesmo filmagens. O ideal é contratar uma pessoa somente para esse serviço, já que você estará muito ocupada com outros afazeres. Deixar a responsabilidade com alguém da família também não é o mais indicado.
-        <h2>Faça algo de recordação
-        <p>É sempre bom criar lembrancinhas tanto para as crianças como para os adultos, mas caso não seja viável ou você ache melhor presentear somente as crianças, também é válido. O importante é que elas estejam presentes. Guloseimas, talvez um pequeno joguinho daqueles que você encontra facilmente em lojinhas ou um cartão podem ser as escolhas.
-        <br>
-        <P>Seguindo essas dicas básicas não há como sua festa dar errado. Na verdade, são grandes as chances dela ser um mega sucesso! Então agora é só começar os preparativos para que todos os seus convidados, crianças e adultos, tenham momentos inesquecíveis.
 
-    <footer>
+<nav class="navbar justify-content-end" >    
+    <ul>
+        <li>
+            <a href=@{HomeR}>Home
+        <li>
+            <a href=@{FotosR}>Fotos
+        <li>
+            <a href=@{PromocoesR}>Promoções
+        <li>
+            <a href=@{ServicosR}>Serviços
+        <li>
+            <a href=@{DicasR}>Blog
+        <li>
+            <a href=@{OrcamentosR}>Contato
+
+<div class="row rowdicas">
+    <div id="48674-1">
+        <script src="//ads.themoneytizer.com/s/gen.js?type=1">
+        <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=1">
+   
+    
+<main class="container">
+    <h1>10 dicas para organizar uma festa infantil perfeita
+    <P>Todo mundo quer aprender a organizar uma festa infantil perfeita. Comemorar as datas importantes de sua família é importante e os aniversários dos filhos não fogem disso. Serão momentos que sempre estarão presentes na memória, por isso todos querem que tudo saia perfeitamente do jeito imaginado. Mas como realizar uma festa infantil sem erros? Como sair satisfeita com o resultado? A resposta é simples: um bom planejamento. Foi pensando nisso que separamos para você 10 dicas imperdíveis de como organizar uma festa infantil perfeita. Leia abaixo o que é necessário para que o momento de comemoração de mais um ano dos seus filhos seja ainda mais memorável.
+    
+    <h2>Escolha um local apropriado
+    <p>Está em dúvida entre realizar a festa em casa, em um buffet ou qualquer outro espaço? Pois bem, escolha aquele que não seja só economicamente mais viável, mas que também tenha o que você espera. Geralmente a residência não é uma boa opção para quem planeja uma festa com animação ou uma decoração especifica. Lembre-se que é importante que o espaço possua móveis, cozinha, banheiro e espaço suficiente para os seus convidados se sentirem confortáveis.
+    <br>
+    <h2>Defina um bom tema
+    <P>Palhaços, princesas, super heróis… qual é o tema da festa de seus filhos? É sempre bom escolher um tema que agrade não você, mas seus filhos, em primeiro lugar. Então, qual é o desenho que ele não consegue tirar da cabeça? Esse será o tema e também a decoração da sua festa. Balões, forros de mesa, bonecos… tudo isso vai fazer parte da cenografia da festa. Portanto escolha um tema que você possa extrair o máximo e que faça seus filhos felizes.
+    <br>
+    <h2>Destine um tempo para os convites
+    <p>Você já escolheu o local, certamente já planejou a data e tem também o tema em mente, portanto já está pronta para os convites. É sempre legal que os convites também sigam o tema da festa, por isso faça com que eles sejam personalizados. É importante se certificar que eles também contenham a data, horário e local corretos da festa e que tenham uma mensagem simpática para os seus convidados. Um convite por família é suficiente.
+    <h2>Procure comidas adequadas para sua festa
+    <p>Se você prefere optar por um buffet pode fazer várias degustações até encontrar aquele cardápio perfeito. Mas qual é o estilo de seus convidados e também o seu? É importante não buscar somente se agradar, mas também àqueles que estarão presentes. Lembre-se que festas durante o horário do almoço ou janta devem ter um prato especifico, por exemplo as massas. Já as festas para o período da tarde podem oferecer somente salgadinhos e petiscos para os convidados.
+    <h2>Se preocupe com as bebidas
+    <P>As bebidas são parte fundamental de uma festa, portanto é preciso se preocupar com as escolhas. Refrigerante, suco, água e bebidas alcoólicas (caso os convidados a consumam) devem estar no cardápio. Mas além de se preocupar com o que irá servir, é preciso checar a temperatura das bebidas, afinal ninguém gostar de um refrigerante quente, por exemplo. Por isso é necessário que você tenha um freezer ou geladeira somente para isso. Alguns buffets oferecem esse serviço bem como salões de festas.
+    <h2>Não exagere na quantidade dos doces
+    <p>Primeiro: decida quantos doces serão servidos. O ideal é que seja calculado de seis a sete doces por convidado, incluindo as crianças presentes. O bolo, entretanto, não deve chegar à totalidade do número de convidados, sempre calcule um número inferior de 30 a 40 pessoas. Se achar que convém, tenha também uma mesa de guloseimas com balas, pirulitos, chicletes etc.
+    <h2>Atenção na escolha da animação
+    <p>Se o espaço for suficiente, é sempre interessante ter atrações para distrair as crianças e também os adultos. Por isso, talvez valha a pena investir em uma empresa de animadores para cuidarem das crianças e, para os adultos, quem sabe alguma brincadeira? Claro, somente para aqueles que queiram participar. Lembre-se que é desagradável forçar alguma situação ou até mesmo desligar o som da festa para que haja alguma brincadeira.
+    <h2>Escolha boas músicas para o momento
+    <P>Na maioria das festas infantis as músicas escolhidas são sempre as dedicadas para os baixinhos e acabamos nos esquecendo que os adultos também estão ali para aproveitar um momento agradável. Por isso é importante ter uma boa mistura de gêneros musicais que agradem tanto as crianças como também seus pais.
+    <h2>Contrate um fotógrafo profissional
+    <P>Quer ter essas lembranças para sempre? Nada mais justo do que registrar elas através de fotografias ou até mesmo filmagens. O ideal é contratar uma pessoa somente para esse serviço, já que você estará muito ocupada com outros afazeres. Deixar a responsabilidade com alguém da família também não é o mais indicado.
+    <h2>Faça algo de recordação
+    <p>É sempre bom criar lembrancinhas tanto para as crianças como para os adultos, mas caso não seja viável ou você ache melhor presentear somente as crianças, também é válido. O importante é que elas estejam presentes. Guloseimas, talvez um pequeno joguinho daqueles que você encontra facilmente em lojinhas ou um cartão podem ser as escolhas.
+    <br>
+    <P>Seguindo essas dicas básicas não há como sua festa dar errado. Na verdade, são grandes as chances dela ser um mega sucesso! Então agora é só começar os preparativos para que todos os seus convidados, crianças e adultos, tenham momentos inesquecíveis.
+
+<footer>
+    <div class="row justify-content-center">
+        <div class="col-12">
+            <div class="footer">
+                <h1>Smiles Festas
         <div class="row justify-content-center">
             <div class="col-12">
                 <div class="footer">
-                    <h1>Smiles Festas
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <div class="footer">
-                        <ul>
-                           <l1>
-                                <a href="https://www.facebook.com/espacosmiles" target="_blank"><img src=@{StaticR face_png} alt="facebook">
-                           <l1>
-                                <a href="https://wa.me/5513988822632?text=Atendimento%20Smilesb" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
+                    <ul>
+                       <l1>
+                            <a href="https://www.facebook.com/espacosmiles" target="_blank"><img src=@{StaticR face_png} alt="facebook">
+                       <l1>
+                            <a href="https://wa.me/5513988822632?text=Atendimento%20Smilesb" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
