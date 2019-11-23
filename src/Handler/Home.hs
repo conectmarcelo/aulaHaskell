@@ -252,7 +252,7 @@ getHomeR = do
                 
         
         <div class="a">
-            <div id="48674-1" style="padding-top:200px;">
+            <div id="48674-1" style="padding-top:220px;">
                 <script src="//ads.themoneytizer.com/s/gen.js?type=1">
                 <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=1">
             <div class="aa">
