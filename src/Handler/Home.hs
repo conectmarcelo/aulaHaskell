@@ -177,14 +177,7 @@ getHomeR = do
             }
             
             
-            .aa {
-                
-                height: 100px;
-                background-color: rgba(0,0,0, 0.0);
-                position:absolute;
-                top:300px;
-                left:100px;
-            }
+            
             
             
             
@@ -195,7 +188,7 @@ getHomeR = do
                 height: 100px;
                 background-color: rgba(0,0,0, 0.0);
                 position:absolute;
-                top:500px;
+                top:450px;
                 left:100px;
             }
 
