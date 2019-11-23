@@ -49,7 +49,7 @@ li a:hover{
 }
 
 
- .galeria{background-color:blue;
+ .galeria{background-color:white;
  width:250px;
  height:200px;
  margin:auto;

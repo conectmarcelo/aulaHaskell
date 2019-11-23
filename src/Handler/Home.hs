@@ -167,6 +167,14 @@ getHomeR = do
                 height: 800px;
                 margin-top: -60px;
             }
+            @media only screen and (max-device-width: 700px){
+            
+            background:rgba(0,0,0, 0.5);
+            background-size: 100%;
+            height: 600px;
+            margin-top: -60px;
+            
+			}
 
             .aa {
                 padding-top: 500px;
