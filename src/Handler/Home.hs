@@ -172,9 +172,21 @@ getHomeR = do
             .a {
                 background:rgba(0,0,0, 0.5);
                 background-size: 100%;
-                height: 800px;
+                height: 600px;
                 margin-top: -60px;
             }
+            
+            
+            .aa {
+                
+                height: 100px;
+                background-color: rgba(0,0,0, 0.0);
+                position:absolute;
+                top:300px;
+                left:100px;
+            }
+            
+            
             
 			}
 
