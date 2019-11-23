@@ -53,7 +53,7 @@
       <a href="#img11"><img class="foto" src=@{StaticR doces_11_jpg}>
     <div class="galeria">
       <a href="#img12"><img class="foto" src=@{StaticR doces_12_jpg}>
-   <div class="row">
+  <div class="row">
     <div class="galeria">
       <a href="#img13"><img class="foto" src=@{StaticR doces_13_jpg}>
     <div class="galeria">
