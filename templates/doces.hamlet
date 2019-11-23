@@ -86,7 +86,7 @@
   
   <div class="lbox" id="img4">
     <div class="box_img">
-      <a href="#3" class="btn" id="prev">&#171
+      <a href="#img3" class="btn" id="prev">&#171
       <a href="" class="btn" id="close">x
       <img class="listaimg" src=@{StaticR doces_4_jpg}>
       <a href="#img5" class="btn" id="next">&#187    
@@ -121,7 +121,7 @@
   
   <div class="lbox" id="img9">
     <div class="box_img">
-      <a href="#8" class="btn" id="prev">&#171
+      <a href="#img8" class="btn" id="prev">&#171
       <a href="" class="btn" id="close">x
       <img class="listaimg" src=@{StaticR doces_9_jpg}>
       <a href="#img10" class="btn" id="next">&#187    
