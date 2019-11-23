@@ -179,10 +179,12 @@ getHomeR = do
 			}
 
             .aa {
-                padding-top: 500px;
-                padding-left: 100px;
+                
                 height: 100px;
                 background-color: rgba(0,0,0, 0.0);
+                position:absolute;
+                top:500px;
+                left:100px;
             }
 
             h1{
@@ -245,7 +247,7 @@ getHomeR = do
                 
         
         <div class="a">
-            <div id="48674-1" style="margin-top:200px;">
+            <div id="48674-1" style="padding-top:200px;">
                 <script src="//ads.themoneytizer.com/s/gen.js?type=1">
                 <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=1">
             <div class="aa">
