@@ -1,3 +1,4 @@
+
 <nav class="navbar justify-content-end fixed-top">    
   <ul>
     <li>
@@ -20,47 +21,124 @@
   <div style="text-align:center;" id="48674-31">
     <script src="//ads.themoneytizer.com/s/gen.js?type=31">
     <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=31">
-
+    
+    
 <main class="container">
+
+
   <div class="row">
     <div class="galeria">
-      <img class="foto" src=@{StaticR doces_39_jpg}>
+      <a href="#img11"><img class="foto" src=@{StaticR casamento_11_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR doces_51_jpg}>
+      <a href="#img12"><img class="foto" src=@{StaticR casamento_12_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR doces_52_jpg}>
+      <a href="#img13"><img class="foto" src=@{StaticR casamento_13_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR doces_53_jpg}>
+      <a href="#img14"><img class="foto" src=@{StaticR casamento_14_jpg}>
   <div class="row">
     <div class="galeria">
-      <img class="foto" src=@{StaticR doces_54_jpg}>
+      <a href="#img15"><img class="foto" src=@{StaticR casamento_15_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR doces_55_jpg}>
+      <a href="#img16"><img class="foto" src=@{StaticR casamento_16_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR doces_56_jpg}>
+      <a href="#img132"><img class="foto" src=@{StaticR casamento_32_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR doces_57_jpg}>
+      <a href="#img33"><img class="foto" src=@{StaticR casamento_33_jpg}>
   <div class="row">
     <div class="galeria">
-      <img class="foto" src=@{StaticR doces_58_jpg}>
+      <a href="#img134"><img class="foto" src=@{StaticR casamento_34_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR doces_61_jpg}>
+      <a href="#img35"><img class="foto" src=@{StaticR casamento_35_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR doces_62_jpg}>
+      <a href="#img36"><img class="foto" src=@{StaticR casamento_36_jpg}>
     <div class="galeria">
-      <img class="foto" src=@{StaticR doces_63_jpg}>
-  <div class="row">
-    <div class="galeria">
-      <img class="foto" src=@{StaticR doces_64_jpg}>
-    <div class="galeria">
-      <img class="foto" src=@{StaticR doces_65_jpg}>
-    <div class="galeria">
-      <img class="foto" src=@{StaticR doces_66_jpg}>
-    <div class="galeria">
-      <img class="foto" src=@{StaticR doces_39_jpg}>
+      <a href="#img37"><img class="foto" src=@{StaticR casamento_37_jpg}>
   
- 
- 
+  
+  <div class="lbox" id="img11">
+    <div class="box_img">
+      <a href="#img37" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_11_jpg}>
+      <a href="#img12" class="btn" id="next">&#187
+  
+  <div class="lbox" id="img12">
+    <div class="box_img">
+      <a href="#img11" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_12_jpg}>
+      <a href="#img13" class="btn" id="next">&#187
+  
+  <div class="lbox" id="img13">
+    <div class="box_img">
+      <a href="#img12" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_13_jpg}>
+      <a href="#img14" class="btn" id="next">&#187
+  
+  <div class="lbox" id="img14">
+    <div class="box_img">
+      <a href="#img13" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_14_jpg}>
+      <a href="#img15" class="btn" id="next">&#187
+  
+  <div class="lbox" id="img15">
+    <div class="box_img">
+      <a href="#img14" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_15_jpg}>
+      <a href="#img16" class="btn" id="next">&#187
+  
+  <div class="lbox" id="img16">
+    <div class="box_img">
+      <a href="#img15" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_16_jpg}>
+      <a href="#img32" class="btn" id="next">&#187
+  
+  <div class="lbox" id="img32">
+    <div class="box_img">
+      <a href="#img16" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_32_jpg}>
+      <a href="#img33" class="btn" id="next">&#187
+      
+  <div class="lbox" id="img33">
+    <div class="box_img">
+      <a href="#img32" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_33_jpg}>
+      <a href="#img34" class="btn" id="next">&#187
+      
+  <div class="lbox" id="img34">
+    <div class="box_img">
+      <a href="#img33" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_34_jpg}>
+      <a href="#img35" class="btn" id="next">&#187
+      
+  <div class="lbox" id="img35">
+    <div class="box_img">
+      <a href="#img34" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_35_jpg}>
+      <a href="#img36" class="btn" id="next">&#187
+      
+  <div class="lbox" id="img36">
+    <div class="box_img">
+      <a href="#img35" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_36_jpg}>
+      <a href="#img37" class="btn" id="next">&#187
+      
+  <div class="lbox" id="img37">
+    <div class="box_img">
+      <a href="#img36" class="btn" id="prev">&#171
+      <a href="" class="btn" id="close">x
+      <img class="listaimg" src=@{StaticR casamento_37_jpg}>
+      <a href="#img11" class="btn" id="next">&#187
+      
 <br>    
 <footer>
   <div class="row justify-content-center">
@@ -72,6 +150,7 @@
         <div class="footer">
           <ul>
             <l1>
-              <a href="https://www.facebook.com/espacosmiles" target="_blank"><img src=@{StaticR face_png} alt="facebook">
+              <a href="www.facebook.com/espacosmiles"><img src=@{StaticR face_png} alt="facebook">
             <l1>
-              <a href="https://wa.me/5513988822632?text=Atendimento%20Smilesb" ><img src=@{StaticR whatsapp_png} alt="whatsapp">
+              <a href="www.facebook.com/espacosmiles" ><img src=@{StaticR whatsapp_png} alt="whatsapp"> 
+

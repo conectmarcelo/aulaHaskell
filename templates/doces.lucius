@@ -1,9 +1,10 @@
-.rowdicas{height:100px;padding:110px;}
+
+.rowdicas{height:100px;padding-top:110px;
+    margin-left:100px;}
 
 nav{
     background-color:rgba(0,0,0, 0.9)
-    
-}
+    }
 
 ul{  
     padding: 20px;
@@ -28,7 +29,7 @@ li a{
 
 h1{color:rgb(192, 159, 75);}
 
-main{margin-top:0px;}
+main{margin-top:100px;}
 
 footer{background-color:black;
             text-align:center;
@@ -36,8 +37,7 @@ footer{background-color:black;
 
 img {width:50px; height:50px;}
 
-.foto{width:250px; height:200px;
-}
+.foto{width:250px; height:200px;}
 
 li a:hover{
     width: 210px;
@@ -49,11 +49,95 @@ li a:hover{
 }
 
 
- .galeria{background-color:white;
+ .galeria{background-color:blue;
  width:250px;
  height:200px;
  margin:auto;
- margin-top:15px;
- }
+ margin-top:15px;}
  
 
+.min{width:200px;
+	padding:10px;
+	}
+
+.lista{}
+
+.lbox{visibility:hidden;
+opacity:0;
+width:1110px;
+height:640px;
+position:absolute;
+
+	
+}
+
+.lbox:target{opacity:1;
+    visibility: visible;
+    width: 1110px;
+    height: 800px;
+    background: rgba(0, 0, 0,.9);
+    position: absolute;
+    margin-top: -750px;
+			
+			}
+			
+			
+@media only screen and (max-device-width: 700px){
+
+.lbox:target{    opacity: 1;
+    visibility: visible;
+    width: 900px;
+    height: 1300px;
+    background: rgba(0, 0, 0,.9);
+    position: absolute;
+    margin-top: -1300px;
+    padding-top: 200px;
+			}
+
+#close {
+    right: 5%;
+    z-index: 3;
+    color: white;
+    margin-top: 100px;
+    top: 5%;
+}
+
+
+}
+
+.box_img{width:800px;
+		margin:auto;
+		margin-top:100px;
+		margin-botton:30px;}
+
+.btn{color:#fff;
+font-family:'Arial';
+text-decoration:none;
+position:absolute;
+width: 50px;
+height:50px;
+font-size: 80px;
+text-align:center
+}
+
+#prev{left:0%;
+top:45%;
+color:white	}
+
+#next{right:1%;
+top:45%;
+color:white;}
+
+#close {
+    right: 5%;
+    z-index: 3;
+    color: white;
+    margin-top: 100px;
+    top: -5%;
+}
+.box_img img{opacity:0;}
+
+.lbox:target .box_img img{opacity:1;
+transition: opacity .5s linear;}
+
+.listaimg {width:800px; height:600px;}
