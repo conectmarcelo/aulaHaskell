@@ -242,14 +242,14 @@ getHomeR = do
                 
         
         <div class="a">
-            <div id="48674-1" style="padding-top:200px; margin-left:100px;">
+            <div id="48674-1" style="position:absolute;top:100px;left:100px;">
                 <script src="//ads.themoneytizer.com/s/gen.js?type=1">
                 <script src="//ads.themoneytizer.com/s/requestform.js?siteId=48674&formatId=1">
             <div class="aa">
                 <h1>SMILES FESTAS
                 <h2>Casamentos, Debutantes, Aniversários e muito mais    
                 <br>
-            <div style="background-color:white;position:absolute;top:0px;right:10px;padding:20px;">
+            <div style="background-color:white;position:absolute;top:100px;right:10px;padding:20px;">
                 <div id="fb-root">
                 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0&appId=523855388173048&autoLogAppEvents=1">
                 <div class="fb-like" data-href="https://facebook.com/espacosmiles" data-width="300px" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true">
