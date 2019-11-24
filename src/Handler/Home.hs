@@ -270,7 +270,7 @@ getHomeR = do
             <div class="row justify-content-center">
                 <div class="col-12">
                     <div class="footer">
-                        <h1>Smiles Festas
+                        <h1>Smiles Festa
                 <div class="row justify-content-center">
                     <div class="col-12">
                         <div class="footer">
