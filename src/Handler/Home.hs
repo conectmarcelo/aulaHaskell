@@ -248,15 +248,16 @@ getHomeR = do
             <div class="aa">
                 <h1>SMILES FESTAS
                 <h2>Casamentos, Debutantes, Aniversários e muito mais    
-        
+                <br>
+                <div id="fb-root">
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0&appId=523855388173048&autoLogAppEvents=1">
+                <div class="fb-like" data-href="https://facebook.com/espacosmiles" data-width="400px" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true">
+                
                 
         <div class="b">
             <h1>SMILES FESTAS
             <p>A empresa Smiles é um grupo dedicado a auxiliar no planejamento, execução e finalização de eventos
             <p>Aqui tratamos cada evento de forma única e original. Nos esforçamos para criar um ambiente atrativo e agradável para os seus convidados.
-            <div id="fb-root">
-            <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v5.0&appId=523855388173048&autoLogAppEvents=1">
-            <div class="fb-like" data-href="https://facebook.com/espacosmiles" data-width="400px" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true">
             <br>
             <a href="https://wa.me/5513988822632?text=Atendimento%20Smiles" target="_blank" class="btn btn-primary">Atendimento
         <footer>
