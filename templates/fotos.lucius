@@ -103,12 +103,12 @@ position:absolute;
 }
 
 
-.container{margin-left:400px;}
+.container{margin-left:300px;}
 
 
 footer{
 
-width:1400px;
+width:1500px;
 
 
 }
