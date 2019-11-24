@@ -32,5 +32,5 @@
 
 
 /entrar EntrarR GET POST
-/sair   SairR   POST
+/sair   SairR   GET POST
 /admin  AdminR  GET

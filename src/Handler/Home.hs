@@ -242,7 +242,7 @@ getHomeR = do
                     <li>
                         <div>
                             Ola #{nome}
-                        <form method=POST action=@{SairR}>
+                        <form method=get action=@{SairR}>
                             <input type="submit" value="Sair">
                             
                 $nothing

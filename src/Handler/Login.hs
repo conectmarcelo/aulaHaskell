@@ -208,6 +208,12 @@ postSairR = do
     deleteSession "_NOME"
     redirect HomeR
 
+gettSairR :: Handler Html 
+gettSairR = do 
+    deleteSession "_NOME"
+    redirect HomeR
+
+
 getAdminR :: Handler Html
 getAdminR = do 
     defaultLayout $ do
