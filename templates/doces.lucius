@@ -103,6 +103,17 @@ position:absolute;
 }
 
 
+.container{margin-left:300px;}
+
+
+footer{
+
+width:1500px;
+
+
+}
+
+
 }
 
 .box_img{width:800px;
