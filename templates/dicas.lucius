@@ -2,6 +2,10 @@
 .rowdicas{height:100px;padding-top:0px;
     margin-left:130px;}
 
+.rowdicasb{height:300px;padding-top:50px;
+    margin-left:100px;}
+
+
 nav{
     background-color:rgba(0,0,0, 0.9)
     }

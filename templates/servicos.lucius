@@ -1,5 +1,11 @@
 .rowdicas{height:100px;padding:110px;}
 
+
+.rowdicasb{height:300px;padding-top:50px;
+    margin-left:100px;}
+
+
+
 nav{
     background-color:rgba(0,0,0, 0.9)
     

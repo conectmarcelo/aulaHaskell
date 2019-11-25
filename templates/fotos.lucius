@@ -2,7 +2,7 @@
 .rowdicas{height:100px;padding-top:110px;
     margin-left:100px;}
 
-.rowdicasb{height:300px;padding-top:100px;
+.rowdicasb{height:300px;padding-top:50px;
     margin-left:100px;}
 
 
