@@ -115,7 +115,13 @@ getHomeR = do
         
         |]
         
+         toWidgetHead [julius|
         
+        
+            console.log(location)
+        
+        
+        |]
         
         toWidgetHead [lucius|
             
