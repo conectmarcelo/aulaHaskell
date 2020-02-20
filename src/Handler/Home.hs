@@ -115,13 +115,7 @@ getHomeR = do
         
         |]
         
-        toWidgetHead [julius|
         
-            window.location.href = "https://www.smilesfestas.ml";
-       
-        
-        
-        |]
         
         toWidgetHead [lucius|
             
