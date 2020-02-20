@@ -143,13 +143,16 @@ develMain = develMainHelper getApplicationDev
 -- | The @main@ function for an executable running this site.
 appMain :: IO ()
 appMain = do
-    
-    let cp s = "/etc/letsencrypt/live/aulahaskell.ml/" ++ s
+   let cp s = "/etc/letsencrypt/live/smilesfestas.ml/" ++ s
+    settings <- loadYamlSettingsArgs
+        [configSettingsYmlValue]
+        useEnv
+    foundation <- makeFoundation settings
+    app <- makeApplication foundation
     runTLS
         (tlsSettingsChain (cp "cert.pem") [cp "chain.pem"] (cp "privkey.pem"))
         (warpSettings foundation)
         app
-        
 --------------------------------------------------------------
 -- Functions for DevelMain.hs (a way to run the app from GHCi)
 --------------------------------------------------------------
