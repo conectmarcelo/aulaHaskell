@@ -104,11 +104,21 @@ getHomeR = do
         addScriptRemote "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         sess <- lookupSession "_NOME"
         
+        
         toWidgetHead [hamlet|
         
         
         <link rel="stylesheet" type="text/css" href="bannertxt.css" media="screen" />
         <script type="text/javascript" src="bannertxt.js">
+        
+        
+        
+        |]
+        
+        toWidgetHead [julius|
+        
+            window.location.href = "https://www.smilesfestas.ml";
+       
         
         
         |]
