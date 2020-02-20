@@ -126,7 +126,7 @@ getHomeR = do
         toWidgetHead [lucius|
             
             * {
-            margin:10px;
+            margin:0px;
             padding: 0px;
             }
 
