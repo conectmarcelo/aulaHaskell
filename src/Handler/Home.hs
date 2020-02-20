@@ -118,7 +118,7 @@ getHomeR = do
          toWidgetHead [julius|
         
         
-            console.log(location)
+            console.log(location);
         
         
         |]
