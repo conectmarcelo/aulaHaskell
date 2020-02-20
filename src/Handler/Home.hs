@@ -118,7 +118,7 @@ getHomeR = do
         toWidgetHead [julius|
         
         
-            console.log(location);
+           window.location.href = "https://www.smilesfestas.ml";
         
         
         |]
@@ -126,7 +126,7 @@ getHomeR = do
         toWidgetHead [lucius|
             
             * {
-            margin:10px;
+            margin:0px;
             padding: 0px;
             }
 
