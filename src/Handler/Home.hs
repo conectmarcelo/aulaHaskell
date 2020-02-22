@@ -105,6 +105,20 @@ getHomeR = do
         sess <- lookupSession "_NOME"
         
         
+        toWidgetHead [julius|
+        
+        
+            If(location.protocol!=='https:'){
+                const httpsURL = 'https://' + location.href.split('//')[1]
+                location.replace(httpsURL)
+            }
+        
+        
+        
+        |]
+        
+        
+        
         toWidgetHead [hamlet|
         
         
