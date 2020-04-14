@@ -108,12 +108,6 @@ getHomeR = do
         toWidgetHead [julius|
         
         
-          if(location.protocol!=='https:'){
-                const httpsURL = 'https://' + location.href.split('//')[1]
-                location.replace(httpsURL)
-            }
-        
-        
         
         |]
         
@@ -134,7 +128,7 @@ getHomeR = do
         toWidgetHead [lucius|
             
             * {
-            margin:10px;
+            margin: 0px;
             padding: 0px;
             }
 
