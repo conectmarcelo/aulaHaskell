@@ -1,7 +1,7 @@
 git add . &&
 git commit -m "$1" &&
 git push origin master &&
-ssh root@51.77.192.38 <<EOF
+ssh root@92.222.69.240 <<EOF
 cd aulaHaskell &&
 stack clean &&
 git pull origin master &&
